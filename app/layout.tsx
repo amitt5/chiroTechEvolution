@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "ChiroTech Evolution — Websites That Book Patients",
     description:
-      "Modern, revenue-optimized websites for chiropractors. No templates. No lock-in. Just results.",
+      "Modern, revenue-optimized websites for Chiropractors. No templates. No lock-in. Just results.",
     type: "website",
   },
 };
