@@ -1,0 +1,22 @@
+{
+  "en": {
+    "tagline": "Chiropractic specialist in Amsterdam Zuid. Maasstraat 103, 1078 HH Amsterdam.",
+    "treatmentLabel": "Treatment",
+    "infoLabel": "Information",
+    "contactLabel": "Contact",
+    "hours1": "Mon – Fri: 10:00 – 17:00",
+    "hours2": "Sat: 10:00 – 14:00",
+    "rights": "© 2026 Health4Life Chiropractic Amsterdam. All rights reserved.",
+    "legal": "Privacy Policy · Terms of Service"
+  },
+  "nl": {
+    "tagline": "Chiropractie specialist in Amsterdam Zuid. Maasstraat 103, 1078 HH Amsterdam.",
+    "treatmentLabel": "Behandeling",
+    "infoLabel": "Informatie",
+    "contactLabel": "Contact",
+    "hours1": "Ma – Vr: 10:00 – 17:00",
+    "hours2": "Za: 10:00 – 14:00",
+    "rights": "© 2026 Health4Life Chiropractic Amsterdam. Alle rechten voorbehouden.",
+    "legal": "Privacybeleid · Algemene Voorwaarden"
+  }
+}

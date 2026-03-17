@@ -1,0 +1,14 @@
+{
+  "en": {
+    "book": "Book Appointment",
+    "thisPage": "This Page",
+    "conditionsLabel": "Conditions",
+    "moreLabel": "More"
+  },
+  "nl": {
+    "book": "Maak Afspraak",
+    "thisPage": "Deze Pagina",
+    "conditionsLabel": "Klachten",
+    "moreLabel": "Meer"
+  }
+}

@@ -70,3 +70,14 @@ body {
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: #080C14; }
 ::-webkit-scrollbar-thumb { background: #00C9B1; border-radius: 3px; }
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 55s linear infinite;
+}
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
