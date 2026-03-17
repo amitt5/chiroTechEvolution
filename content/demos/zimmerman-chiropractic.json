@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "practiceName": "Zimmerman Chiropractic",
+    "practiceTagline": "Chiropractic & Wellness",
+    "phone": "(780) 998-7798",
+    "phoneHref": "tel:7809987798",
+    "whatsapp": null,
+    "address": "9926 - 99 Ave., Fort Saskatchewan, AB T8L 1J7",
+    "email": null,
+    "hours": "Mon/Wed/Fri 8:30–5:30 · Tue 1:30–7 · Sat 9–11:45"
+  },
+  "doctorImage": "/dr-jahani.webp",
+  "reviews": [
+    { "name": "Brenda H.", "text": "Dr. Zimmerman has been my chiropractor for 8 years. He is thorough, professional, and always takes the time to explain what he's doing and why. My chronic back pain is completely manageable now.", "rating": 5 },
+    { "name": "Tyler K.", "text": "Came in with a sports injury that had been nagging me for months. Dr. Zimmerman found the problem in the first visit and had me back training within 3 weeks. Great clinic.", "rating": 5 },
+    { "name": "Donna F.", "text": "The registered massage therapy here is excellent. Combined with chiropractic adjustments, it's the best care I've ever received. I drive from Edmonton specifically to come here.", "rating": 5 },
+    { "name": "Ryan M.", "text": "Got fitted for custom orthotics after years of foot and knee pain. The difference was noticeable within the first week. Highly recommend the orthotic scanning.", "rating": 5 },
+    { "name": "Melissa T.", "text": "Very kind and professional office. I was nervous about chiropractic but Dr. Zimmerman made me feel completely at ease. My neck pain resolved after 5 visits.", "rating": 5 },
+    { "name": "Gary L.", "text": "The interferential therapy for my rotator cuff injury worked better than the physiotherapy I'd been doing for 6 months. Wish I'd come here sooner.", "rating": 5 },
+    { "name": "Sheryl P.", "text": "Best chiropractic clinic in Fort Saskatchewan. Dr. Zimmerman genuinely cares about his patients and the results speak for themselves. Five stars without question.", "rating": 5 }
+  ],
+  "badge": "Fort Saskatchewan, AB · Since 2004",
+  "h1": ["Your First Step", "Towards Better ", "Health.", "Fort Saskatchewan."],
+  "heroSub": "Fort Saskatchewan's trusted chiropractic clinic since 2004. Dr. Robert Zimmerman offers chiropractic adjustments, orthotics, interferential therapy, and registered massage therapy to help you live pain-free.",
+  "bookBtn": "Book an Appointment",
+  "callBtn": "Call (780) 998-7798",
+  "stats": [
+    { "value": "Since 2004", "label": "Serving Fort Saskatchewan" },
+    { "value": "4", "label": "Therapy Options" },
+    { "value": "RMT", "label": "On-Site Massage" }
+  ],
+  "servicesLabel": "What We Offer",
+  "servicesH2": "Complete Musculoskeletal Care",
+  "services": [
+    { "title": "Chiropractic Adjustment", "desc": "Precise spinal and joint corrections to relieve pain, restore mobility, and support your body's natural healing processes." },
+    { "title": "Orthotic Scanning", "desc": "Advanced digital foot scanning and custom orthotic fabrication to correct foot imbalances and improve whole-body alignment." },
+    { "title": "Interferential Therapy", "desc": "Low-frequency electrical stimulation to reduce pain, decrease inflammation, and accelerate soft tissue healing." },
+    { "title": "Registered Massage Therapy", "desc": "On-site RMT providing professional therapeutic massage to complement chiropractic care and support recovery." }
+  ],
+  "comboTitle": "Complete Musculoskeletal Care",
+  "comboDesc": "Chiropractic, orthotics, interferential therapy, and registered massage therapy under one roof — comprehensive care for your whole body.",
+  "conditionsLabel": "Conditions Treated",
+  "conditionsH2": "We Specialise in Treating",
+  "conditionsDesc": "From workplace injuries to sports conditions and chronic pain, Dr. Zimmerman has been helping Fort Saskatchewan residents recover since 2004.",
+  "conditionsClick": "↓ Click a condition for more information",
+  "conditionsNote": "Every patient receives a thorough examination before treatment. Dr. Zimmerman takes the time to understand your health history and goals to create the most effective care plan for you.",
+  "approachLabel": "Our Method",
+  "approachH2": "The Three-Phase Care Model",
+  "approachDesc": "We don't just treat the symptom. Our comprehensive approach ensures you get better — and stay better.",
+  "phases": [
+    { "step": "01", "title": "Relief Care", "desc": "We focus on reducing your pain and discomfort as quickly as possible using the most appropriate combination of chiropractic adjustment, interferential therapy, and massage." },
+    { "step": "02", "title": "Corrective Care", "desc": "Once pain is under control, we address underlying structural issues — including foot mechanics with custom orthotics where appropriate — to prevent recurring problems." },
+    { "step": "03", "title": "Wellness Care", "desc": "Ongoing maintenance to keep your musculoskeletal system healthy, your body resilient, and your quality of life high." }
+  ],
+  "phaseLabel": "Phase",
+  "phasesNote": "At the end of each phase, Dr. Zimmerman will evaluate your progress and recommend the best options to continue your care and prevent relapse.",
+  "firstVisitLabel": "New Patient Info",
+  "firstVisitH2": "Your First Visit",
+  "firstVisitDesc": "We want your first visit to be informative and comfortable. Here's exactly what to expect at Zimmerman Chiropractic.",
+  "firstVisitSteps": [
+    { "step": "1", "title": "Patient Forms", "desc": "Complete health history and condition intake forms upon arrival." },
+    { "step": "2", "title": "Consultation", "desc": "Discuss your health concerns, pain history, and wellness goals with Dr. Zimmerman. He takes the time to truly understand your condition." },
+    { "step": "3", "title": "Examination", "desc": "Full chiropractic exam including reflex and flexibility testing, plus neurological, orthopedic, postural, and physical assessments. Nothing is done without your consent." },
+    { "step": "4", "title": "X-Ray Studies", "desc": "If needed based on your condition, X-rays are taken to develop the most effective treatment plan and check for serious spinal conditions." },
+    { "step": "5", "title": "Report of Findings", "desc": "Dr. Zimmerman provides a full report covering: How can he help you? How often will you need to come in? What will the cost be?" },
+    { "step": "6", "title": "Treatment", "desc": "Dr. Zimmerman will explain the most effective and suitable treatment options. You may agree to proceed with treatment or not — the choice is entirely yours. Treatment may include chiropractic adjustment, interferential therapy, and massage as appropriate." },
+    { "step": "7", "title": "Wellness Program", "desc": "Dr. Zimmerman will recommend a home wellness program which may include stretching and strengthening exercises, as well as ice/heat instructions to support your recovery between visits." }
+  ],
+  "pricingLabel": "Rates",
+  "pricingH2": "Transparent Pricing",
+  "pricingDesc": "Clear pricing for all services. Most Alberta extended health benefit plans cover chiropractic and RMT. Call us to confirm your coverage.",
+  "pricingHeaders": ["Treatment", "Price"],
+  "pricingRows": [
+    { "treatment": "Initial Consultation & Chiropractic Exam", "price": "Call for pricing" },
+    { "treatment": "Follow-up Chiropractic Adjustment", "price": "Call for pricing" },
+    { "treatment": "Interferential Therapy Session", "price": "Call for pricing" },
+    { "treatment": "Custom Orthotic Scan & Fabrication", "price": "Call for pricing" }
+  ],
+  "pricingPackageNote": "Many extended health benefit plans cover a set number of chiropractic and RMT visits per year. Call us to verify your coverage before your first appointment.",
+  "paymentNote": "Payment accepted: cash, debit, and most major credit cards. We direct bill many insurance providers. Receipts provided for all services.",
+  "insuranceH3": "Insurance Coverage",
+  "insuranceP1": "Zimmerman Chiropractic accepts most Alberta Health Care and private insurance plans including Blue Cross, Great-West Life, Sun Life, Manulife, and Green Shield. We direct bill many providers.",
+  "insuranceP2": "RMT (massage therapy) services are also covered under most extended health benefit plans. Call us to confirm your coverage.",
+  "insuranceLinkPre": "",
+  "insuranceLink": "",
+  "ctaH2": "Your First Step Towards Better Health",
+  "ctaP": "Call our Fort Saskatchewan clinic today. Dr. Zimmerman will assess your condition and create a personalized care plan to get you feeling better.",
+  "ctaBook": "Book Online",
+  "ctaCall": "Call (780) 998-7798",
+  "aboutLabel": "Meet Your Chiropractor",
+  "aboutH2": "Dr. Robert Zimmerman",
+  "aboutSubtitle": "Doctor of Chiropractic · Fort Saskatchewan, Alberta · Since 2004",
+  "aboutP1": "Dr. Robert Zimmerman has been serving the Fort Saskatchewan community since 2004, building a reputation for thorough, caring chiropractic care. His clinic offers a comprehensive range of services to address musculoskeletal conditions at their root cause.",
+  "aboutP2": "Dr. Zimmerman's approach combines traditional chiropractic adjustments with advanced therapies including interferential current and custom orthotics, supported by on-site registered massage therapy. His goal is to help every patient achieve lasting relief and better overall wellness.",
+  "aboutStats": [
+    { "value": "2004", "label": "Founded in Fort Saskatchewan" },
+    { "value": "4", "label": "Therapy Modalities" },
+    { "value": "Custom", "label": "Orthotics Available" },
+    { "value": "RMT", "label": "On-Site Massage" }
+  ],
+  "testimonialsLabel": "Patient Reviews",
+  "testimonialsH2": "What Our Patients Say",
+  "reviewCount": "70+",
+  "faqLabel": "FAQ",
+  "faqH2": "Frequently Asked Questions",
+  "faqs": [
+    { "q": "Do you direct bill insurance?", "a": "Yes, we direct bill many major insurance providers including Blue Cross, Great-West Life, and Sun Life. Please bring your insurance information to your first appointment." },
+    { "q": "What is interferential therapy?", "a": "Interferential therapy uses low-frequency electrical currents to penetrate deep into tissue, reducing pain, decreasing inflammation, and stimulating the natural healing process. It's particularly effective for soft tissue injuries and chronic pain conditions." },
+    { "q": "Do you offer custom orthotics?", "a": "Yes. We use digital scanning technology to create custom orthotics precisely matched to your feet. Orthotics are highly effective for foot pain, knee pain, hip pain, and postural problems." },
+    { "q": "What are your weekend hours?", "a": "We are open Saturdays from 9:00 AM to 11:45 AM. Tuesday evenings until 7:00 PM are also available for those who need after-hours appointments." }
+  ],
+  "bookingLabel": "Book Online",
+  "bookingH2": "Schedule Your Appointment",
+  "bookingDesc": "Book your chiropractic consultation in Fort Saskatchewan. Convenient hours including Saturday mornings and Tuesday evenings.",
+  "bookingInfo": [
+    { "label": "Address", "value": "9926 - 99 Ave., Fort Saskatchewan, AB T8L 1J7" },
+    { "label": "Phone", "value": "(780) 998-7798" },
+    { "label": "Hours", "value": "Mon/Wed/Fri 8:30–5:30 · Tue 1:30–7 · Sat 9–11:45" }
+  ],
+  "heroRating": "4.9",
+  "heroReviewLabel": "70+ Google Reviews",
+  "heroReviews": [
+    { "name": "Brenda H.", "condition": "Chronic back pain", "text": "My chronic back pain is completely manageable now. 8 years as a patient — he's the best in Fort Saskatchewan.", "rating": 5 },
+    { "name": "Ryan M.", "condition": "Foot and knee pain", "text": "Got custom orthotics fitted after years of pain. The difference was noticeable within the first week.", "rating": 5 },
+    { "name": "Gary L.", "condition": "Rotator cuff injury", "text": "The interferential therapy worked better than 6 months of physiotherapy. Wish I'd come here sooner.", "rating": 5 }
+  ],
+  "modalWhat": "What is it?",
+  "modalHow": "How does chiropractic care help?",
+  "modalCta": "Do you suffer from {title}?",
+  "modalBook": "Book an appointment",
+  "modalCall": "Call (780) 998-7798"
+}

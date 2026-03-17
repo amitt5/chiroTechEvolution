@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "practiceName": "Back Talk Chiropractic",
+    "practiceTagline": "Sports & Injury Specialist",
+    "phone": "(859) 225-3736",
+    "phoneHref": "tel:8592253736",
+    "whatsapp": null,
+    "address": "2365 Harrodsburg Rd., Ste 220, Lexington, KY 40504",
+    "email": null,
+    "hours": "Mon/Wed/Thu 8–6 · Tue 8–12 · Fri 8–4 · Sat 8–12"
+  },
+  "doctorImage": "/dr-jahani.webp",
+  "reviews": [
+    { "name": "Jake M.", "text": "As a competitive runner, I've dealt with IT band and hip issues for years. Dr. Tolson identified the biomechanical root cause that other providers missed and got me race-ready in 3 weeks.", "rating": 5 },
+    { "name": "Sarah K.", "text": "I tore my rotator cuff and was told I might need surgery. After 8 visits with Dr. Tolson I had full range of motion back. Her sports chiro background made all the difference.", "rating": 5 },
+    { "name": "Coach T. Williams", "text": "I send all my athletes to Dr. Tolson. She understands sports injuries at a level most chiropractors don't. DACBSP certified — that means something.", "rating": 5 },
+    { "name": "Mike D.", "text": "Had chronic lower back pain from years of football. Dr. Tolson's combination of adjustments and soft tissue work finally fixed what everyone else couldn't.", "rating": 5 },
+    { "name": "Emily R.", "text": "Desk job killed my neck and shoulders. Dr. Tolson treated it like the repetitive strain injury it actually was and gave me a plan to fix it long-term.", "rating": 5 },
+    { "name": "Ryan H.", "text": "Post-surgery rehab with Dr. Tolson was incredible. She worked closely with my surgeon and had me back on the field 2 weeks ahead of schedule.", "rating": 5 }
+  ],
+  "badge": "Lexington, KY · DACBSP® Certified",
+  "h1": ["Sports Injuries", "Demand ", "Expert Care.", "DACBSP® Certified."],
+  "heroSub": "Dr. Tamera Tolson is 1 of only 3 DACBSP®-certified sports chiropractors in Kentucky. Whether you're an elite athlete or a weekend warrior, get back in the game faster.",
+  "bookBtn": "Book an Appointment",
+  "callBtn": "Call (859) 225-3736",
+  "stats": [
+    { "value": "DACBSP®", "label": "Board Certified Sports Chiro" },
+    { "value": "1 of 3", "label": "In All of Kentucky" },
+    { "value": "2010", "label": "Palmer FL Graduate" }
+  ],
+  "servicesLabel": "What We Offer",
+  "servicesH2": "Expert Sports Chiropractic & Injury Care",
+  "services": [
+    { "title": "Sports Chiropractic", "desc": "Specialized care for athletes of all levels. Dr. Tolson's DACBSP® certification means your sports injuries are treated by a true specialist." },
+    { "title": "Injury Recovery", "desc": "Comprehensive treatment for sprains, strains, disc injuries, and post-surgical rehabilitation to get you back to full function." },
+    { "title": "Spinal Adjustment", "desc": "Precise, effective spinal corrections to reduce pain, restore mobility, and optimize nervous system function." },
+    { "title": "Soft Tissue Therapy", "desc": "Advanced techniques targeting muscles, ligaments, and tendons to release tension, break up scar tissue, and accelerate healing." }
+  ],
+  "comboTitle": "Active Release & Chiropractic",
+  "comboDesc": "A combined approach using soft tissue techniques and precise spinal adjustments for faster recovery and better performance.",
+  "conditionsLabel": "Conditions Treated",
+  "conditionsH2": "We Specialise in Treating",
+  "conditionsDesc": "From sports injuries to chronic spinal conditions, Dr. Tolson has the specialized training to help you recover and perform at your best.",
+  "conditionsClick": "↓ Click a condition for more information",
+  "conditionsNote": "As a DACBSP®-certified chiropractor, Dr. Tolson approaches every case with the same rigor as a sports medicine professional. Your evaluation includes a complete biomechanical assessment to identify the root cause of your problem.",
+  "approachLabel": "Our Method",
+  "approachH2": "The Three-Phase Care Model",
+  "approachDesc": "We don't just treat the symptom. Our structured approach ensures you recover fully — and stay at peak performance.",
+  "phases": [
+    { "step": "01", "title": "Relief Care", "desc": "We focus on reducing pain and restoring basic function as quickly as possible so you can return to activity." },
+    { "step": "02", "title": "Corrective Care", "desc": "Once pain is under control, we address the underlying biomechanical issues to correct the root cause and prevent re-injury." },
+    { "step": "03", "title": "Wellness Care", "desc": "Ongoing maintenance and performance optimization to keep you active, strong, and competing at your best." }
+  ],
+  "phaseLabel": "Phase",
+  "phasesNote": "At the end of each phase, Dr. Tolson will evaluate your progress and recommend the best path forward to ensure lasting recovery and prevent future injury.",
+  "firstVisitLabel": "New Patient Info",
+  "firstVisitH2": "Your First Visit",
+  "firstVisitDesc": "Your first visit includes a comprehensive sports chiropractic evaluation. Here's exactly what to expect.",
+  "firstVisitSteps": [
+    { "step": "1", "title": "Patient Forms", "desc": "Complete health history and sports injury intake forms upon arrival." },
+    { "step": "2", "title": "Consultation", "desc": "Discuss your injury, athletic history, and performance goals with Dr. Tolson. The first visit is about understanding your condition fully." },
+    { "step": "3", "title": "Examination", "desc": "Comprehensive sports chiropractic exam including biomechanical assessment, reflex and flexibility testing, plus neurological and orthopedic evaluations. Nothing is done without your consent." },
+    { "step": "4", "title": "X-Ray Studies", "desc": "If needed based on your condition, X-rays are taken to develop the most effective treatment plan and check for serious injuries." },
+    { "step": "5", "title": "Report of Findings", "desc": "Dr. Tolson provides a full report covering: How can she help you? How often will you need to come in? What will the cost be?" },
+    { "step": "6", "title": "Treatment", "desc": "Dr. Tolson will explain the most effective and suitable treatment options for your specific injury or condition. You may agree to proceed with treatment or not — the choice is entirely yours." },
+    { "step": "7", "title": "Wellness Program", "desc": "Dr. Tolson will outline a customized recovery and performance program which may include rehabilitation exercises, stretching protocols, and injury prevention strategies." }
+  ],
+  "pricingLabel": "Rates",
+  "pricingH2": "Transparent Pricing",
+  "pricingDesc": "Transparent pricing for sports chiropractic care. Most major insurance accepted — call to verify your benefits.",
+  "pricingHeaders": ["Treatment", "Price"],
+  "pricingRows": [
+    { "treatment": "Initial Sports Consultation & Exam", "price": "Call for pricing" },
+    { "treatment": "Follow-up Chiropractic Adjustment", "price": "Call for pricing" },
+    { "treatment": "Soft Tissue Therapy Session", "price": "Call for pricing" },
+    { "treatment": "Sports Rehab / Exercise Program", "price": "Call for pricing" }
+  ],
+  "pricingPackageNote": "Treatment packages may be available based on your condition and recovery goals. Ask Dr. Tolson about options at your first visit.",
+  "paymentNote": "Payment accepted: cash, check, and most major credit cards. We will verify your insurance benefits before your first visit so there are no surprises.",
+  "insuranceH3": "Insurance Coverage",
+  "insuranceP1": "Back Talk Chiropractic accepts most major insurance plans including Blue Cross Blue Shield, Aetna, Cigna, United Healthcare, and Humana. Workers' comp and auto accident cases welcome.",
+  "insuranceP2": "Our front desk will verify your insurance benefits before your first visit so there are no surprises.",
+  "insuranceLinkPre": "",
+  "insuranceLink": "",
+  "ctaH2": "Get Back in the Game Faster",
+  "ctaP": "Call or book online. Dr. Tolson will assess your injury, give you a clear plan, and get you moving again.",
+  "ctaBook": "Book Online",
+  "ctaCall": "Call (859) 225-3736",
+  "aboutLabel": "Meet Your Chiropractor",
+  "aboutH2": "Dr. Tamera Tolson",
+  "aboutSubtitle": "DC, DACBSP® · Palmer College of Chiropractic, FL (2010) · Sports Chiropractic Specialist",
+  "aboutP1": "Dr. Tamera Tolson earned her Doctor of Chiropractic degree from Palmer College of Chiropractic Florida in 2010 and went on to complete her Diplomate in the American Chiropractic Board of Sports Physicians (DACBSP®) — making her one of only 3 such specialists in the entire state of Kentucky.",
+  "aboutP2": "With a background in athletics and a passion for sports medicine, Dr. Tolson treats everyone from high school athletes to weekend warriors and desk workers dealing with repetitive strain. Her approach is evidence-based, precise, and focused on returning you to full activity as quickly as possible.",
+  "aboutStats": [
+    { "value": "2010", "label": "Palmer FL Graduate" },
+    { "value": "DACBSP®", "label": "Board Certified" },
+    { "value": "1 of 3", "label": "In Kentucky" },
+    { "value": "Athletes", "label": "Of All Levels" }
+  ],
+  "testimonialsLabel": "Patient Reviews",
+  "testimonialsH2": "What Our Patients Say",
+  "reviewCount": "80+",
+  "faqLabel": "FAQ",
+  "faqH2": "Frequently Asked Questions",
+  "faqs": [
+    { "q": "What is a DACBSP® and why does it matter?", "a": "The Diplomate of the American Chiropractic Board of Sports Physicians is an advanced post-doctoral credential in sports chiropractic. It means Dr. Tolson has specialized training in sports injuries, biomechanics, and athletic performance that goes beyond standard chiropractic training. Only 3 chiropractors in Kentucky hold this credential." },
+    { "q": "Do I need a referral to see Dr. Tolson?", "a": "No referral is needed. You can call and schedule directly." },
+    { "q": "Do you treat non-athletes?", "a": "Absolutely. Dr. Tolson treats all types of patients — office workers, seniors, and anyone dealing with pain or injury. Her sports background means she's highly skilled at identifying and treating biomechanical problems." },
+    { "q": "How quickly can I get an appointment?", "a": "We typically have same-week availability. Call us or use our online booking." }
+  ],
+  "bookingLabel": "Book Online",
+  "bookingH2": "Schedule Your Appointment",
+  "bookingDesc": "Book your sports chiropractic consultation. Same-week appointments available.",
+  "bookingInfo": [
+    { "label": "Address", "value": "2365 Harrodsburg Rd., Ste 220, Lexington, KY 40504" },
+    { "label": "Phone", "value": "(859) 225-3736" },
+    { "label": "Hours", "value": "Mon/Wed/Thu 8–6 · Tue 8–12 · Fri 8–4 · Sat 8–12" }
+  ],
+  "heroRating": "4.8",
+  "heroReviewLabel": "80+ Google Reviews",
+  "heroReviews": [
+    { "name": "Jake M.", "condition": "Runner's IT band injury", "text": "Dr. Tolson identified the biomechanical root cause that other providers missed and got me race-ready in 3 weeks.", "rating": 5 },
+    { "name": "Sarah K.", "condition": "Rotator cuff injury", "text": "After 8 visits I had full range of motion back. Her sports chiro background made all the difference.", "rating": 5 },
+    { "name": "Mike D.", "condition": "Chronic back pain from football", "text": "Dr. Tolson's combination of adjustments and soft tissue work finally fixed what everyone else couldn't.", "rating": 5 }
+  ],
+  "modalWhat": "What is it?",
+  "modalHow": "How does chiropractic care help?",
+  "modalCta": "Do you suffer from {title}?",
+  "modalBook": "Book an appointment",
+  "modalCall": "Call (859) 225-3736"
+}

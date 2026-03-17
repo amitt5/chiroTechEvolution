@@ -1,0 +1,130 @@
+{
+  "meta": {
+    "practiceName": "Beneski Chiropractic",
+    "practiceTagline": "& Wellness",
+    "phone": "(617) 482-7533",
+    "phoneHref": "tel:6174827533",
+    "whatsapp": null,
+    "address": "125 High Street, Suite 918, Boston, MA 02110",
+    "email": null,
+    "hours": "Mon/Wed/Thu 7:30–18:00 · Fri 7:30–12:00"
+  },
+  "doctorImage": "/dr-jahani.webp",
+  "reviews": [
+    { "name": "Patricia L.", "text": "Dr. Beneski has been my chiropractor for 12 years. He's incredibly knowledgeable and genuinely cares about his patients' long-term health. The spinal decompression therapy resolved my herniated disc without surgery.", "rating": 5 },
+    { "name": "James T.", "text": "As a Boston attorney, I spend long hours at a desk. Dr. Beneski's adjustments keep my back and neck in check. He's been in the same office since I started working downtown — that kind of consistency says a lot.", "rating": 5 },
+    { "name": "Maria C.", "text": "The nutritional counseling alongside chiropractic care is what sets Dr. Beneski apart. He looks at the whole picture, not just the spine.", "rating": 5 },
+    { "name": "Robert H.", "text": "I came in after a car accident with neck and back pain. Dr. Beneski was thorough, professional, and had me feeling significantly better within 4 visits. Very grateful.", "rating": 5 },
+    { "name": "Anne S.", "text": "I've tried many chiropractors over the years. Dr. Beneski is the best — his adjustments are precise and effective, and he takes the time to explain everything.", "rating": 5 }
+  ],
+  "badge": "Boston Financial District · Since 1992",
+  "h1": ["Boston's Chiropractic", "Wellness ", "Specialist.", "25+ Years Same Location."],
+  "heroSub": "Drug-free pain relief in Boston's Financial District for over 25 years. Dr. Beneski specializes in chiropractic adjustments, spinal decompression, massage therapy, and nutritional counseling.",
+  "bookBtn": "Book an Appointment",
+  "callBtn": "Call (617) 482-7533",
+  "stats": [
+    { "value": "1992", "label": "Palmer Graduate" },
+    { "value": "25+", "label": "Years Same Location" },
+    { "value": "Drug-Free", "label": "Natural Pain Relief" }
+  ],
+  "servicesLabel": "What We Offer",
+  "servicesH2": "Comprehensive Chiropractic & Wellness Care",
+  "services": [
+    { "title": "Chiropractic Adjustments", "desc": "Precise, gentle spinal adjustments to reduce pain, restore mobility, and correct the underlying structural causes of your discomfort." },
+    { "title": "Spinal Decompression", "desc": "Non-surgical traction therapy for herniated discs, sciatica, and chronic spinal compression — drug-free relief without surgery." },
+    { "title": "Massage Therapy", "desc": "Professional massage to release muscle tension, improve circulation, and enhance the results of your chiropractic care." },
+    { "title": "Nutritional Counseling", "desc": "Whole-person wellness guidance on nutrition and supplementation to support your body's natural healing processes." }
+  ],
+  "comboTitle": "Whole-Person Wellness Approach",
+  "comboDesc": "It's Your Life... Live it Well! Dr. Beneski treats the whole person — not just the symptom — for lasting results.",
+  "conditionsLabel": "Conditions Treated",
+  "conditionsH2": "We Specialise in Treating",
+  "conditionsDesc": "With over 25 years serving Boston's Financial District, Dr. Beneski has helped thousands of patients recover from pain and live better.",
+  "conditionsClick": "↓ Click a condition for more information",
+  "conditionsNote": "Dr. Beneski takes a whole-person approach to every case. Your first visit includes a complete health history, physical examination, and a clear explanation of your condition and treatment options.",
+  "approachLabel": "Our Method",
+  "approachH2": "The Three-Phase Care Model",
+  "approachDesc": "We don't just treat the symptom. Our holistic, structured approach ensures you get better — and stay better for the long term.",
+  "phases": [
+    { "step": "01", "title": "Relief Care", "desc": "We focus on reducing your pain as quickly as possible using chiropractic adjustments, spinal decompression, and massage therapy as appropriate." },
+    { "step": "02", "title": "Corrective Care", "desc": "Once pain is under control, we address the underlying structural and nutritional factors contributing to your condition." },
+    { "step": "03", "title": "Wellness Care", "desc": "Ongoing maintenance, nutritional support, and lifestyle guidance to keep you healthy, active, and pain-free." }
+  ],
+  "phaseLabel": "Phase",
+  "phasesNote": "At the end of each phase, Dr. Beneski will evaluate your progress and recommend the best options to continue your care and prevent relapse.",
+  "firstVisitLabel": "New Patient Info",
+  "firstVisitH2": "Your First Visit",
+  "firstVisitDesc": "Your first visit at Beneski Chiropractic & Wellness is a comprehensive evaluation. Here's exactly what to expect.",
+  "firstVisitSteps": [
+    { "step": "1", "title": "Patient Forms", "desc": "Complete health history and condition intake forms upon arrival." },
+    { "step": "2", "title": "Consultation", "desc": "Discuss your health problems, concerns, and wellness goals with Dr. Beneski. The first visit is about understanding your whole-person health picture." },
+    { "step": "3", "title": "Examination", "desc": "Full chiropractic exam including reflex and flexibility testing, plus neurological, orthopedic, postural, and physical assessments. Nothing is done without your consent." },
+    { "step": "4", "title": "X-Ray Studies", "desc": "If needed based on your condition, X-rays are taken to develop the most effective treatment plan and check for serious spinal conditions." },
+    { "step": "5", "title": "Report of Findings", "desc": "Dr. Beneski provides a full report covering: How can he help you? How often will you need to come in? What will the cost be?" },
+    { "step": "6", "title": "Treatment", "desc": "Dr. Beneski will explain the most effective and suitable treatment options. You may agree to proceed with treatment or not — the choice is entirely yours. Beginning treatment at the first visit allows Dr. Beneski to make accurate future care recommendations." },
+    { "step": "7", "title": "Wellness Program", "desc": "Dr. Beneski will recommend a personalized wellness program which may include home exercises, nutritional guidance, and lifestyle modifications to support your recovery." }
+  ],
+  "pricingLabel": "Rates",
+  "pricingH2": "Transparent Pricing",
+  "pricingDesc": "Clear, upfront pricing for all services. We will verify your insurance benefits before your first visit so there are no surprises.",
+  "pricingHeaders": ["Treatment", "Price"],
+  "pricingRows": [
+    { "treatment": "Initial Consultation & Chiropractic Exam", "price": "Call for pricing" },
+    { "treatment": "Follow-up Chiropractic Adjustment", "price": "Call for pricing" },
+    { "treatment": "Spinal Decompression Session", "price": "Call for pricing" },
+    { "treatment": "Massage Therapy 60 min", "price": "Call for pricing" }
+  ],
+  "pricingPackageNote": "Treatment packages may be available depending on your condition. Ask Dr. Beneski about options at your first visit.",
+  "paymentNote": "Payment accepted: cash, check, and most major credit cards. We bill most insurance directly and will provide receipts for any out-of-pocket costs.",
+  "insuranceH3": "Insurance Coverage",
+  "insuranceP1": "Beneski Chiropractic & Wellness accepts most major insurance plans including Blue Cross Blue Shield, Tufts, Harvard Pilgrim, Aetna, Cigna, and United Healthcare.",
+  "insuranceP2": "We will verify your insurance benefits before your first visit. Cash-pay patients receive transparent, upfront pricing.",
+  "insuranceLinkPre": "",
+  "insuranceLink": "",
+  "ctaH2": "It's Your Life... Live it Well!",
+  "ctaP": "Call our Boston office today. Dr. Beneski will explain your condition clearly and get you started on a drug-free path to recovery.",
+  "ctaBook": "Book Online",
+  "ctaCall": "Call (617) 482-7533",
+  "aboutLabel": "Meet Your Chiropractor",
+  "aboutH2": "Dr. John Beneski",
+  "aboutSubtitle": "Doctor of Chiropractic · Palmer College, 1992 · 25+ Years Boston Financial District",
+  "aboutP1": "Dr. John Beneski has been serving patients in Boston's Financial District from the same location since 1992. A Palmer College of Chiropractic graduate, he brings over 30 years of experience to every patient encounter.",
+  "aboutP2": "Dr. Beneski believes in treating the whole person — not just the symptom. His practice philosophy is rooted in the idea that the body has an innate ability to heal itself when structural and nutritional obstacles are removed. This holistic approach has made Beneski Chiropractic & Wellness a trusted institution in downtown Boston.",
+  "aboutStats": [
+    { "value": "1992", "label": "Palmer Graduate" },
+    { "value": "1992", "label": "Boston Practice Founded" },
+    { "value": "25+", "label": "Years Same Location" },
+    { "value": "Holistic", "label": "Whole-Person Care" }
+  ],
+  "testimonialsLabel": "Patient Reviews",
+  "testimonialsH2": "What Our Patients Say",
+  "reviewCount": "50+",
+  "faqLabel": "FAQ",
+  "faqH2": "Frequently Asked Questions",
+  "faqs": [
+    { "q": "Where are you located?", "a": "We are conveniently located at 125 High Street, Suite 918, in Boston's Financial District — easily accessible by T (State Street or Downtown Crossing) and major highways." },
+    { "q": "What is spinal decompression?", "a": "Spinal decompression is a gentle, non-surgical traction therapy that creates negative pressure in the disc space, allowing herniated or bulging disc material to retract. It's highly effective for disc herniations, sciatica, and chronic lower back pain." },
+    { "q": "Do you offer nutritional counseling?", "a": "Yes. Dr. Beneski believes that nutrition plays a crucial role in healing and overall wellness. Nutritional counseling is available as part of your care plan." },
+    { "q": "How long will treatment take?", "a": "Every patient is different. Dr. Beneski will give you a clear, honest treatment plan after your first visit. Many patients see significant improvement within 6–8 sessions." }
+  ],
+  "bookingLabel": "Book Online",
+  "bookingH2": "Schedule Your Appointment",
+  "bookingDesc": "Schedule your Boston chiropractic consultation. Convenient Financial District location.",
+  "bookingInfo": [
+    { "label": "Address", "value": "125 High Street, Suite 918, Boston, MA 02110" },
+    { "label": "Phone", "value": "(617) 482-7533" },
+    { "label": "Hours", "value": "Mon/Wed/Thu 7:30–18:00 · Fri 7:30–12:00" }
+  ],
+  "heroRating": "4.9",
+  "heroReviewLabel": "50+ Google Reviews",
+  "heroReviews": [
+    { "name": "Patricia L.", "condition": "Herniated disc", "text": "The spinal decompression therapy resolved my herniated disc without surgery. 12 years as a patient — he's the best.", "rating": 5 },
+    { "name": "James T.", "condition": "Chronic desk posture pain", "text": "Dr. Beneski's adjustments keep my back and neck in check. He's been in the same office for decades — that consistency says a lot.", "rating": 5 },
+    { "name": "Maria C.", "condition": "Whole-person wellness", "text": "The nutritional counseling alongside chiropractic care is what sets Dr. Beneski apart. He looks at the whole picture.", "rating": 5 }
+  ],
+  "modalWhat": "What is it?",
+  "modalHow": "How does chiropractic care help?",
+  "modalCta": "Do you suffer from {title}?",
+  "modalBook": "Book an appointment",
+  "modalCall": "Call (617) 482-7533"
+}
