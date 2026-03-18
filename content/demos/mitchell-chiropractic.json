@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "practiceName": "Mitchell Chiropractic & Acupuncture Center",
+    "practiceTagline": "Where experience counts — Locally owned and operated since 1980.",
+    "phone": "(605) 996-1078",
+    "phoneHref": "tel:6059961078",
+    "whatsapp": null,
+    "address": "501 W. Havens Ave, Mitchell, SD 57301",
+    "email": null,
+    "hours": "Mon 8–7 · Tue/Thu 8–5 · Wed/Fri 8–5:30"
+  },
+  "doctorImage": "",
+  "reviews": [
+    {
+      "name": "Dan P.",
+      "text": "About 6 years ago I had an issue with compressed discs. Dr. Thompson worked with me for several months and what do you know, it got better. I still have to be cautious, but I would have endured much more expense and pain had I opted for surgery.",
+      "rating": 5
+    },
+    {
+      "name": "Butch W.",
+      "text": "Five stars!",
+      "rating": 5
+    },
+    {
+      "name": "Lisa K.",
+      "text": "The three doctors here are exceptional. I've been coming in for years for both chiropractic and acupuncture. The whole-person approach they take has made a huge difference in my quality of life.",
+      "rating": 5
+    },
+    {
+      "name": "Tom H.",
+      "text": "Dr. Cazer has been treating my sports injuries for two seasons now. His drop table adjustments combined with decompression therapy have kept me on the field. Best sports chiropractic care in South Dakota.",
+      "rating": 5
+    },
+    {
+      "name": "Nancy R.",
+      "text": "Grateful to have a practice like this in Mitchell. Three knowledgeable doctors, extended hours, and a genuine concern for your well-being. Wouldn't go anywhere else.",
+      "rating": 5
+    },
+    {
+      "name": "James V.",
+      "text": "As a veteran, I appreciate that Mitchell Chiropractic is a TriWest VA PC3 provider. Dr. Juracek has helped my back immensely. The care here is top-notch.",
+      "rating": 5
+    }
+  ],
+  "badge": "Mitchell, SD · Locally Owned Since 1980",
+  "h1": [
+    "Supporting",
+    "Spinal",
+    "Health.",
+    "Since 1980."
+  ],
+  "heroSub": "Locally owned and operated since 1980. Dr. Quentin Thompson, Dr. Kim Juracek, and Dr. Brandon Cazer offer chiropractic care, acupuncture, decompression, and sports injury treatment — serving Mitchell and surrounding South Dakota communities.",
+  "bookBtn": "Book an Appointment",
+  "callBtn": "Call (605) 996-1078",
+  "stats": [
+    {
+      "value": "45+",
+      "label": "Years in Mitchell"
+    },
+    {
+      "value": "3",
+      "label": "Expert Doctors"
+    },
+    {
+      "value": "VA",
+      "label": "TriWest PC3 Provider"
+    }
+  ],
+  "servicesLabel": "What We Offer",
+  "servicesH2": "Chiropractic, Acupuncture & More",
+  "services": [
+    {
+      "title": "Chiropractic Care",
+      "desc": "Say goodbye to back and neck problems. Our three experienced doctors provide personalized adjustments to restore alignment and relieve pain."
+    },
+    {
+      "title": "Acupuncture",
+      "desc": "Put your trust in this ancient wellness technique. Our acupuncturists treat pain, tension, headaches, and a wide range of conditions with proven results."
+    },
+    {
+      "title": "Spinal Decompression",
+      "desc": "Non-surgical traction therapy that gently separates compressed vertebrae to relieve disc pain, sciatica, and nerve impingement."
+    },
+    {
+      "title": "Sports Injury Treatment",
+      "desc": "Specialized care for athletes at every level. We diagnose, treat, and rehabilitate sports injuries to get you back in the game faster."
+    }
+  ],
+  "comboTitle": "Chiropractic & Acupuncture Under One Roof",
+  "comboDesc": "Mitchell Chiropractic & Acupuncture Center offers the region's most comprehensive natural health care — from spinal adjustments to acupuncture, pediatric care, and veteran services.",
+  "conditionsLabel": "Conditions Treated",
+  "conditionsH2": "We Specialise in Treating",
+  "conditionsDesc": "Whether you're dealing with a work injury, sports injury, chronic back pain, or looking for natural alternatives to surgery, our team has the experience to help.",
+  "conditionsClick": "↓ Click a condition for more information",
+  "conditionsNote": "Our doctors use a whole-person approach — looking for the underlying causes of discomfort rather than just treating symptoms. Many seemingly unrelated conditions arise from spinal imbalances that chiropractic care can correct.",
+  "approachLabel": "Our Method",
+  "approachH2": "The Three-Phase Care Model",
+  "approachDesc": "We don't just treat the symptom. Our structured approach — backed by 45 years of experience — ensures you get better and stay better.",
+  "phases": [
+    {
+      "step": "01",
+      "title": "Relief Care",
+      "desc": "We focus on reducing your pain quickly. Our doctors will evaluate your condition and begin targeted treatment from your very first visit."
+    },
+    {
+      "step": "02",
+      "title": "Corrective Care",
+      "desc": "Once pain is controlled, we address the underlying structural and muscular causes to prevent the problem from returning."
+    },
+    {
+      "step": "03",
+      "title": "Wellness Care",
+      "desc": "Regular maintenance adjustments and lifestyle guidance to keep your spine healthy and your body functioning at its best."
+    }
+  ],
+  "phaseLabel": "Phase",
+  "phasesNote": "At the end of each phase, your doctor will evaluate your progress and recommend the best options to continue your care and prevent relapse.",
+  "firstVisitLabel": "New Patient Info",
+  "firstVisitH2": "Your First Visit",
+  "firstVisitDesc": "At your first visit, our doctors will explain how chiropractic care works and give you a full evaluation to see if our solutions are the right fit for your needs.",
+  "firstVisitSteps": [
+    {
+      "step": "1",
+      "title": "Patient Forms",
+      "desc": "Complete health history and condition intake forms upon arrival."
+    },
+    {
+      "step": "2",
+      "title": "Consultation",
+      "desc": "Discuss your health problems, concerns, and treatment goals with your doctor. The first visit is about understanding your condition and what you want to achieve."
+    },
+    {
+      "step": "3",
+      "title": "Examination",
+      "desc": "Full chiropractic exam including reflex and flexibility testing, plus neurological, orthopedic, postural, and physical assessments. Nothing is done without your consent."
+    },
+    {
+      "step": "4",
+      "title": "X-Ray Studies",
+      "desc": "If needed based on your condition, X-rays are taken to develop the most effective treatment plan."
+    },
+    {
+      "step": "5",
+      "title": "Report of Findings",
+      "desc": "Your doctor provides a full report covering how they can help you, how often you'll need to come in, and what the cost will be."
+    },
+    {
+      "step": "6",
+      "title": "Treatment",
+      "desc": "Your doctor will explain the most effective treatment options. You may agree to proceed or not — the choice is entirely yours."
+    },
+    {
+      "step": "7",
+      "title": "Wellness Program",
+      "desc": "If necessary, your doctor will suggest a home wellness program including corrective exercises, stretching, and lifestyle recommendations."
+    }
+  ],
+  "pricingLabel": "Rates",
+  "pricingH2": "Transparent Pricing",
+  "pricingDesc": "We believe healthcare should be accessible. Contact us for current pricing and to discuss your insurance coverage.",
+  "pricingHeaders": ["Treatment", "Price"],
+  "pricingRows": [
+    { "treatment": "Initial Consultation & Examination", "price": "Call for pricing" },
+    { "treatment": "Follow-up Chiropractic Adjustment", "price": "Call for pricing" },
+    { "treatment": "Acupuncture Session", "price": "Call for pricing" },
+    { "treatment": "Spinal Decompression Session", "price": "Call for pricing" }
+  ],
+  "pricingPackageNote": "We work with most major insurance providers and are a TriWest VA PC3 provider. Call us to verify your benefits before your first visit.",
+  "paymentNote": "Payment accepted: cash, check, and most major credit cards. Insurance billing available for qualifying plans.",
+  "insuranceH3": "Insurance & Payment Options",
+  "insuranceP1": "Mitchell Chiropractic & Acupuncture Center works with most major insurance providers and is proudly a TriWest VA PC3 Provider, serving veterans in the Mitchell area.",
+  "insuranceP2": "Don't have insurance? Ask about our affordable cash-pay rates.",
+  "insuranceLinkPre": "",
+  "insuranceLink": "",
+  "ctaH2": "Ready to Stop Living in Pain?",
+  "ctaP": "Call us today or stop by. Our team of three experienced doctors will assess your condition and build a personalized plan to get you back to your best.",
+  "ctaBook": "Book Online",
+  "ctaCall": "Call (605) 996-1078",
+  "aboutLabel": "Meet Your Chiropractors",
+  "aboutH2": "Dr. Quentin Thompson",
+  "aboutSubtitle": "Doctor of Chiropractic · Locally Owned Since 1980 · VA PC3 Provider",
+  "aboutP1": "Mitchell Chiropractic & Acupuncture Center has been locally owned and operated since 1980 — one of the most experienced chiropractic practices in South Dakota. Dr. Quentin Thompson, Dr. Kim Juracek, and Dr. Brandon Cazer serve Mitchell and the surrounding communities with a team-based approach that ensures every patient receives expert, personalized care.",
+  "aboutP2": "Our doctors use a whole-person approach — looking for the underlying causes of disease, discomfort, and pain rather than just treating symptoms. Patients report higher functioning in all areas of their lives under the supervision and care of our skilled chiropractors. We are proud to serve veterans as a TriWest VA PC3 provider.",
+  "aboutStats": [
+    { "value": "1980", "label": "Locally Owned Since" },
+    { "value": "3", "label": "Expert Doctors" },
+    { "value": "VA", "label": "TriWest PC3 Provider" },
+    { "value": "Whole", "label": "Person Approach" }
+  ],
+  "testimonialsLabel": "Patient Reviews",
+  "testimonialsH2": "What Our Patients Say",
+  "reviewCount": "100+",
+  "faqLabel": "FAQ",
+  "faqH2": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "q": "Do you offer acupuncture?",
+      "a": "Yes. Our acupuncturists treat pain, headaches, inflammation, and a wide range of conditions alongside chiropractic care for a comprehensive approach to wellness."
+    },
+    {
+      "q": "Are you a VA provider?",
+      "a": "Yes. Mitchell Chiropractic & Acupuncture Center is a TriWest VA PC3 provider, proudly serving veterans in the Mitchell area and surrounding South Dakota communities."
+    },
+    {
+      "q": "How many visits will I need?",
+      "a": "After your initial exam, your doctor will outline a clear care plan. Most acute conditions respond well in 6–10 visits. Chronic conditions like compressed discs may require a longer treatment course."
+    },
+    {
+      "q": "Do you treat sports injuries?",
+      "a": "Absolutely. Our team specializes in sports injuries — from acute strains to chronic overuse injuries. We'll get you back to your sport as quickly and safely as possible."
+    }
+  ],
+  "bookingLabel": "Book Online",
+  "bookingH2": "Schedule Your Appointment",
+  "bookingDesc": "Call us or stop by — our team has extended hours to fit your schedule.",
+  "bookingInfo": [
+    { "label": "Address", "value": "501 W. Havens Ave, Mitchell, SD 57301" },
+    { "label": "Phone", "value": "(605) 996-1078" },
+    { "label": "Hours", "value": "Mon 8–7 · Tue/Thu 8–5 · Wed/Fri 8–5:30" }
+  ],
+  "heroRating": "5.0",
+  "heroReviewLabel": "100+ Happy Patients",
+  "heroReviews": [
+    {
+      "name": "Dan P.",
+      "condition": "Compressed discs",
+      "text": "Dr. Thompson worked with me for months and what do you know, it got better. I would have endured much more expense and pain had I opted for surgery.",
+      "rating": 5
+    },
+    {
+      "name": "James V.",
+      "condition": "Veteran care",
+      "text": "As a veteran, I appreciate that Mitchell Chiropractic is a TriWest VA PC3 provider. Dr. Juracek has helped my back immensely.",
+      "rating": 5
+    },
+    {
+      "name": "Nancy R.",
+      "condition": "Ongoing wellness",
+      "text": "Three knowledgeable doctors, extended hours, and a genuine concern for your well-being. Wouldn't go anywhere else.",
+      "rating": 5
+    }
+  ],
+  "modalWhat": "What is it?",
+  "modalHow": "How does chiropractic care help?",
+  "modalCta": "Do you suffer from {title}?",
+  "modalBook": "Book an appointment",
+  "modalCall": "Call (605) 996-1078",
+  "showPricing": false
+}

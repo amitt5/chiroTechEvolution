@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "practiceName": "Bayshore Chiropractic",
+    "practiceTagline": "It's Your Life... Live it in Health!",
+    "phone": "(920) 834-7034",
+    "phoneHref": "tel:9208347034",
+    "whatsapp": null,
+    "address": "Oconto, WI",
+    "email": null,
+    "hours": "Mon/Wed/Fri 8–5 · Tue 8:30–4:30"
+  },
+  "doctorImage": "",
+  "reviews": [
+    {
+      "name": "Tina M.",
+      "text": "I have been seeing Dr. Jackson for a few different things over the past 7 years. I love the care he gives to my family.",
+      "rating": 5
+    },
+    {
+      "name": "James K.",
+      "text": "Dr. Jackson takes a whole-person approach that really works. He listens carefully and finds the root cause rather than just treating symptoms. My back pain is gone.",
+      "rating": 5
+    },
+    {
+      "name": "Sarah L.",
+      "text": "Been coming to Bayshore for years. Dr. Jackson is thorough, knowledgeable, and genuinely cares about your health. Highly recommend to anyone in the Oconto area.",
+      "rating": 5
+    },
+    {
+      "name": "Mike R.",
+      "text": "After a work injury I was struggling with neck pain for months. Dr. Jackson had me feeling better in just a few visits. His technique and approach are excellent.",
+      "rating": 5
+    },
+    {
+      "name": "Carol H.",
+      "text": "Dr. Jackson has been my chiropractor since 2000. The care at Bayshore Chiropractic is consistent, professional, and always focused on my long-term wellness.",
+      "rating": 5
+    },
+    {
+      "name": "Tom B.",
+      "text": "I was skeptical about chiropractic at first but Dr. Jackson explained everything clearly and made me feel at ease. My headaches are dramatically reduced.",
+      "rating": 5
+    }
+  ],
+  "badge": "Oconto, WI · Since 2000",
+  "h1": [
+    "Supporting",
+    "Spinal",
+    "Health.",
+    "Dr. Nathan Jackson, DC."
+  ],
+  "heroSub": "You've only got one spine. Take great care of it with supportive chiropractic care from Dr. Nathan Jackson — serving the Oconto community since 2000.",
+  "bookBtn": "Book an Appointment",
+  "callBtn": "Call (920) 834-7034",
+  "stats": [
+    {
+      "value": "25+",
+      "label": "Years in Practice"
+    },
+    {
+      "value": "4",
+      "label": "Services Offered"
+    },
+    {
+      "value": "Whole",
+      "label": "Person Approach"
+    }
+  ],
+  "servicesLabel": "What We Offer",
+  "servicesH2": "Comprehensive Chiropractic Wellness Care",
+  "services": [
+    {
+      "title": "Chiropractic Adjustments",
+      "desc": "Precise spinal adjustments that reduce subluxations, restore proper alignment, and relieve pain in your back, neck, and extremities."
+    },
+    {
+      "title": "Physiotherapy",
+      "desc": "State-of-the-art physiotherapy procedures that complement your chiropractic care to accelerate healing and restore function."
+    },
+    {
+      "title": "Nutritional Supplementation",
+      "desc": "The newest and best natural vitamins and mineral supplements to support your body's healing process and overall wellness."
+    },
+    {
+      "title": "Wellness Coaching",
+      "desc": "A whole-person approach to health — guidance on lifestyle, posture, and daily habits that support long-term spinal health."
+    }
+  ],
+  "comboTitle": "Whole-Person Chiropractic Care",
+  "comboDesc": "Dr. Jackson combines hands-on technique, physiotherapy, and nutritional support to accelerate your journey to good health.",
+  "conditionsLabel": "Conditions Treated",
+  "conditionsH2": "We Specialise in Treating",
+  "conditionsDesc": "From back and neck pain to headaches and sports injuries, Dr. Jackson has the experience to help you achieve lasting relief.",
+  "conditionsClick": "↓ Click a condition for more information",
+  "conditionsNote": "Dr. Jackson believes every patient deserves a thorough evaluation before treatment begins. He takes the time to understand your condition and health goals, ensuring the safest and most effective care plan for you.",
+  "approachLabel": "Our Method",
+  "approachH2": "The Three-Phase Care Model",
+  "approachDesc": "We don't just treat the symptom. Dr. Jackson's structured approach ensures you get better — and stay better.",
+  "phases": [
+    {
+      "step": "01",
+      "title": "Relief Care",
+      "desc": "We focus on reducing your pain quickly so you can return to normal activities. Dr. Jackson will assess your condition and begin targeted treatment from your first visit."
+    },
+    {
+      "step": "02",
+      "title": "Corrective Care",
+      "desc": "Once pain is controlled, we address the underlying structural issues causing your problem to prevent future recurrence."
+    },
+    {
+      "step": "03",
+      "title": "Wellness Care",
+      "desc": "Regular maintenance to keep your spine aligned, your nervous system healthy, and your whole family feeling their best."
+    }
+  ],
+  "phaseLabel": "Phase",
+  "phasesNote": "At the end of each phase, Dr. Jackson will evaluate your progress and recommend the best options to continue your care and prevent relapse.",
+  "firstVisitLabel": "New Patient Info",
+  "firstVisitH2": "Your First Visit",
+  "firstVisitDesc": "We want your first visit to be comfortable and productive. Here's what to expect when you come in to Bayshore Chiropractic.",
+  "firstVisitSteps": [
+    {
+      "step": "1",
+      "title": "Patient Forms",
+      "desc": "Complete health history and condition intake forms upon arrival."
+    },
+    {
+      "step": "2",
+      "title": "Consultation",
+      "desc": "Discuss your health problems, concerns, and treatment goals with Dr. Jackson. The first visit is about understanding your condition and what you want to achieve."
+    },
+    {
+      "step": "3",
+      "title": "Examination",
+      "desc": "Full chiropractic exam including reflex and flexibility testing, plus neurological, orthopedic, postural, and physical assessments. Nothing is done without your consent."
+    },
+    {
+      "step": "4",
+      "title": "X-Ray Studies",
+      "desc": "If needed based on your condition, X-rays are taken to develop the most effective treatment plan and check for serious spinal conditions."
+    },
+    {
+      "step": "5",
+      "title": "Report of Findings",
+      "desc": "Dr. Jackson provides a full report covering: How can he help you? How often will you need to come in? What will the cost be?"
+    },
+    {
+      "step": "6",
+      "title": "Treatment",
+      "desc": "Dr. Jackson will explain the most effective treatment options. You may agree to proceed with the treatment or not — the choice is entirely yours."
+    },
+    {
+      "step": "7",
+      "title": "Wellness Program",
+      "desc": "If necessary, Dr. Jackson will suggest a home wellness program which may include stretching, strengthening exercises, and nutritional guidance."
+    }
+  ],
+  "pricingLabel": "Rates",
+  "pricingH2": "Transparent Pricing",
+  "pricingDesc": "We believe healthcare should be accessible. Contact us for current pricing and to discuss your insurance coverage.",
+  "pricingHeaders": ["Treatment", "Price"],
+  "pricingRows": [
+    { "treatment": "Initial Consultation & Examination", "price": "Call for pricing" },
+    { "treatment": "Follow-up Chiropractic Adjustment", "price": "Call for pricing" },
+    { "treatment": "Physiotherapy Session", "price": "Call for pricing" }
+  ],
+  "pricingPackageNote": "We work with most major insurance providers. Call us to verify your benefits before your first visit.",
+  "paymentNote": "Payment accepted: cash, check, and most major credit cards. Insurance billing available for qualifying plans.",
+  "insuranceH3": "Insurance & Payment Options",
+  "insuranceP1": "Bayshore Chiropractic works with most major insurance providers. We will verify your benefits before your first appointment.",
+  "insuranceP2": "Don't have insurance? Ask about our affordable cash-pay rates.",
+  "insuranceLinkPre": "",
+  "insuranceLink": "",
+  "ctaH2": "Ready to Start Your Wellness Journey?",
+  "ctaP": "Call us today or schedule an appointment. Dr. Jackson will assess your condition and get you started on the road to better health.",
+  "ctaBook": "Book Online",
+  "ctaCall": "Call (920) 834-7034",
+  "aboutLabel": "Meet Your Chiropractor",
+  "aboutH2": "Dr. Nathan Jackson",
+  "aboutSubtitle": "Doctor of Chiropractic · Northwestern College Graduate · 25+ Years Experience",
+  "aboutP1": "Dr. Nathan Jackson has been a licensed chiropractor since 2000, earning his degree from Northwestern College of Chiropractic. Based in Oconto, WI, he has spent over two decades helping patients achieve lasting wellness through the true principles of chiropractic care.",
+  "aboutP2": "Dr. Jackson uses a whole-person approach — combining hands-on technique, state-of-the-art physiotherapy, and natural supplementation to accelerate and maintain your journey to good health. He is dedicated to your well-being and the health of your entire family.",
+  "aboutStats": [
+    { "value": "2000", "label": "Serving Oconto Since" },
+    { "value": "Northwestern", "label": "College Graduate" },
+    { "value": "25+", "label": "Years Experience" },
+    { "value": "Whole", "label": "Person Approach" }
+  ],
+  "testimonialsLabel": "Patient Reviews",
+  "testimonialsH2": "What Our Patients Say",
+  "reviewCount": "50+",
+  "faqLabel": "FAQ",
+  "faqH2": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "q": "Is chiropractic care safe?",
+      "a": "Yes. Dr. Jackson performs a thorough evaluation before any treatment. Chiropractic care is one of the safest, most effective treatments for spinal pain and related conditions."
+    },
+    {
+      "q": "How many visits will I need?",
+      "a": "After your initial exam, Dr. Jackson will outline a personalized care plan. Most acute conditions respond well in 6–10 visits, depending on severity."
+    },
+    {
+      "q": "Do you accept insurance?",
+      "a": "Yes, we work with most major insurance plans. Call us to verify your coverage before your first appointment."
+    },
+    {
+      "q": "Do you treat children and families?",
+      "a": "Absolutely. Dr. Jackson cares for patients of all ages. Chiropractic care can benefit the whole family, from young children to seniors."
+    }
+  ],
+  "bookingLabel": "Book Online",
+  "bookingH2": "Schedule Your Appointment",
+  "bookingDesc": "Call us or stop by — Dr. Jackson is ready to help you achieve your wellness goals.",
+  "bookingInfo": [
+    { "label": "Address", "value": "Oconto, WI" },
+    { "label": "Phone", "value": "(920) 834-7034" },
+    { "label": "Hours", "value": "Mon/Wed/Fri 8–5 · Tue 8:30–4:30" }
+  ],
+  "heroRating": "5.0",
+  "heroReviewLabel": "50+ Happy Patients",
+  "heroReviews": [
+    {
+      "name": "Tina M.",
+      "condition": "Family care",
+      "text": "I have been seeing Dr. Jackson for a few different things over the past 7 years. I love the care he gives to my family.",
+      "rating": 5
+    },
+    {
+      "name": "Mike R.",
+      "condition": "Neck pain",
+      "text": "After a work injury I was struggling with neck pain for months. Dr. Jackson had me feeling better in just a few visits.",
+      "rating": 5
+    },
+    {
+      "name": "Carol H.",
+      "condition": "Ongoing wellness",
+      "text": "Dr. Jackson has been my chiropractor since 2000. The care at Bayshore is consistent, professional, and always focused on my long-term wellness.",
+      "rating": 5
+    }
+  ],
+  "modalWhat": "What is it?",
+  "modalHow": "How does chiropractic care help?",
+  "modalCta": "Do you suffer from {title}?",
+  "modalBook": "Book an appointment",
+  "modalCall": "Call (920) 834-7034",
+  "showPricing": false
+}

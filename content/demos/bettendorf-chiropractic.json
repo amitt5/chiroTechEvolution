@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "practiceName": "Bettendorf Chiropractic Wellness Center",
+    "practiceTagline": "Caring Today for a Healthier Tomorrow!",
+    "phone": "(563) 359-5600",
+    "phoneHref": "tel:5633595600",
+    "whatsapp": null,
+    "address": "4893 Utica Ridge Road #101, Davenport, IA 52807",
+    "email": null,
+    "hours": "Mon–Thu 9–5:30 · Fri 9–4:30"
+  },
+  "doctorImage": "",
+  "reviews": [
+    {
+      "name": "Angela B.",
+      "text": "Best chiropractor ever! The staff are all so friendly and helpful, too!",
+      "rating": 5
+    },
+    {
+      "name": "Heather T.",
+      "text": "I have been going to Dr. Lehman for the last 4 months, and she has been wonderful! I started out with pretty nasty lower back pain, but now I'm feeling way better than I have in a LONG time!",
+      "rating": 5
+    },
+    {
+      "name": "Crystal W.",
+      "text": "Dr. Gina is amazing. My 2-month-old daughter had been constipated for 2 days so I took her in to get adjusted and she went while we were driving home. She is also much more relaxed and sleeps better.",
+      "rating": 5
+    },
+    {
+      "name": "Melinda W.",
+      "text": "I find you to be one of the most caring people I have ever met. I love how you care so much about your patients' health. I sincerely thank you for being such an amazing Doctor.",
+      "rating": 5
+    },
+    {
+      "name": "Thea F.",
+      "text": "I twisted my right ankle and was still suffering from pain 3 months later. Dr. Lehman made a mild adjustment and treated the area with acupuncture. Immediately I noticed a reduction in the swelling and stiffness. I am now pain free.",
+      "rating": 5
+    },
+    {
+      "name": "David M.",
+      "text": "Three excellent doctors under one roof. Each patient is treated like family here. I've recommended Bettendorf Chiropractic to everyone I know.",
+      "rating": 5
+    }
+  ],
+  "badge": "Davenport, IA · Palmer College Trained",
+  "h1": [
+    "We Create",
+    "Healthy",
+    "Families.",
+    "Palmer College Trained."
+  ],
+  "heroSub": "Dr. Gina Lehman, Dr. Keeli Farley, and Dr. Lindsay Gall specialize in pediatric and adult care — including chiropractic, acupuncture, massage therapy, and more. Caring for the Quad Cities since 2010.",
+  "bookBtn": "Book an Appointment",
+  "callBtn": "Call (563) 359-5600",
+  "stats": [
+    {
+      "value": "3",
+      "label": "Expert Doctors"
+    },
+    {
+      "value": "9",
+      "label": "Services Offered"
+    },
+    {
+      "value": "Palmer",
+      "label": "Trained Chiropractors"
+    }
+  ],
+  "servicesLabel": "What We Offer",
+  "servicesH2": "Comprehensive Chiropractic & Wellness Care",
+  "services": [
+    {
+      "title": "Chiropractic Adjustments",
+      "desc": "Gonstead, Activator, Thompson drop table, and Diversified techniques to restore proper joint motion, reduce nerve irritability, and relieve pain."
+    },
+    {
+      "title": "Massage Therapy",
+      "desc": "Our licensed massage therapists offer 30, 60, and 90-minute sessions — including deep tissue, cupping, Swedish, and prenatal massage — to complement your chiropractic care."
+    },
+    {
+      "title": "Acupuncture",
+      "desc": "Dr. Lehman performs acupuncture for pain, dysfunction, inflammation, and a wide range of conditions — a powerful complement to spinal care."
+    },
+    {
+      "title": "Corrective Exercises & Kinesiology Taping",
+      "desc": "Customized exercise plans and RockTape kinesiology taping to strengthen your body, support healing, and help you hold your adjustments longer."
+    }
+  ],
+  "comboTitle": "Pediatric & Adult Chiropractic Care",
+  "comboDesc": "From newborns to seniors, our team of three Palmer-trained doctors provides gentle, effective care for every member of your family.",
+  "conditionsLabel": "Conditions Treated",
+  "conditionsH2": "We Specialise in Treating",
+  "conditionsDesc": "From sports injuries to prenatal care, our three-doctor team has the expertise to create a personalized treatment plan for your unique needs.",
+  "conditionsClick": "↓ Click a condition for more information",
+  "conditionsNote": "Each patient at Bettendorf Chiropractic is treated as if they are a family member. Our doctors take the time to understand your condition and health goals before beginning any treatment.",
+  "approachLabel": "Our Method",
+  "approachH2": "The Three-Phase Care Model",
+  "approachDesc": "We don't just treat the symptom. Our structured, multi-doctor approach ensures you get better — and stay better.",
+  "phases": [
+    {
+      "step": "01",
+      "title": "Relief Care",
+      "desc": "We focus on reducing your pain quickly. Our doctors will assess your condition on your first visit and begin targeted treatment right away."
+    },
+    {
+      "step": "02",
+      "title": "Corrective Care",
+      "desc": "Once pain is controlled, we address the underlying structural and muscular issues to prevent recurrence and restore full function."
+    },
+    {
+      "step": "03",
+      "title": "Wellness Care",
+      "desc": "Regular maintenance to keep your spine aligned, muscles balanced, and your whole family healthy for the long term."
+    }
+  ],
+  "phaseLabel": "Phase",
+  "phasesNote": "At the end of each phase, your doctor will evaluate your progress and recommend the best options to continue your care.",
+  "firstVisitLabel": "New Patient Info",
+  "firstVisitH2": "Your First Visit",
+  "firstVisitDesc": "We want your first visit to be comfortable and productive. Here's what to expect when you come in to Bettendorf Chiropractic Wellness Center.",
+  "firstVisitSteps": [
+    {
+      "step": "1",
+      "title": "Patient Forms",
+      "desc": "Complete health history and condition intake forms upon arrival."
+    },
+    {
+      "step": "2",
+      "title": "Consultation",
+      "desc": "Discuss your health problems, concerns, and treatment goals with your doctor. The first visit is about understanding your condition and what you want to achieve."
+    },
+    {
+      "step": "3",
+      "title": "Examination",
+      "desc": "Full chiropractic exam including reflex and flexibility testing, plus neurological, orthopedic, postural, and physical assessments. Nothing is done without your consent."
+    },
+    {
+      "step": "4",
+      "title": "X-Ray Studies",
+      "desc": "If needed based on your condition, X-rays are taken to develop the most effective treatment plan."
+    },
+    {
+      "step": "5",
+      "title": "Report of Findings",
+      "desc": "Your doctor provides a full report covering how they can help you, how often you'll need to come in, and what the cost will be."
+    },
+    {
+      "step": "6",
+      "title": "Treatment",
+      "desc": "Your doctor will explain the most effective treatment options. You may agree to proceed or not — the choice is entirely yours."
+    },
+    {
+      "step": "7",
+      "title": "Wellness Program",
+      "desc": "If necessary, your doctor will suggest a home wellness program including corrective exercises, stretching, and lifestyle guidance."
+    }
+  ],
+  "pricingLabel": "Rates",
+  "pricingH2": "Transparent Pricing",
+  "pricingDesc": "We believe healthcare should be accessible. Contact us for current pricing and to discuss your insurance coverage.",
+  "pricingHeaders": ["Treatment", "Price"],
+  "pricingRows": [
+    { "treatment": "Initial Consultation & Examination", "price": "Call for pricing" },
+    { "treatment": "Follow-up Chiropractic Adjustment", "price": "Call for pricing" },
+    { "treatment": "Massage Therapy 30 min", "price": "Call for pricing" },
+    { "treatment": "Massage Therapy 60 min", "price": "Call for pricing" },
+    { "treatment": "Acupuncture Session", "price": "Call for pricing" }
+  ],
+  "pricingPackageNote": "We work with most major insurance providers. Call us to verify your benefits before your first visit.",
+  "paymentNote": "Payment accepted: cash, check, and most major credit cards. Insurance billing available for qualifying plans.",
+  "insuranceH3": "Insurance & Payment Options",
+  "insuranceP1": "Bettendorf Chiropractic Wellness Center works with most major insurance providers. We will verify your benefits before your first appointment.",
+  "insuranceP2": "Don't have insurance? Ask about our affordable cash-pay rates.",
+  "insuranceLinkPre": "",
+  "insuranceLink": "",
+  "ctaH2": "Ready to Feel Better Today?",
+  "ctaP": "Call us or schedule online. Our team of three doctors will assess your condition and get you started on a personalized path to wellness.",
+  "ctaBook": "Book Online",
+  "ctaCall": "Call (563) 359-5600",
+  "aboutLabel": "Meet Your Chiropractors",
+  "aboutH2": "Dr. Gina Lehman",
+  "aboutSubtitle": "DC, FASA · Palmer College Graduate · Founder",
+  "aboutP1": "Dr. Gina Lehman received her Doctor of Chiropractic degree from Palmer College of Chiropractic in 2009 and opened Bettendorf Chiropractic Wellness Center in 2010. She specializes in pediatric and adult care and also performs acupuncture for a wide range of conditions. She considers each patient an extension of her own family.",
+  "aboutP2": "Alongside Dr. Lehman, Dr. Keeli Farley (Palmer 2015, Webster Technique certified for prenatal care) and Dr. Lindsay Gall (Palmer 2008, 13+ years in practice) provide comprehensive care. Together, this team of three Palmer-trained doctors ensures every patient in the Quad Cities receives expert, compassionate chiropractic wellness care.",
+  "aboutStats": [
+    { "value": "2010", "label": "Serving the Quad Cities" },
+    { "value": "3", "label": "Palmer-Trained Doctors" },
+    { "value": "9", "label": "Services Offered" },
+    { "value": "Family", "label": "Focused Care" }
+  ],
+  "testimonialsLabel": "Patient Reviews",
+  "testimonialsH2": "What Our Patients Say",
+  "reviewCount": "200+",
+  "faqLabel": "FAQ",
+  "faqH2": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "q": "Do you treat children and infants?",
+      "a": "Absolutely. Dr. Lehman and our team specialize in pediatric care. Chiropractic adjustments for infants and children are gentle and age-appropriate, and many parents see remarkable results."
+    },
+    {
+      "q": "Do you offer acupuncture?",
+      "a": "Yes. Dr. Lehman is certified in acupuncture and treats a wide range of conditions including pain, inflammation, migraines, and more."
+    },
+    {
+      "q": "How many visits will I need?",
+      "a": "After your initial exam, your doctor will outline a clear care plan. Most acute conditions respond well in 6–10 visits, depending on the severity of your condition."
+    },
+    {
+      "q": "Do you accept insurance?",
+      "a": "Yes, we work with most major insurance plans. Call us to verify your coverage before your first appointment."
+    }
+  ],
+  "bookingLabel": "Book Online",
+  "bookingH2": "Schedule Your Appointment",
+  "bookingDesc": "Call us or book online — our team is ready to help you and your family feel your best.",
+  "bookingInfo": [
+    { "label": "Address", "value": "4893 Utica Ridge Road #101, Davenport, IA 52807" },
+    { "label": "Phone", "value": "(563) 359-5600" },
+    { "label": "Hours", "value": "Mon–Thu 9–5:30 · Fri 9–4:30" }
+  ],
+  "heroRating": "4.9",
+  "heroReviewLabel": "200+ Google Reviews",
+  "heroReviews": [
+    {
+      "name": "Angela B.",
+      "condition": "Davenport, IA",
+      "text": "Best chiropractor ever! The staff are all so friendly and helpful, too!",
+      "rating": 5
+    },
+    {
+      "name": "Heather T.",
+      "condition": "Lower back pain",
+      "text": "I started out with pretty nasty lower back pain. Now I'm feeling way better than I have in a LONG time!",
+      "rating": 5
+    },
+    {
+      "name": "Thea F.",
+      "condition": "Ankle pain",
+      "text": "Dr. Lehman adjusted me and treated with acupuncture. Immediately I noticed a reduction in swelling. After two follow-up visits, I am completely pain free.",
+      "rating": 5
+    }
+  ],
+  "modalWhat": "What is it?",
+  "modalHow": "How does chiropractic care help?",
+  "modalCta": "Do you suffer from {title}?",
+  "modalBook": "Book an appointment",
+  "modalCall": "Call (563) 359-5600",
+  "showPricing": false
+}

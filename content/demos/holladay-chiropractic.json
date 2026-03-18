@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "practiceName": "Holladay Chiropractic",
+    "practiceTagline": "Gentle, Safe, Effective Chiropractic Care",
+    "phone": "(801) 486-9201",
+    "phoneHref": "tel:8014869201",
+    "whatsapp": null,
+    "address": "3424 S. 2300 E., Salt Lake City, UT 84109",
+    "email": null,
+    "hours": "Mon/Wed/Thu 7:30–5:30 · Tue 2–6"
+  },
+  "doctorImage": "",
+  "reviews": [
+    {
+      "name": "Monique F.",
+      "text": "Dr. Erik with Holladay Chiropractic is one of the most gentle and caring chiropractors I have experienced. You are set at ease from the moment you walk in. He and his staff are very professional, knowledgeable and patient!",
+      "rating": 5
+    },
+    {
+      "name": "Brooke A.",
+      "text": "Erik is a great chiropractor. He made extra time to get me in when I threw out my back right before a big vacation. Without his help that trip would have been extremely painful.",
+      "rating": 5
+    },
+    {
+      "name": "Ryan J.",
+      "text": "This place has such a positive and relaxing vibe. The care is 5 star. Thanks for helping me get back to normal.",
+      "rating": 5
+    },
+    {
+      "name": "Linda D.",
+      "text": "I was in so much pain before I came here that I couldn't work a full day. Thanks to the care I've received at Holladay Chiropractic, I lead a pain-free life and continue to work into my elderly years with improved function.",
+      "rating": 5
+    },
+    {
+      "name": "Kevin S.",
+      "text": "Dr. Van Slooten is a second-generation chiropractor with an extraordinary depth of knowledge. His approach is thorough and his results speak for themselves. Best chiropractor in Salt Lake.",
+      "rating": 5
+    },
+    {
+      "name": "Rachel M.",
+      "text": "I've been coming to Holladay Chiropractic for years. The entire team is exceptional — knowledgeable, caring, and genuinely invested in your long-term health.",
+      "rating": 5
+    }
+  ],
+  "badge": "Salt Lake City, UT · Est. 1978",
+  "h1": [
+    "We Can",
+    "Help You",
+    "Heal.",
+    "Since 1978."
+  ],
+  "heroSub": "Gentle, safe, effective chiropractic care from Dr. Erik Van Slooten and Dr. Paige Van Slooten. Serving the Salt Lake Valley with Class IV Laser, Shockwave Therapy, Spinal Decompression, and more.",
+  "bookBtn": "Book an Appointment",
+  "callBtn": "Call (801) 486-9201",
+  "stats": [
+    {
+      "value": "45+",
+      "label": "Years Serving Salt Lake"
+    },
+    {
+      "value": "6",
+      "label": "Services Offered"
+    },
+    {
+      "value": "2nd Gen",
+      "label": "Chiropractor"
+    }
+  ],
+  "servicesLabel": "What We Offer",
+  "servicesH2": "Advanced Chiropractic & Wellness Services",
+  "services": [
+    {
+      "title": "Chiropractic Adjustments",
+      "desc": "Precise, gentle spinal adjustments tailored to your specific condition and goals — safe for all ages, from children to seniors."
+    },
+    {
+      "title": "Class IV Laser Therapy",
+      "desc": "Deep-tissue laser therapy that accelerates healing, reduces inflammation, and provides lasting relief from chronic pain conditions."
+    },
+    {
+      "title": "Shockwave Therapy",
+      "desc": "Advanced acoustic wave treatment that stimulates healing in tendons, muscles, and connective tissue — effective for stubborn, chronic injuries."
+    },
+    {
+      "title": "Spinal Decompression",
+      "desc": "Gentle, non-surgical traction therapy that relieves pressure on compressed discs and nerves to resolve back pain and sciatica."
+    }
+  ],
+  "comboTitle": "Advanced Chiropractic Care",
+  "comboDesc": "Dr. Erik and Dr. Paige Van Slooten combine chiropractic adjustments with cutting-edge therapies to deliver results that other offices simply can't match.",
+  "conditionsLabel": "Conditions Treated",
+  "conditionsH2": "We Specialise in Treating",
+  "conditionsDesc": "From acute pain to chronic conditions, Dr. Van Slooten's comprehensive approach addresses the root cause — not just the symptom.",
+  "conditionsClick": "↓ Click a condition for more information",
+  "conditionsNote": "Since 1978, Holladay Chiropractic has built a reputation for excellence in the Salt Lake Valley. Patients regularly travel from Tooele, Cedar City, and St. George for Dr. Van Slooten's care.",
+  "approachLabel": "Our Method",
+  "approachH2": "The Three-Phase Care Model",
+  "approachDesc": "We don't just treat the symptom. Our structured approach ensures you get better — and stay better.",
+  "phases": [
+    {
+      "step": "01",
+      "title": "Relief Care",
+      "desc": "We focus on rapidly reducing your pain and restoring basic function so you can return to daily activities as quickly as possible."
+    },
+    {
+      "step": "02",
+      "title": "Corrective Care",
+      "desc": "Once pain is controlled, we address the underlying structural issues — including advanced therapies like laser, shockwave, and decompression."
+    },
+    {
+      "step": "03",
+      "title": "Wellness Care",
+      "desc": "Regular maintenance and spinal workshops to keep you functioning at your best and prevent future problems."
+    }
+  ],
+  "phaseLabel": "Phase",
+  "phasesNote": "At the end of each phase, Dr. Van Slooten will evaluate your progress and recommend the best options to continue your care and prevent relapse.",
+  "firstVisitLabel": "New Patient Info",
+  "firstVisitH2": "Your First Visit",
+  "firstVisitDesc": "At your first visit, Dr. Van Slooten will explain the science behind chiropractic care and give you a full evaluation to see if chiropractic is the right fit for you.",
+  "firstVisitSteps": [
+    {
+      "step": "1",
+      "title": "Patient Forms",
+      "desc": "Complete health history and condition intake forms upon arrival."
+    },
+    {
+      "step": "2",
+      "title": "Consultation",
+      "desc": "Discuss your health problems, concerns, and treatment goals with Dr. Van Slooten. The first visit is about understanding your condition and what you want to achieve."
+    },
+    {
+      "step": "3",
+      "title": "Examination",
+      "desc": "Full chiropractic exam including reflex and flexibility testing, plus neurological, orthopedic, postural, and physical assessments. Nothing is done without your consent."
+    },
+    {
+      "step": "4",
+      "title": "X-Ray Studies",
+      "desc": "If needed based on your condition, X-rays are taken to develop the most effective treatment plan."
+    },
+    {
+      "step": "5",
+      "title": "Report of Findings",
+      "desc": "Dr. Van Slooten provides a full report covering how he can help you, how often you'll need to come in, and what the cost will be."
+    },
+    {
+      "step": "6",
+      "title": "Treatment",
+      "desc": "Dr. Van Slooten will explain the most effective treatment options. You may agree to proceed or not — the choice is entirely yours."
+    },
+    {
+      "step": "7",
+      "title": "Wellness Program",
+      "desc": "If necessary, Dr. Van Slooten will suggest a home wellness program including stretching, exercises, and lifestyle guidance to support your recovery."
+    }
+  ],
+  "pricingLabel": "Rates",
+  "pricingH2": "Transparent Pricing",
+  "pricingDesc": "We believe healthcare should be accessible. Contact us for current pricing and to discuss your insurance coverage.",
+  "pricingHeaders": ["Treatment", "Price"],
+  "pricingRows": [
+    { "treatment": "Initial Consultation & Examination", "price": "Call for pricing" },
+    { "treatment": "Follow-up Chiropractic Adjustment", "price": "Call for pricing" },
+    { "treatment": "Class IV Laser Session", "price": "Call for pricing" },
+    { "treatment": "Shockwave Therapy Session", "price": "Call for pricing" }
+  ],
+  "pricingPackageNote": "We work with most major insurance providers. Call us to verify your benefits before your first visit.",
+  "paymentNote": "Payment accepted: cash, check, and most major credit cards. Insurance billing available for qualifying plans.",
+  "insuranceH3": "Insurance & Payment Options",
+  "insuranceP1": "Holladay Chiropractic works with most major insurance providers. We will verify your benefits before your first appointment.",
+  "insuranceP2": "Don't have insurance? Ask about our affordable cash-pay rates.",
+  "insuranceLinkPre": "",
+  "insuranceLink": "",
+  "ctaH2": "Ready to Change Your Health?",
+  "ctaP": "Call us today to schedule your evaluation. Dr. Van Slooten will assess your condition and develop a personalized plan to help you achieve optimal health.",
+  "ctaBook": "Book Online",
+  "ctaCall": "Call (801) 486-9201",
+  "aboutLabel": "Meet Your Chiropractor",
+  "aboutH2": "Dr. Erik Van Slooten",
+  "aboutSubtitle": "Doctor of Chiropractic · Life Chiropractic College West · 2nd Generation Chiropractor",
+  "aboutP1": "Dr. Erik Van Slooten graduated from Life Chiropractic College West in 2009 and joined Holladay Chiropractic — the practice his father, Dr. Jim Van Slooten, founded in 1978. As a second-generation chiropractor, Dr. Erik carries a deep passion for the drugless, non-surgical care that chiropractic offers, and has witnessed it make a historic impact on thousands of patients throughout the Salt Lake Valley.",
+  "aboutP2": "A recognized spokesperson for the chiropractic profession, Dr. Van Slooten has spoken at conventions across the United States, Mexico, Peru, and Australia, and has served on multiple chiropractic mission trips to El Salvador. He practices alongside his wife Dr. Paige Van Slooten and their team, continuing a 45-year tradition of excellence in Salt Lake City.",
+  "aboutStats": [
+    { "value": "1978", "label": "Practice Founded" },
+    { "value": "Life", "label": "Chiropractic College West" },
+    { "value": "2nd Gen", "label": "Chiropractor" },
+    { "value": "Global", "label": "Mission Experience" }
+  ],
+  "testimonialsLabel": "Patient Reviews",
+  "testimonialsH2": "What Our Patients Say",
+  "reviewCount": "100+",
+  "faqLabel": "FAQ",
+  "faqH2": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "q": "What advanced therapies do you offer beyond adjustments?",
+      "a": "In addition to chiropractic adjustments, we offer Class IV Laser Therapy, Shockwave Therapy, Full Body Vibration, Spinal Decompression, and weekly Spinal Workshops."
+    },
+    {
+      "q": "How long has the practice been open?",
+      "a": "Holladay Chiropractic was founded in 1978 by Dr. Jim Van Slooten. Dr. Erik Van Slooten, Jim's son, has continued that tradition of excellence since joining the practice."
+    },
+    {
+      "q": "How many visits will I need?",
+      "a": "After your initial evaluation, Dr. Van Slooten will create a personalized care plan. Most acute conditions respond well in 6–10 visits, though complex conditions may require more time."
+    },
+    {
+      "q": "Do you accept insurance?",
+      "a": "Yes, we work with most major insurance plans. Call us to verify your coverage before your first appointment."
+    }
+  ],
+  "bookingLabel": "Book Online",
+  "bookingH2": "Schedule Your Appointment",
+  "bookingDesc": "Call us to schedule your first visit with Dr. Van Slooten and take the first step toward optimal health.",
+  "bookingInfo": [
+    { "label": "Address", "value": "3424 S. 2300 E., Salt Lake City, UT 84109" },
+    { "label": "Phone", "value": "(801) 486-9201" },
+    { "label": "Hours", "value": "Mon/Wed/Thu 7:30–5:30 · Tue 2–6" }
+  ],
+  "heroRating": "5.0",
+  "heroReviewLabel": "100+ Happy Patients",
+  "heroReviews": [
+    {
+      "name": "Monique F.",
+      "condition": "Ongoing care",
+      "text": "Dr. Erik is one of the most gentle and caring chiropractors I have experienced. You are set at ease from the moment you walk in.",
+      "rating": 5
+    },
+    {
+      "name": "Linda D.",
+      "condition": "Chronic pain",
+      "text": "I was in so much pain I couldn't work a full day. Now I lead a pain-free life and continue to work into my elderly years with improved function.",
+      "rating": 5
+    },
+    {
+      "name": "Brooke A.",
+      "condition": "Acute back pain",
+      "text": "Erik made extra time to get me in when I threw out my back right before a big vacation. Without his help that trip would have been extremely painful.",
+      "rating": 5
+    }
+  ],
+  "modalWhat": "What is it?",
+  "modalHow": "How does chiropractic care help?",
+  "modalCta": "Do you suffer from {title}?",
+  "modalBook": "Book an appointment",
+  "modalCall": "Call (801) 486-9201",
+  "showPricing": false
+}

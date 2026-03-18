@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "practiceName": "Village Chiropractic Clinic",
+    "practiceTagline": "New Patients Receive a Free Consultation",
+    "phone": "(360) 629-6544",
+    "phoneHref": "tel:3606296544",
+    "whatsapp": null,
+    "address": "7207 265th ST NW Ste 102, Stanwood, WA 98292",
+    "email": null,
+    "hours": "Mon/Wed/Fri 9–12 & 2–5:45 · Tue/Thu 2–5:45"
+  },
+  "doctorImage": "",
+  "reviews": [
+    {
+      "name": "VP",
+      "text": "I've never been to a Chiropractor but this first visit was awesome. Dr. Jared was very kind to new patients. The overall environment is friendly and helpful in making sure of your comfort.",
+      "rating": 5
+    },
+    {
+      "name": "MGH",
+      "text": "Large herniated disk at L4-5 with recurrent back aches, leg pain and hip pain. After treatment back pain diminished, hips straightened out, better flexibility and leg pain under control.",
+      "rating": 5
+    },
+    {
+      "name": "FK",
+      "text": "I was having severe headaches and was told nothing could be done except medication. After treatments with Dr. Andrews I have the feeling back in my feet and headaches are gone. Thank you.",
+      "rating": 5
+    },
+    {
+      "name": "JB",
+      "text": "Pain in my lower back shooting down my leg. Since I've been receiving chiropractic care I rarely ever get pain down my leg. Chiropractic care has improved my quality of life in ways I never realized it could.",
+      "rating": 5
+    },
+    {
+      "name": "MAR",
+      "text": "I was experiencing right side numbness and tingling my medical doctor couldn't explain. With an initial assessment and one adjustment the numbness and tingling completely disappeared.",
+      "rating": 5
+    },
+    {
+      "name": "Stanwood Patient",
+      "text": "Chiropractic care has relieved the sinus pressure and headaches — I rarely ever take pills anymore. Chiropractic care has improved my quality of life in ways I never realized it could.",
+      "rating": 5
+    }
+  ],
+  "badge": "Stanwood, WA · Free New Patient Consultation",
+  "h1": [
+    "Wellness",
+    "Awaits",
+    "You.",
+    "Dr. Jared Andrews, DC."
+  ],
+  "heroSub": "Traditional, hands-on manual chiropractic adjustments from Dr. Jared Andrews — serving Stanwood and the surrounding Camano Island area. New patients receive a free consultation.",
+  "bookBtn": "Book an Appointment",
+  "callBtn": "Call (360) 629-6544",
+  "stats": [
+    {
+      "value": "Free",
+      "label": "New Patient Consultation"
+    },
+    {
+      "value": "12+",
+      "label": "Years in Practice"
+    },
+    {
+      "value": "Hands-On",
+      "label": "Manual Adjustments"
+    }
+  ],
+  "servicesLabel": "What We Offer",
+  "servicesH2": "Traditional Chiropractic Wellness Care",
+  "services": [
+    {
+      "title": "Chiropractic Adjustments",
+      "desc": "Traditional, hands-on manual adjustments — the way chiropractic was meant to be. Dr. Andrews uses precise technique to restore spinal alignment and relieve pain."
+    },
+    {
+      "title": "Disc & Sciatica Treatment",
+      "desc": "Specialized care for herniated discs, sciatica, and radiating leg or arm pain. Dr. Andrews gets to the root cause and provides lasting relief without surgery."
+    },
+    {
+      "title": "Headache & Migraine Relief",
+      "desc": "Cervical adjustments and targeted spinal care to reduce headache frequency and severity — often where medication has failed."
+    },
+    {
+      "title": "Nutritional Supplementation",
+      "desc": "The newest and best natural vitamins and mineral supplements to complement your chiropractic care and support your body's healing process."
+    }
+  ],
+  "comboTitle": "Whole-Person Chiropractic Care",
+  "comboDesc": "Dr. Andrews combines the best hands-on technique with natural supplements and lifestyle guidance to accelerate your journey to good health.",
+  "conditionsLabel": "Conditions Treated",
+  "conditionsH2": "We Specialise in Treating",
+  "conditionsDesc": "From herniated discs to headaches, numbness, and auto accident injuries, Dr. Andrews has helped patients achieve results they never thought possible.",
+  "conditionsClick": "↓ Click a condition for more information",
+  "conditionsNote": "Dr. Andrews uses a whole-person approach when caring for his patients — looking for the underlying cause of your condition rather than just managing symptoms. You will get traditional, hands-on manual adjustments here.",
+  "approachLabel": "Our Method",
+  "approachH2": "The Three-Phase Care Model",
+  "approachDesc": "We don't just treat the symptom. Dr. Andrews' structured approach ensures you get better — and stay better.",
+  "phases": [
+    {
+      "step": "01",
+      "title": "Relief Care",
+      "desc": "We focus on reducing your pain quickly so you can return to daily activities. Dr. Andrews will assess your condition and begin treatment right away."
+    },
+    {
+      "step": "02",
+      "title": "Corrective Care",
+      "desc": "Once pain is controlled, we address the underlying structural issues — disc problems, postural imbalances, and nerve interference."
+    },
+    {
+      "step": "03",
+      "title": "Wellness Care",
+      "desc": "Regular maintenance to keep your spine aligned, your nervous system healthy, and your quality of life high."
+    }
+  ],
+  "phaseLabel": "Phase",
+  "phasesNote": "At the end of each phase, Dr. Andrews will evaluate your progress and recommend the best options to continue your care and prevent relapse.",
+  "firstVisitLabel": "New Patient Info",
+  "firstVisitH2": "Your First Visit",
+  "firstVisitDesc": "New patients receive a free consultation. Here's what to expect when you come in to Village Chiropractic Clinic for the first time.",
+  "firstVisitSteps": [
+    {
+      "step": "1",
+      "title": "Free Consultation",
+      "desc": "New patients receive a complimentary consultation. Dr. Andrews will listen to your concerns and explain how chiropractic care can help."
+    },
+    {
+      "step": "2",
+      "title": "Patient Forms",
+      "desc": "Complete health history and condition intake forms to give Dr. Andrews a complete picture of your health."
+    },
+    {
+      "step": "3",
+      "title": "Examination",
+      "desc": "Full chiropractic exam including reflex and flexibility testing, plus neurological, orthopedic, postural, and physical assessments. Nothing is done without your consent."
+    },
+    {
+      "step": "4",
+      "title": "X-Ray Studies",
+      "desc": "If needed based on your condition, X-rays are taken to develop the most effective treatment plan."
+    },
+    {
+      "step": "5",
+      "title": "Report of Findings",
+      "desc": "Dr. Andrews provides a full report covering how he can help you, how often you'll need to come in, and what the cost will be."
+    },
+    {
+      "step": "6",
+      "title": "Treatment",
+      "desc": "Dr. Andrews will explain the most effective treatment options. You may agree to proceed or not — the choice is entirely yours."
+    },
+    {
+      "step": "7",
+      "title": "Wellness Program",
+      "desc": "If necessary, Dr. Andrews will suggest a home wellness program including stretching, exercises, and nutritional guidance to support your recovery."
+    }
+  ],
+  "pricingLabel": "Rates",
+  "pricingH2": "Transparent Pricing",
+  "pricingDesc": "We believe healthcare should be accessible. Contact us for current pricing and to discuss your insurance coverage.",
+  "pricingHeaders": ["Treatment", "Price"],
+  "pricingRows": [
+    { "treatment": "New Patient Consultation", "price": "FREE" },
+    { "treatment": "Initial Examination & X-Rays", "price": "Call for pricing" },
+    { "treatment": "Follow-up Chiropractic Adjustment", "price": "Call for pricing" }
+  ],
+  "pricingPackageNote": "We work with most major insurance providers. Call us to verify your benefits before your first visit.",
+  "paymentNote": "Payment accepted: cash, check, and most major credit cards. Insurance billing available for qualifying plans.",
+  "insuranceH3": "Insurance & Payment Options",
+  "insuranceP1": "Village Chiropractic Clinic works with most major insurance providers including Washington State Labor & Industries. We will verify your benefits before your first appointment.",
+  "insuranceP2": "Don't have insurance? Ask about our affordable cash-pay rates and new patient free consultation offer.",
+  "insuranceLinkPre": "",
+  "insuranceLink": "",
+  "ctaH2": "Ready to Start Feeling Better?",
+  "ctaP": "New patients receive a free consultation. Call us today or schedule online — Dr. Andrews is ready to help you get back to the life you love.",
+  "ctaBook": "Book Online",
+  "ctaCall": "Call (360) 629-6544",
+  "aboutLabel": "Meet Your Chiropractor",
+  "aboutH2": "Dr. Jared Andrews",
+  "aboutSubtitle": "Doctor of Chiropractic · Parker College Graduate · Washington State Licensed",
+  "aboutP1": "Dr. Jared Andrews earned his Doctor of Chiropractic from Parker College of Chiropractic in 2006 and his B.S. in Exercise Science from Brigham Young University in 2003. After practicing in Olympia, WA for 12 years, he brought his expertise to Stanwood — now serving the Stanwood/Camano Island community at Village Chiropractic Clinic.",
+  "aboutP2": "Dr. Andrews uses a whole-person approach — combining the best hands-on manual adjustment technique with natural supplements to accelerate your journey to good health. He is fully licensed by the Washington State Department of Health and credentialed by the National Board of Chiropractic Examiners.",
+  "aboutStats": [
+    { "value": "2006", "label": "Licensed Since" },
+    { "value": "Parker", "label": "College Graduate" },
+    { "value": "12+", "label": "Years Experience" },
+    { "value": "Free", "label": "New Patient Consult" }
+  ],
+  "testimonialsLabel": "Patient Reviews",
+  "testimonialsH2": "What Our Patients Say",
+  "reviewCount": "50+",
+  "faqLabel": "FAQ",
+  "faqH2": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "q": "Do new patients really get a free consultation?",
+      "a": "Yes. New patients receive a complimentary consultation with Dr. Andrews. He will listen to your concerns and explain how chiropractic care can help — no obligation."
+    },
+    {
+      "q": "Do you treat auto accident injuries?",
+      "a": "Absolutely. Village Chiropractic Clinic specializes in auto accident injuries. Dr. Andrews will assess your condition and provide the documentation and care you need for your recovery."
+    },
+    {
+      "q": "How many visits will I need?",
+      "a": "After your initial exam, Dr. Andrews will outline a personalized care plan. Most acute conditions respond well in 6–10 visits. Disc conditions may require more time."
+    },
+    {
+      "q": "Do you accept insurance?",
+      "a": "Yes, we work with most major insurance plans including Washington State L&I. Call us to verify your coverage before your first appointment."
+    }
+  ],
+  "bookingLabel": "Book Online",
+  "bookingH2": "Schedule Your Appointment",
+  "bookingDesc": "New patients receive a free consultation. Call us or stop by — Dr. Andrews is here to help you achieve your wellness goals.",
+  "bookingInfo": [
+    { "label": "Address", "value": "7207 265th ST NW Ste 102, Stanwood, WA 98292" },
+    { "label": "Phone", "value": "(360) 629-6544" },
+    { "label": "Hours", "value": "Mon/Wed/Fri 9–12 & 2–5:45 · Tue/Thu 2–5:45" }
+  ],
+  "heroRating": "5.0",
+  "heroReviewLabel": "50+ Happy Patients",
+  "heroReviews": [
+    {
+      "name": "FK",
+      "condition": "Severe headaches",
+      "text": "I was told nothing could be done except medication. After treatments with Dr. Andrews I have the feeling back in my feet and headaches are gone.",
+      "rating": 5
+    },
+    {
+      "name": "MGH",
+      "condition": "Herniated disc L4-5",
+      "text": "Large herniated disk at L4-5 with back aches, leg pain and hip pain. After treatment back pain diminished, hips straightened out, and leg pain is under control.",
+      "rating": 5
+    },
+    {
+      "name": "MAR",
+      "condition": "Numbness & tingling",
+      "text": "With an initial assessment and one adjustment the numbness and tingling completely disappeared — along with the fear that I might be having a stroke.",
+      "rating": 5
+    }
+  ],
+  "modalWhat": "What is it?",
+  "modalHow": "How does chiropractic care help?",
+  "modalCta": "Do you suffer from {title}?",
+  "modalBook": "Book an appointment",
+  "modalCall": "Call (360) 629-6544",
+  "showPricing": false
+}
