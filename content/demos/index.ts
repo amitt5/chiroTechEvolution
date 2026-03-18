@@ -86,6 +86,7 @@ export interface DemoContent {
   modalCta: string;
   modalBook: string;
   modalCall: string;
+  showPricing?: boolean;
 }
 
 export const demos: Record<string, DemoContent> = {

@@ -13,7 +13,6 @@ const treatment = [
 const info = [
   { label: 'New Patient Center', href: '#' },
   { label: 'Your First Visit', href: '#' },
-  { label: 'Meet Dr. Jahani', href: '#about' },
   { label: 'Patient Forms', href: '#' },
   { label: 'Health Resources', href: '#' },
   { label: 'Privacy Policy', href: '#' },

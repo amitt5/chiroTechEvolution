@@ -11,32 +11,90 @@
   },
   "doctorImage": "/dr-jahani.webp",
   "reviews": [
-    { "name": "Jennifer K.", "text": "After my car accident I didn't know where to turn. Body Solutions got me in the same day and started treatment immediately. Dr. Steve is amazing — I'm fully recovered now.", "rating": 5 },
-    { "name": "Carlos M.", "text": "The ARP Wave therapy was something I'd never heard of before but it made a huge difference for my chronic knee pain. Dr. Giovanni explained everything clearly and the results were impressive.", "rating": 5 },
-    { "name": "Sarah T.", "text": "Carolyn's massages are incredible. Combined with Dr. Steve's adjustments, I went from barely being able to walk to back at the gym in 6 weeks after my accident.", "rating": 5 },
-    { "name": "Mike R.", "text": "Best chiropractors in St. Charles, hands down. I've been going for 3 years for regular maintenance and my back has never felt better.", "rating": 5 },
-    { "name": "Linda B.", "text": "I was rear-ended and had severe whiplash. Body Solutions worked with my attorney and insurance company seamlessly while I focused on getting better.", "rating": 5 },
-    { "name": "Tom G.", "text": "Dr. Giovanni fixed my rotator cuff injury that had been bothering me for 2 years. The combination of ARP Wave and chiropractic adjustments was the solution I'd been looking for.", "rating": 5 },
-    { "name": "Rachel S.", "text": "Very professional, clean office, and genuinely caring staff. Dr. Steve takes the time to explain what he's doing and why. Highly recommend for anyone in the St. Charles area.", "rating": 5 },
-    { "name": "David W.", "text": "I was skeptical about ARP Wave but after trying it for my sciatic pain, I'm a convert. Combined with regular adjustments, I'm pain-free for the first time in years.", "rating": 5 }
+    {
+      "name": "Jennifer K.",
+      "text": "After my car accident I didn't know where to turn. Body Solutions got me in the same day and started treatment immediately. Dr. Steve is amazing — I'm fully recovered now.",
+      "rating": 5
+    },
+    {
+      "name": "Carlos M.",
+      "text": "The ARP Wave therapy was something I'd never heard of before but it made a huge difference for my chronic knee pain. Dr. Giovanni explained everything clearly and the results were impressive.",
+      "rating": 5
+    },
+    {
+      "name": "Sarah T.",
+      "text": "Carolyn's massages are incredible. Combined with Dr. Steve's adjustments, I went from barely being able to walk to back at the gym in 6 weeks after my accident.",
+      "rating": 5
+    },
+    {
+      "name": "Mike R.",
+      "text": "Best chiropractors in St. Charles, hands down. I've been going for 3 years for regular maintenance and my back has never felt better.",
+      "rating": 5
+    },
+    {
+      "name": "Linda B.",
+      "text": "I was rear-ended and had severe whiplash. Body Solutions worked with my attorney and insurance company seamlessly while I focused on getting better.",
+      "rating": 5
+    },
+    {
+      "name": "Tom G.",
+      "text": "Dr. Giovanni fixed my rotator cuff injury that had been bothering me for 2 years. The combination of ARP Wave and chiropractic adjustments was the solution I'd been looking for.",
+      "rating": 5
+    },
+    {
+      "name": "Rachel S.",
+      "text": "Very professional, clean office, and genuinely caring staff. Dr. Steve takes the time to explain what he's doing and why. Highly recommend for anyone in the St. Charles area.",
+      "rating": 5
+    },
+    {
+      "name": "David W.",
+      "text": "I was skeptical about ARP Wave but after trying it for my sciatic pain, I'm a convert. Combined with regular adjustments, I'm pain-free for the first time in years.",
+      "rating": 5
+    }
   ],
   "badge": "St. Charles, IL · Auto Accident Specialists",
-  "h1": ["Improving Your Life", "Through ", "Chiropractic.", "Auto Accident Specialists."],
+  "h1": [
+    "Improving Your Life",
+    "Through ",
+    "Chiropractic.",
+    "Auto Accident Specialists."
+  ],
   "heroSub": "St. Charles' trusted chiropractic team. Dr. Steve Tirabasso and Dr. Giovanni specialize in auto accident recovery, sports injuries, and ARP Wave Therapy — along with Carolyn's expert massage therapy.",
   "bookBtn": "Book an Appointment",
   "callBtn": "Call (630) 443-9933",
   "stats": [
-    { "value": "2", "label": "Experienced Doctors" },
-    { "value": "ARP Wave", "label": "Cutting-Edge Therapy" },
-    { "value": "Auto", "label": "Accident Specialists" }
+    {
+      "value": "2",
+      "label": "Experienced Doctors"
+    },
+    {
+      "value": "ARP Wave",
+      "label": "Cutting-Edge Therapy"
+    },
+    {
+      "value": "Auto",
+      "label": "Accident Specialists"
+    }
   ],
   "servicesLabel": "What We Offer",
   "servicesH2": "Advanced Chiropractic & Injury Recovery",
   "services": [
-    { "title": "Spinal Adjustment", "desc": "Expert chiropractic adjustments from two experienced doctors to relieve pain, restore mobility, and correct structural imbalances." },
-    { "title": "ARP Wave Therapy", "desc": "Advanced neurological therapy that identifies the origin of muscle dysfunction and injury, accelerating healing and reducing chronic pain." },
-    { "title": "Sports & Orthopedic Injuries", "desc": "Specialized care for athletes and active individuals dealing with sprains, strains, disc injuries, and overuse conditions." },
-    { "title": "Massage Therapy", "desc": "Carolyn provides professional therapeutic massage to complement chiropractic care and accelerate your recovery." }
+    {
+      "title": "Spinal Adjustment",
+      "desc": "Expert chiropractic adjustments from two experienced doctors to relieve pain, restore mobility, and correct structural imbalances."
+    },
+    {
+      "title": "ARP Wave Therapy",
+      "desc": "Advanced neurological therapy that identifies the origin of muscle dysfunction and injury, accelerating healing and reducing chronic pain."
+    },
+    {
+      "title": "Sports & Orthopedic Injuries",
+      "desc": "Specialized care for athletes and active individuals dealing with sprains, strains, disc injuries, and overuse conditions."
+    },
+    {
+      "title": "Massage Therapy",
+      "desc": "Carolyn provides professional therapeutic massage to complement chiropractic care and accelerate your recovery."
+    }
   ],
   "comboTitle": "Auto Accident Recovery Specialists",
   "comboDesc": "Two experienced doctors plus ARP Wave Therapy — a powerful combination for complex injury recovery after auto accidents.",
@@ -49,9 +107,21 @@
   "approachH2": "The Three-Phase Care Model",
   "approachDesc": "We don't just treat the symptom. Our experienced two-doctor team uses a structured approach to ensure complete recovery.",
   "phases": [
-    { "step": "01", "title": "Relief Care", "desc": "We focus on reducing pain and inflammation immediately — especially important after auto accidents. ARP Wave Therapy and spinal adjustments work together for fast relief." },
-    { "step": "02", "title": "Corrective Care", "desc": "Once pain is controlled, we address the underlying structural and neurological causes of your injury to prevent chronic problems from developing." },
-    { "step": "03", "title": "Wellness Care", "desc": "Ongoing maintenance care to keep your body strong, aligned, and resilient — preventing future injury and maintaining your quality of life." }
+    {
+      "step": "01",
+      "title": "Relief Care",
+      "desc": "We focus on reducing pain and inflammation immediately — especially important after auto accidents. ARP Wave Therapy and spinal adjustments work together for fast relief."
+    },
+    {
+      "step": "02",
+      "title": "Corrective Care",
+      "desc": "Once pain is controlled, we address the underlying structural and neurological causes of your injury to prevent chronic problems from developing."
+    },
+    {
+      "step": "03",
+      "title": "Wellness Care",
+      "desc": "Ongoing maintenance care to keep your body strong, aligned, and resilient — preventing future injury and maintaining your quality of life."
+    }
   ],
   "phaseLabel": "Phase",
   "phasesNote": "At the end of each phase, our doctors will evaluate your progress and recommend the best options to ensure complete recovery and prevent relapse.",
@@ -59,23 +129,66 @@
   "firstVisitH2": "Your First Visit",
   "firstVisitDesc": "Our experienced team will make your first visit thorough and comfortable. Here's what to expect at Body Solutions Chiropractic.",
   "firstVisitSteps": [
-    { "step": "1", "title": "Patient Forms", "desc": "Complete health history and condition intake forms upon arrival. For auto accident patients, please bring any accident reports or insurance information." },
-    { "step": "2", "title": "Consultation", "desc": "Discuss your health concerns, injury history, and goals with your doctor. We take the time to fully understand your condition before recommending any treatment." },
-    { "step": "3", "title": "Examination", "desc": "Comprehensive chiropractic exam including orthopedic, neurological, and postural assessments. For auto accident patients, we also document all injuries for insurance purposes. Nothing is done without your consent." },
-    { "step": "4", "title": "X-Ray Studies", "desc": "If needed based on your condition or injury, X-rays are taken to develop the most effective treatment plan and identify any serious spinal conditions." },
-    { "step": "5", "title": "Report of Findings", "desc": "Your doctor provides a full report covering: How can we help you? How often will you need to come in? What will the cost be? For accident cases, we explain the insurance process." },
-    { "step": "6", "title": "Treatment", "desc": "Your doctor will recommend the most effective treatment options for your specific condition — which may include chiropractic adjustments, ARP Wave Therapy, and massage therapy. You decide whether to proceed." },
-    { "step": "7", "title": "Wellness Program", "desc": "We will outline a personalized recovery program including home exercises, stretching, and lifestyle modifications to accelerate your healing between visits." }
+    {
+      "step": "1",
+      "title": "Patient Forms",
+      "desc": "Complete health history and condition intake forms upon arrival. For auto accident patients, please bring any accident reports or insurance information."
+    },
+    {
+      "step": "2",
+      "title": "Consultation",
+      "desc": "Discuss your health concerns, injury history, and goals with your doctor. We take the time to fully understand your condition before recommending any treatment."
+    },
+    {
+      "step": "3",
+      "title": "Examination",
+      "desc": "Comprehensive chiropractic exam including orthopedic, neurological, and postural assessments. For auto accident patients, we also document all injuries for insurance purposes. Nothing is done without your consent."
+    },
+    {
+      "step": "4",
+      "title": "X-Ray Studies",
+      "desc": "If needed based on your condition or injury, X-rays are taken to develop the most effective treatment plan and identify any serious spinal conditions."
+    },
+    {
+      "step": "5",
+      "title": "Report of Findings",
+      "desc": "Your doctor provides a full report covering: How can we help you? How often will you need to come in? What will the cost be? For accident cases, we explain the insurance process."
+    },
+    {
+      "step": "6",
+      "title": "Treatment",
+      "desc": "Your doctor will recommend the most effective treatment options for your specific condition — which may include chiropractic adjustments, ARP Wave Therapy, and massage therapy. You decide whether to proceed."
+    },
+    {
+      "step": "7",
+      "title": "Wellness Program",
+      "desc": "We will outline a personalized recovery program including home exercises, stretching, and lifestyle modifications to accelerate your healing between visits."
+    }
   ],
   "pricingLabel": "Rates",
   "pricingH2": "Transparent Pricing",
   "pricingDesc": "We believe in transparent pricing and work hard to minimize your out-of-pocket costs. Call us to discuss your insurance coverage and payment options.",
-  "pricingHeaders": ["Treatment", "Price"],
+  "pricingHeaders": [
+    "Treatment",
+    "Price"
+  ],
   "pricingRows": [
-    { "treatment": "Initial Consultation & Chiropractic Exam", "price": "Call for pricing" },
-    { "treatment": "Follow-up Chiropractic Adjustment", "price": "Call for pricing" },
-    { "treatment": "ARP Wave Therapy Session", "price": "Call for pricing" },
-    { "treatment": "Massage Therapy", "price": "Call for pricing" }
+    {
+      "treatment": "Initial Consultation & Chiropractic Exam",
+      "price": "Call for pricing"
+    },
+    {
+      "treatment": "Follow-up Chiropractic Adjustment",
+      "price": "Call for pricing"
+    },
+    {
+      "treatment": "ARP Wave Therapy Session",
+      "price": "Call for pricing"
+    },
+    {
+      "treatment": "Massage Therapy",
+      "price": "Call for pricing"
+    }
   ],
   "pricingPackageNote": "Auto accident patients may qualify for treatment at no upfront cost. We accept liens and work directly with insurance companies and personal injury attorneys.",
   "paymentNote": "Payment accepted: cash, check, and most major credit cards. Flexible payment plans available. Insurance billing for qualifying plans. Auto accident and workers' comp cases accepted.",
@@ -94,10 +207,22 @@
   "aboutP1": "Body Solutions Chiropractic is led by Dr. Steve Tirabasso and Dr. Giovanni, two experienced chiropractors specializing in auto accident recovery, sports injuries, and orthopedic conditions. Together with Carolyn, their licensed massage therapist, they provide comprehensive care for the whole family.",
   "aboutP2": "What sets Body Solutions apart is their expertise in ARP Wave Therapy — a cutting-edge neurological treatment that gets to the root cause of chronic pain and injury. If you've been in an auto accident, this is the team you want in your corner.",
   "aboutStats": [
-    { "value": "2", "label": "Experienced Doctors" },
-    { "value": "ARP Wave", "label": "Therapy Available" },
-    { "value": "Auto", "label": "Accident Experts" },
-    { "value": "Family", "label": "Friendly Care" }
+    {
+      "value": "2",
+      "label": "Experienced Doctors"
+    },
+    {
+      "value": "ARP Wave",
+      "label": "Therapy Available"
+    },
+    {
+      "value": "Auto",
+      "label": "Accident Experts"
+    },
+    {
+      "value": "Family",
+      "label": "Friendly Care"
+    }
   ],
   "testimonialsLabel": "Patient Reviews",
   "testimonialsH2": "What Our Patients Say",
@@ -105,29 +230,66 @@
   "faqLabel": "FAQ",
   "faqH2": "Frequently Asked Questions",
   "faqs": [
-    { "q": "What is ARP Wave Therapy?", "a": "ARP Wave (Accelerated Recovery Performance) is a neurological therapy device that uses bio-electrical current to find the origin of injury — often not where the pain is — and rapidly accelerate healing. It's effective for chronic pain, sports injuries, and post-surgical recovery." },
-    { "q": "I was in a car accident. Should I come see you?", "a": "Yes, absolutely. Seek care as soon as possible after an auto accident, even if you feel fine initially. Many injuries — especially whiplash — don't present symptoms until days later. We work with insurance companies and attorneys and may be able to treat you with no upfront cost." },
-    { "q": "Do you treat work injuries?", "a": "Yes. We accept workers' compensation cases and have experience treating workplace injuries including repetitive strain, lifting injuries, and slip-and-falls." },
-    { "q": "Can I see both Dr. Steve and Dr. Giovanni?", "a": "Yes. Both doctors are available on different days and work as a team to provide consistent care." }
+    {
+      "q": "What is ARP Wave Therapy?",
+      "a": "ARP Wave (Accelerated Recovery Performance) is a neurological therapy device that uses bio-electrical current to find the origin of injury — often not where the pain is — and rapidly accelerate healing. It's effective for chronic pain, sports injuries, and post-surgical recovery."
+    },
+    {
+      "q": "I was in a car accident. Should I come see you?",
+      "a": "Yes, absolutely. Seek care as soon as possible after an auto accident, even if you feel fine initially. Many injuries — especially whiplash — don't present symptoms until days later. We work with insurance companies and attorneys and may be able to treat you with no upfront cost."
+    },
+    {
+      "q": "Do you treat work injuries?",
+      "a": "Yes. We accept workers' compensation cases and have experience treating workplace injuries including repetitive strain, lifting injuries, and slip-and-falls."
+    },
+    {
+      "q": "Can I see both Dr. Steve and Dr. Giovanni?",
+      "a": "Yes. Both doctors are available on different days and work as a team to provide consistent care."
+    }
   ],
   "bookingLabel": "Book Online",
   "bookingH2": "Schedule Your Appointment",
   "bookingDesc": "Book your consultation with our experienced chiropractic team. Same-week appointments available.",
   "bookingInfo": [
-    { "label": "Address", "value": "3025 Oak St., Ste 7, St. Charles, IL 60174" },
-    { "label": "Phone", "value": "(630) 443-9933" },
-    { "label": "Hours", "value": "Mon/Wed/Fri 9–6 · Tue/Thu 9–5 · Sat 9–12" }
+    {
+      "label": "Address",
+      "value": "3025 Oak St., Ste 7, St. Charles, IL 60174"
+    },
+    {
+      "label": "Phone",
+      "value": "(630) 443-9933"
+    },
+    {
+      "label": "Hours",
+      "value": "Mon/Wed/Fri 9–6 · Tue/Thu 9–5 · Sat 9–12"
+    }
   ],
   "heroRating": "4.8",
   "heroReviewLabel": "120+ Google Reviews",
   "heroReviews": [
-    { "name": "Jennifer K.", "condition": "Auto accident whiplash", "text": "Body Solutions got me in the same day and started treatment immediately. I'm fully recovered now.", "rating": 5 },
-    { "name": "Carlos M.", "condition": "Chronic knee pain", "text": "The ARP Wave therapy made a huge difference. Dr. Giovanni explained everything clearly and the results were impressive.", "rating": 5 },
-    { "name": "Sarah T.", "condition": "Post-accident recovery", "text": "I went from barely able to walk to back at the gym in 6 weeks. Carolyn's massages + Dr. Steve's adjustments are the perfect combo.", "rating": 5 }
+    {
+      "name": "Jennifer K.",
+      "condition": "Auto accident whiplash",
+      "text": "Body Solutions got me in the same day and started treatment immediately. I'm fully recovered now.",
+      "rating": 5
+    },
+    {
+      "name": "Carlos M.",
+      "condition": "Chronic knee pain",
+      "text": "The ARP Wave therapy made a huge difference. Dr. Giovanni explained everything clearly and the results were impressive.",
+      "rating": 5
+    },
+    {
+      "name": "Sarah T.",
+      "condition": "Post-accident recovery",
+      "text": "I went from barely able to walk to back at the gym in 6 weeks. Carolyn's massages + Dr. Steve's adjustments are the perfect combo.",
+      "rating": 5
+    }
   ],
   "modalWhat": "What is it?",
   "modalHow": "How does chiropractic care help?",
   "modalCta": "Do you suffer from {title}?",
   "modalBook": "Book an appointment",
-  "modalCall": "Call (630) 443-9933"
+  "modalCall": "Call (630) 443-9933",
+  "showPricing": false
 }

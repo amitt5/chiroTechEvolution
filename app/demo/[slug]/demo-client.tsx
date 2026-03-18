@@ -478,7 +478,7 @@ export default function DemoClient({ content }: { content: DemoContent }) {
     <div className={`${plusJakarta.variable} font-[family-name:var(--font-jakarta)] text-[#191919] bg-white`}>
 
       {/* NAV */}
-      <Navigation meta={c.meta} />
+      <Navigation meta={c.meta} showPricing={c.showPricing !== false} />
 
       {/* HERO */}
       <section className="relative min-h-[92vh] flex items-center overflow-hidden">
@@ -641,7 +641,7 @@ export default function DemoClient({ content }: { content: DemoContent }) {
       </section>
 
       {/* PRICING */}
-      <section id="pricing" className="py-20 bg-[#F6F6F6]">
+      {c.showPricing !== false && <section id="pricing" className="py-20 bg-[#F6F6F6]">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-14">
             <span className="text-[#45321A] text-sm font-semibold uppercase tracking-widest">{c.pricingLabel}</span>
@@ -697,7 +697,7 @@ export default function DemoClient({ content }: { content: DemoContent }) {
             </div>
           </div>
         </div>
-      </section>
+      </section>}
 
       {/* CTA BANNER */}
       <section className="bg-[#45321A] py-20 text-center text-white">
@@ -713,10 +713,7 @@ export default function DemoClient({ content }: { content: DemoContent }) {
 
       {/* ABOUT */}
       <section id="about" className="py-20 bg-white">
-        <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-14 items-center">
-          <div className="relative aspect-square rounded-3xl overflow-hidden bg-[#F6F6F6] shadow-lg">
-            <Image src={c.doctorImage ?? '/dr-jahani.webp'} alt={`${c.meta.practiceName} — Doctor`} fill className="object-cover object-[center_55%]" />
-          </div>
+        <div className="max-w-3xl mx-auto px-6">
           <div>
             <span className="text-[#45321A] text-sm font-semibold uppercase tracking-widest">{c.aboutLabel}</span>
             <h2 className="text-3xl md:text-4xl font-extrabold mt-2 mb-2 text-[#191919]">{c.aboutH2}</h2>

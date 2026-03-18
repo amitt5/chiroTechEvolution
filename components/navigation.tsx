@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import Link from 'next/link';
 
 const mainNav = [
@@ -42,8 +41,8 @@ interface NavigationMeta {
   practiceTagline: string;
 }
 
-export default function Navigation({ meta }: { meta?: NavigationMeta }) {
-  const [menuOpen, setMenuOpen] = useState(false);
+export default function Navigation({ meta, showPricing = true }: { meta?: NavigationMeta; showPricing?: boolean }) {
+  const navLinks = showPricing ? mainNav : mainNav.filter(({ label }) => label !== 'Pricing');
 
   return (
     <nav className="sticky top-0 z-50 bg-white shadow-sm">
@@ -63,7 +62,7 @@ export default function Navigation({ meta }: { meta?: NavigationMeta }) {
 
         {/* Desktop nav links */}
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-[#403F3F]">
-          {mainNav.map(({ label, href }) => (
+          {navLinks.map(({ label, href }) => (
             <Link key={label} href={href} className="hover:text-[#45321A] transition-colors">
               {label}
             </Link>
@@ -74,78 +73,12 @@ export default function Navigation({ meta }: { meta?: NavigationMeta }) {
         <div className="flex items-center gap-3">
           <Link
             href="#booking"
-            className="hidden md:block bg-[#45321A] text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-[#5a4228] transition-colors"
+            className="bg-[#45321A] text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-[#5a4228] transition-colors"
           >
             Book Appointment
           </Link>
-
-          {/* Hamburger */}
-          <button
-            onClick={() => setMenuOpen(!menuOpen)}
-            className="p-2 rounded-lg hover:bg-[#F6F6F6] transition-colors"
-            aria-label="Toggle menu"
-          >
-            {menuOpen ? (
-              <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" stroke="currentColor" strokeWidth="2">
-                <path d="M6 18L18 6M6 6l12 12" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            ) : (
-              <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" stroke="currentColor" strokeWidth="2">
-                <path d="M4 6h16M4 12h16M4 18h16" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            )}
-          </button>
         </div>
       </div>
-
-      {/* Hamburger panel */}
-      {menuOpen && (
-        <div className="absolute top-full left-0 right-0 bg-white shadow-xl border-t border-gray-100 z-50">
-          <div className="max-w-6xl mx-auto px-6 py-6 grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {/* This Page */}
-            <div>
-              <div className="text-[10px] font-bold uppercase tracking-widest text-[#45321A] mb-3">This Page</div>
-              <ul className="space-y-2">
-                {mainNav.map(({ label, href }) => (
-                  <li key={label}>
-                    <Link href={href} onClick={() => setMenuOpen(false)} className="text-sm text-[#403F3F] hover:text-[#45321A] transition-colors">
-                      {label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Conditions */}
-            <div>
-              <div className="text-[10px] font-bold uppercase tracking-widest text-[#45321A] mb-3">Conditions</div>
-              <ul className="space-y-2">
-                {klachten.map(({ label, href }) => (
-                  <li key={label}>
-                    <Link href={href} onClick={() => setMenuOpen(false)} className="text-sm text-[#403F3F] hover:text-[#45321A] transition-colors">
-                      {label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* More */}
-            <div>
-              <div className="text-[10px] font-bold uppercase tracking-widest text-[#45321A] mb-3">More</div>
-              <ul className="space-y-2">
-                {moreLinks.map(({ label, href }) => (
-                  <li key={label}>
-                    <Link href={href} onClick={() => setMenuOpen(false)} className="text-sm text-[#403F3F] hover:text-[#45321A] transition-colors">
-                      {label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      )}
     </nav>
   );
 }

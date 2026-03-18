@@ -11,30 +11,80 @@
   },
   "doctorImage": "/dr-jahani.webp",
   "reviews": [
-    { "name": "Sandra M.", "text": "Dr. Foti has taken care of our whole family for over 10 years. My kids love coming in, and my chronic back pain is finally under control. Truly a family-friendly practice.", "rating": 5 },
-    { "name": "Kevin B.", "text": "I walked in with a pinched nerve that had me barely able to move. Dr. Foti worked on me right away and within a few visits I was back to normal. Can't recommend him enough.", "rating": 5 },
-    { "name": "Lisa R.", "text": "Colleen's massage therapy combined with Dr. Foti's adjustments is the perfect combination. I come in every month for maintenance and feel better than I have in years.", "rating": 5 },
-    { "name": "Tom W.", "text": "As a Palmer grad himself, Dr. Foti really knows his stuff. He explained exactly what was wrong and had me feeling better after the first treatment.", "rating": 5 },
-    { "name": "Angela H.", "text": "I brought my 8-year-old daughter in for growing pains and she was so comfortable throughout the whole visit. Dr. Foti is wonderful with children.", "rating": 5 },
-    { "name": "Mark S.", "text": "After a car accident left me with whiplash, Dr. Foti got me back on track. Professional, caring, and very knowledgeable. Best chiropractor in Niles.", "rating": 5 }
+    {
+      "name": "Sandra M.",
+      "text": "Dr. Foti has taken care of our whole family for over 10 years. My kids love coming in, and my chronic back pain is finally under control. Truly a family-friendly practice.",
+      "rating": 5
+    },
+    {
+      "name": "Kevin B.",
+      "text": "I walked in with a pinched nerve that had me barely able to move. Dr. Foti worked on me right away and within a few visits I was back to normal. Can't recommend him enough.",
+      "rating": 5
+    },
+    {
+      "name": "Lisa R.",
+      "text": "Colleen's massage therapy combined with Dr. Foti's adjustments is the perfect combination. I come in every month for maintenance and feel better than I have in years.",
+      "rating": 5
+    },
+    {
+      "name": "Tom W.",
+      "text": "As a Palmer grad himself, Dr. Foti really knows his stuff. He explained exactly what was wrong and had me feeling better after the first treatment.",
+      "rating": 5
+    },
+    {
+      "name": "Angela H.",
+      "text": "I brought my 8-year-old daughter in for growing pains and she was so comfortable throughout the whole visit. Dr. Foti is wonderful with children.",
+      "rating": 5
+    },
+    {
+      "name": "Mark S.",
+      "text": "After a car accident left me with whiplash, Dr. Foti got me back on track. Professional, caring, and very knowledgeable. Best chiropractor in Niles.",
+      "rating": 5
+    }
   ],
   "badge": "Niles, MI · Since 1998",
-  "h1": ["We Create", "Healthy ", "Families.", "Palmer Graduate."],
+  "h1": [
+    "We Create",
+    "Healthy ",
+    "Families.",
+    "Palmer Graduate."
+  ],
   "heroSub": "Serving the Niles community for 25+ years. Same-day appointments available. Walk-ins welcome. Dr. John Foti and Colleen Pratt LMT are here to help your whole family feel better.",
   "bookBtn": "Book an Appointment",
   "callBtn": "Call (269) 683-1131",
   "stats": [
-    { "value": "25+", "label": "Years Serving Niles" },
-    { "value": "4", "label": "Services Offered" },
-    { "value": "Walk-ins", "label": "Welcome" }
+    {
+      "value": "25+",
+      "label": "Years Serving Niles"
+    },
+    {
+      "value": "4",
+      "label": "Services Offered"
+    },
+    {
+      "value": "Walk-ins",
+      "label": "Welcome"
+    }
   ],
   "servicesLabel": "What We Offer",
   "servicesH2": "Comprehensive Chiropractic & Massage Care",
   "services": [
-    { "title": "Chiropractic Care", "desc": "Precision spinal adjustments from a Palmer College-trained chiropractor. Relief for back pain, neck pain, headaches, and more — for the whole family." },
-    { "title": "Massage Therapy", "desc": "Colleen Pratt, LMT, provides therapeutic massage to reduce muscle tension, improve circulation, and complement your chiropractic care." },
-    { "title": "Corrective Exercises", "desc": "Customized exercise programs to strengthen your body, correct imbalances, and prevent future injury." },
-    { "title": "Lifestyle Advice", "desc": "Practical guidance on posture, nutrition, and daily habits to help you maintain the results of your care." }
+    {
+      "title": "Chiropractic Care",
+      "desc": "Precision spinal adjustments from a Palmer College-trained chiropractor. Relief for back pain, neck pain, headaches, and more — for the whole family."
+    },
+    {
+      "title": "Massage Therapy",
+      "desc": "Colleen Pratt, LMT, provides therapeutic massage to reduce muscle tension, improve circulation, and complement your chiropractic care."
+    },
+    {
+      "title": "Corrective Exercises",
+      "desc": "Customized exercise programs to strengthen your body, correct imbalances, and prevent future injury."
+    },
+    {
+      "title": "Lifestyle Advice",
+      "desc": "Practical guidance on posture, nutrition, and daily habits to help you maintain the results of your care."
+    }
   ],
   "comboTitle": "Family Chiropractic Care",
   "comboDesc": "From infants to seniors, we provide gentle, effective chiropractic care for every member of your family.",
@@ -47,9 +97,21 @@
   "approachH2": "The Three-Phase Care Model",
   "approachDesc": "We don't just treat the symptom. Our structured approach ensures you get better — and stay better.",
   "phases": [
-    { "step": "01", "title": "Relief Care", "desc": "We focus on reducing your pain quickly so you can return to normal activities. Walk-ins welcome for acute pain." },
-    { "step": "02", "title": "Corrective Care", "desc": "Once pain is controlled, we address the underlying structural issues causing your problem." },
-    { "step": "03", "title": "Wellness Care", "desc": "Regular maintenance to keep your spine aligned, your body strong, and your family healthy." }
+    {
+      "step": "01",
+      "title": "Relief Care",
+      "desc": "We focus on reducing your pain quickly so you can return to normal activities. Walk-ins welcome for acute pain."
+    },
+    {
+      "step": "02",
+      "title": "Corrective Care",
+      "desc": "Once pain is controlled, we address the underlying structural issues causing your problem."
+    },
+    {
+      "step": "03",
+      "title": "Wellness Care",
+      "desc": "Regular maintenance to keep your spine aligned, your body strong, and your family healthy."
+    }
   ],
   "phaseLabel": "Phase",
   "phasesNote": "At the end of each phase, Dr. Foti will evaluate your progress and recommend the best options to continue your care and prevent relapse.",
@@ -57,23 +119,66 @@
   "firstVisitH2": "Your First Visit",
   "firstVisitDesc": "We want your first visit to be comfortable and productive. Here's what to expect when you come in to Advanced Chiropractic.",
   "firstVisitSteps": [
-    { "step": "1", "title": "Patient Forms", "desc": "Complete health history and condition intake forms upon arrival." },
-    { "step": "2", "title": "Consultation", "desc": "Discuss your health problems, concerns, and treatment goals with Dr. Foti. The first visit is about understanding your condition and what you want to achieve." },
-    { "step": "3", "title": "Examination", "desc": "Full chiropractic exam including reflex and flexibility testing, plus neurological, orthopedic, postural, and physical assessments. Nothing is done without your consent." },
-    { "step": "4", "title": "X-Ray Studies", "desc": "If needed based on your condition, X-rays are taken to develop the most effective treatment plan and check for serious spinal conditions." },
-    { "step": "5", "title": "Report of Findings", "desc": "Dr. Foti provides a full report covering: How can he help you? How often will you need to come in? What will the cost be?" },
-    { "step": "6", "title": "Treatment", "desc": "Dr. Foti will explain the most effective and suitable treatment options. You may agree to proceed with the treatment or not — the choice is entirely yours. A personalized treatment plan can only be made after the first treatment." },
-    { "step": "7", "title": "Wellness Program", "desc": "If necessary, Dr. Foti will suggest a home wellness program which may include stretching and strengthening exercises, as well as ice/heat instructions to support your recovery between visits." }
+    {
+      "step": "1",
+      "title": "Patient Forms",
+      "desc": "Complete health history and condition intake forms upon arrival."
+    },
+    {
+      "step": "2",
+      "title": "Consultation",
+      "desc": "Discuss your health problems, concerns, and treatment goals with Dr. Foti. The first visit is about understanding your condition and what you want to achieve."
+    },
+    {
+      "step": "3",
+      "title": "Examination",
+      "desc": "Full chiropractic exam including reflex and flexibility testing, plus neurological, orthopedic, postural, and physical assessments. Nothing is done without your consent."
+    },
+    {
+      "step": "4",
+      "title": "X-Ray Studies",
+      "desc": "If needed based on your condition, X-rays are taken to develop the most effective treatment plan and check for serious spinal conditions."
+    },
+    {
+      "step": "5",
+      "title": "Report of Findings",
+      "desc": "Dr. Foti provides a full report covering: How can he help you? How often will you need to come in? What will the cost be?"
+    },
+    {
+      "step": "6",
+      "title": "Treatment",
+      "desc": "Dr. Foti will explain the most effective and suitable treatment options. You may agree to proceed with the treatment or not — the choice is entirely yours. A personalized treatment plan can only be made after the first treatment."
+    },
+    {
+      "step": "7",
+      "title": "Wellness Program",
+      "desc": "If necessary, Dr. Foti will suggest a home wellness program which may include stretching and strengthening exercises, as well as ice/heat instructions to support your recovery between visits."
+    }
   ],
   "pricingLabel": "Rates",
   "pricingH2": "Transparent Pricing",
   "pricingDesc": "We believe healthcare should be accessible. Contact us for current pricing and to discuss your insurance coverage.",
-  "pricingHeaders": ["Treatment", "Price"],
+  "pricingHeaders": [
+    "Treatment",
+    "Price"
+  ],
   "pricingRows": [
-    { "treatment": "Initial Consultation & Examination", "price": "Call for pricing" },
-    { "treatment": "Follow-up Chiropractic Adjustment", "price": "Call for pricing" },
-    { "treatment": "Massage Therapy 30 min", "price": "Call for pricing" },
-    { "treatment": "Massage Therapy 60 min", "price": "Call for pricing" }
+    {
+      "treatment": "Initial Consultation & Examination",
+      "price": "Call for pricing"
+    },
+    {
+      "treatment": "Follow-up Chiropractic Adjustment",
+      "price": "Call for pricing"
+    },
+    {
+      "treatment": "Massage Therapy 30 min",
+      "price": "Call for pricing"
+    },
+    {
+      "treatment": "Massage Therapy 60 min",
+      "price": "Call for pricing"
+    }
   ],
   "pricingPackageNote": "We work with most major insurance providers. Call us to verify your benefits before your first visit.",
   "paymentNote": "Payment accepted: cash, check, and most major credit cards. Insurance billing available for qualifying plans.",
@@ -92,10 +197,22 @@
   "aboutP1": "Dr. John Foti earned his Doctor of Chiropractic degree from Palmer College of Chiropractic — the birthplace of chiropractic — and has been serving the Niles community since 1998. His dedication to family wellness has made Advanced Chiropractic a trusted name in Southwest Michigan.",
   "aboutP2": "Dr. Foti believes in whole-family chiropractic care, treating patients of all ages from newborns to seniors. His approach combines precise spinal adjustments with corrective exercises and lifestyle coaching, supported by Colleen Pratt LMT's therapeutic massage therapy.",
   "aboutStats": [
-    { "value": "1998", "label": "Serving Niles Since" },
-    { "value": "Palmer", "label": "College Graduate" },
-    { "value": "25+", "label": "Years Experience" },
-    { "value": "Family", "label": "Focused Care" }
+    {
+      "value": "1998",
+      "label": "Serving Niles Since"
+    },
+    {
+      "value": "Palmer",
+      "label": "College Graduate"
+    },
+    {
+      "value": "25+",
+      "label": "Years Experience"
+    },
+    {
+      "value": "Family",
+      "label": "Focused Care"
+    }
   ],
   "testimonialsLabel": "Patient Reviews",
   "testimonialsH2": "What Our Patients Say",
@@ -103,29 +220,66 @@
   "faqLabel": "FAQ",
   "faqH2": "Frequently Asked Questions",
   "faqs": [
-    { "q": "Do you accept walk-ins?", "a": "Yes, walk-ins are welcome for acute pain and most conditions. Same-day appointments are available — call ahead when possible." },
-    { "q": "Do you treat children?", "a": "Absolutely. Dr. Foti sees patients of all ages, including infants and children. Techniques are gentle and age-appropriate." },
-    { "q": "How many visits will I need?", "a": "After your first exam, Dr. Foti will outline a clear care plan. Most acute conditions respond well in 6–10 visits." },
-    { "q": "Do you accept insurance?", "a": "Yes, we work with most major insurance plans. Call us to verify your coverage before your first appointment." }
+    {
+      "q": "Do you accept walk-ins?",
+      "a": "Yes, walk-ins are welcome for acute pain and most conditions. Same-day appointments are available — call ahead when possible."
+    },
+    {
+      "q": "Do you treat children?",
+      "a": "Absolutely. Dr. Foti sees patients of all ages, including infants and children. Techniques are gentle and age-appropriate."
+    },
+    {
+      "q": "How many visits will I need?",
+      "a": "After your first exam, Dr. Foti will outline a clear care plan. Most acute conditions respond well in 6–10 visits."
+    },
+    {
+      "q": "Do you accept insurance?",
+      "a": "Yes, we work with most major insurance plans. Call us to verify your coverage before your first appointment."
+    }
   ],
   "bookingLabel": "Book Online",
   "bookingH2": "Schedule Your Appointment",
   "bookingDesc": "Call us or walk in — same-day appointments available for most conditions.",
   "bookingInfo": [
-    { "label": "Address", "value": "715 E. Main St., Niles, MI 49120" },
-    { "label": "Phone", "value": "(269) 683-1131" },
-    { "label": "Hours", "value": "Mon/Wed 9–12 & 2–6 · Fri 9–12:30 · Sat 10:30–11:30" }
+    {
+      "label": "Address",
+      "value": "715 E. Main St., Niles, MI 49120"
+    },
+    {
+      "label": "Phone",
+      "value": "(269) 683-1131"
+    },
+    {
+      "label": "Hours",
+      "value": "Mon/Wed 9–12 & 2–6 · Fri 9–12:30 · Sat 10:30–11:30"
+    }
   ],
   "heroRating": "4.9",
   "heroReviewLabel": "100+ Google Reviews",
   "heroReviews": [
-    { "name": "Sandra M.", "condition": "Chronic back pain", "text": "Dr. Foti has taken care of our whole family for over 10 years. My kids love coming in, and my chronic back pain is finally under control.", "rating": 5 },
-    { "name": "Kevin B.", "condition": "Pinched nerve", "text": "I walked in barely able to move. Dr. Foti worked on me right away and within a few visits I was back to normal.", "rating": 5 },
-    { "name": "Lisa R.", "condition": "Monthly maintenance", "text": "Colleen's massage therapy combined with Dr. Foti's adjustments is the perfect combination.", "rating": 5 }
+    {
+      "name": "Sandra M.",
+      "condition": "Chronic back pain",
+      "text": "Dr. Foti has taken care of our whole family for over 10 years. My kids love coming in, and my chronic back pain is finally under control.",
+      "rating": 5
+    },
+    {
+      "name": "Kevin B.",
+      "condition": "Pinched nerve",
+      "text": "I walked in barely able to move. Dr. Foti worked on me right away and within a few visits I was back to normal.",
+      "rating": 5
+    },
+    {
+      "name": "Lisa R.",
+      "condition": "Monthly maintenance",
+      "text": "Colleen's massage therapy combined with Dr. Foti's adjustments is the perfect combination.",
+      "rating": 5
+    }
   ],
   "modalWhat": "What is it?",
   "modalHow": "How does chiropractic care help?",
   "modalCta": "Do you suffer from {title}?",
   "modalBook": "Book an appointment",
-  "modalCall": "Call (269) 683-1131"
+  "modalCall": "Call (269) 683-1131",
+  "showPricing": false
 }
