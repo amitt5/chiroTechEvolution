@@ -717,20 +717,31 @@ export default function DemoClient({ content }: { content: DemoContent }) {
 
       {/* ABOUT */}
       <section id="about" className="py-20 bg-white">
-        <div className="max-w-3xl mx-auto px-6">
-          <div>
-            <span className="text-[var(--accent)] text-sm font-semibold uppercase tracking-widest">{c.aboutLabel}</span>
-            <h2 className="text-3xl md:text-4xl font-extrabold mt-2 mb-2 text-[#191919]">{c.aboutH2}</h2>
-            <p className="text-[var(--accent)] font-semibold mb-5">{c.aboutSubtitle}</p>
-            <p className="text-[#403F3F] leading-relaxed mb-4">{c.aboutP1}</p>
-            <p className="text-[#403F3F] leading-relaxed mb-6">{c.aboutP2}</p>
-            <div className="grid grid-cols-2 gap-5">
-              {c.aboutStats.map(({value: n, label: l}) => (
-                <div key={l} className="bg-[#F6F6F6] rounded-xl p-5">
-                  <div className="text-2xl font-extrabold text-[var(--accent)]">{n}</div>
-                  <div className="text-xs text-[#403F3F] font-medium mt-1">{l}</div>
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Doctor photo */}
+            {c.doctorImage && (
+              <div className="flex justify-center md:justify-start">
+                <div className="relative w-72 h-80 md:w-full md:h-[480px] rounded-2xl overflow-hidden shadow-lg">
+                  <Image src={c.doctorImage} alt={c.aboutH2} fill className="object-cover object-top" />
                 </div>
-              ))}
+              </div>
+            )}
+            {/* Text content */}
+            <div className={c.doctorImage ? '' : 'md:col-span-2 max-w-3xl mx-auto'}>
+              <span className="text-[var(--accent)] text-sm font-semibold uppercase tracking-widest">{c.aboutLabel}</span>
+              <h2 className="text-3xl md:text-4xl font-extrabold mt-2 mb-2 text-[#191919]">{c.aboutH2}</h2>
+              <p className="text-[var(--accent)] font-semibold mb-5">{c.aboutSubtitle}</p>
+              <p className="text-[#403F3F] leading-relaxed mb-4">{c.aboutP1}</p>
+              <p className="text-[#403F3F] leading-relaxed mb-6">{c.aboutP2}</p>
+              <div className="grid grid-cols-2 gap-5">
+                {c.aboutStats.map(({value: n, label: l}) => (
+                  <div key={l} className="bg-[#F6F6F6] rounded-xl p-5">
+                    <div className="text-2xl font-extrabold text-[var(--accent)]">{n}</div>
+                    <div className="text-xs text-[#403F3F] font-medium mt-1">{l}</div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
