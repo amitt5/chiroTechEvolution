@@ -9,7 +9,7 @@
     "email": null,
     "hours": "Mon/Wed/Fri 9–6 · Tue/Thu 9–5 · Sat 9–12"
   },
-  "doctorImage": "/dr-jahani.webp",
+  "doctorImage": "https://cdcssl.ibsrv.net/ibimg/smb/3000x2250_80/webmgr/0d/s/y/Virtual_Office_Tour/3%20-%20IMG_4333.jpg.webp",
   "reviews": [
     {
       "name": "Jennifer K.",
@@ -291,5 +291,13 @@
   "modalCta": "Do you suffer from {title}?",
   "modalBook": "Book an appointment",
   "modalCall": "Call (630) 443-9933",
-  "showPricing": false
+  "showPricing": false,
+  "sourceUrl": "https://www.bodysolutionschiro.com/",
+  "logo": "https://cdcssl.ibsrv.net/ibimg/smb/281x260_80/webmgr/0d/s/y/5acb585662abf_NewS15LogosMaster942691.png.webp",
+  "logoHeight": 60,
+  "accentColor": "#51AFEA",
+  "accentColorDark": "#325b79",
+  "officeImages": [
+    "https://cdcssl.ibsrv.net/ibimg/smb/2000x3000_80/webmgr/0d/s/y/massageclub.jpg.webp"
+  ]
 }

@@ -96,6 +96,8 @@ export interface DemoContent {
   logoHeight?: number;
   accentColor?: string;
   accentColorDark?: string;
+  sourceUrl?: string;
+  officeImages?: string[];
 }
 
 export const demos: Record<string, DemoContent> = {
