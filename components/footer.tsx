@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 const treatment = [
   { label: 'Conditions', href: '#' },
@@ -29,22 +30,28 @@ interface FooterMeta {
   hours: string;
 }
 
-export default function Footer({ meta }: { meta?: FooterMeta }) {
+export default function Footer({ meta, logo }: { meta?: FooterMeta; logo?: string }) {
   return (
     <footer className="bg-[#191919] text-white py-14 mt-20">
       <div className="max-w-6xl mx-auto px-6 grid sm:grid-cols-2 md:grid-cols-4 gap-10">
         {/* Brand */}
         <div>
           <div className="flex items-center gap-2.5 mb-4">
-            <div className="w-9 h-9 rounded-full bg-[#45321A] flex items-center justify-center">
-              <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5">
-                <path d="M12 2C9 2 7 5 7 8c0 2 1 3.5 2.5 4.5L9 20h6l-.5-7.5C16 11.5 17 10 17 8c0-3-2-6-5-6z" fill="white" />
-              </svg>
-            </div>
-            <div>
-              <div className="font-extrabold text-base leading-tight">{meta?.practiceName ?? 'Health4Life'}</div>
-              <div className="text-[10px] text-[#45321A] font-semibold uppercase tracking-widest leading-none">{meta?.practiceTagline ?? 'Chiropractic'}</div>
-            </div>
+            {logo ? (
+              <Image src={logo} alt={`${meta?.practiceName ?? 'Practice'} logo`} width={160} height={48} className="h-10 w-auto object-contain brightness-0 invert" />
+            ) : (
+              <>
+                <div className="w-9 h-9 rounded-full bg-[var(--accent,#45321A)] flex items-center justify-center">
+                  <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5">
+                    <path d="M12 2C9 2 7 5 7 8c0 2 1 3.5 2.5 4.5L9 20h6l-.5-7.5C16 11.5 17 10 17 8c0-3-2-6-5-6z" fill="white" />
+                  </svg>
+                </div>
+                <div>
+                  <div className="font-extrabold text-base leading-tight">{meta?.practiceName ?? 'Health4Life'}</div>
+                  <div className="text-[10px] text-[var(--accent,#45321A)] font-semibold uppercase tracking-widest leading-none">{meta?.practiceTagline ?? 'Chiropractic'}</div>
+                </div>
+              </>
+            )}
           </div>
           <p className="text-white/60 text-sm leading-relaxed max-w-xs">
             {meta ? `${meta.practiceName} ${meta.practiceTagline}. ${meta.address}.` : 'Chiropractic specialist in Amsterdam Zuid. Maasstraat 103, 1078 HH Amsterdam.'}

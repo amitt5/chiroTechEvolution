@@ -898,7 +898,7 @@ export default function DemoClient({ content }: { content: DemoContent }) {
         </div>
       )}
 
-      <Footer meta={c.meta} />
+      <Footer meta={c.meta} logo={c.logo} />
     </div>
   );
 }
