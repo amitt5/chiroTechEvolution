@@ -1,4 +1,10 @@
 {
+  "sourceUrl": "https://mitchellchiropracticsd.com/",
+  "logo": "https://cdcssl.ibsrv.net/ibimg/smb/330x65_80/webmgr/0n/i/p/LogoMitch.png.webp",
+  "logoHeight": 44,
+  "logoText": { "top": "Mitchell Chiropractic", "bottom": "& Acupuncture Center, P.C." },
+  "accentColor": "#65a4cd",
+  "accentColorDark": "#4a7fa8",
   "meta": {
     "practiceName": "Mitchell Chiropractic & Acupuncture Center",
     "practiceTagline": "Where experience counts — Locally owned and operated since 1980.",

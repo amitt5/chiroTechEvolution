@@ -52,11 +52,18 @@ export default function Navigation({ meta, showPricing = true, logo, logoHeight,
         <Link href="#" className="flex items-center gap-2.5 hover:opacity-80 transition-opacity flex-shrink-0">
           {logo ? (
             <>
-              <Image src={logo} alt={`${meta?.practiceName ?? 'Practice'} logo`} width={320} height={logoHeight ?? 40} className="w-auto object-contain" style={{ height: logoHeight ?? 40, filter: logoInvert ? 'invert(1)' : undefined }} />
+              {logoText ? (
+                /* Icon-only crop: show just the square left portion of the logo */
+                <div style={{ width: logoHeight ?? 40, height: logoHeight ?? 40, overflow: 'hidden', flexShrink: 0 }}>
+                  <Image src={logo} alt={`${meta?.practiceName ?? 'Practice'} logo`} width={320} height={logoHeight ?? 40} style={{ height: logoHeight ?? 40, width: 'auto', maxWidth: 'none', filter: logoInvert ? 'invert(1)' : undefined }} />
+                </div>
+              ) : (
+                <Image src={logo} alt={`${meta?.practiceName ?? 'Practice'} logo`} width={320} height={logoHeight ?? 40} className="w-auto object-contain" style={{ height: logoHeight ?? 40, filter: logoInvert ? 'invert(1)' : undefined }} />
+              )}
               {logoText && (
                 <div className="flex flex-col leading-tight">
-                  <span className="font-extrabold text-[15px] text-[#191919] tracking-tight">{logoText.top}</span>
-                  <span className="text-[11px] font-semibold text-[var(--accent,#45321A)] uppercase tracking-widest">{logoText.bottom}</span>
+                  <span className="font-extrabold text-[14px] text-[#191919] tracking-tight">{logoText.top}</span>
+                  {logoText.bottom && <span className="text-[11px] font-semibold text-[#403F3F] tracking-tight">{logoText.bottom}</span>}
                 </div>
               )}
             </>
