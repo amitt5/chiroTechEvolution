@@ -9,6 +9,8 @@
     "email": null,
     "hours": "Mon/Wed/Fri 9–12 & 2–5:45 · Tue/Thu 2–5:45"
   },
+  "accentColor": "#e87c2f",
+  "accentColorDark": "#c96a20",
   "doctorImage": "",
   "reviews": [
     {
