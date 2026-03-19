@@ -715,6 +715,41 @@ export default function DemoClient({ content }: { content: DemoContent }) {
         </div>
       </section>
 
+      {/* OFFICE GALLERY */}
+      {c.officeImages && c.officeImages.length > 0 && (
+        <section className="py-20 bg-white">
+          <div className="max-w-6xl mx-auto px-6">
+            <div className="text-center mb-12">
+              <span className="text-[var(--accent)] text-sm font-semibold uppercase tracking-widest">Our Facility</span>
+              <h2 className="text-3xl md:text-4xl font-extrabold mt-2 text-[#191919]">A Modern, Welcoming Office</h2>
+            </div>
+            {/* Featured exterior + stacked interiors */}
+            <div className="grid md:grid-cols-2 gap-4 mb-4">
+              <div className="relative h-72 md:h-auto md:min-h-[420px] rounded-2xl overflow-hidden">
+                <Image src={c.officeImages[0]} alt="Office exterior" fill className="object-cover" />
+              </div>
+              <div className="grid grid-rows-2 gap-4">
+                {c.officeImages.slice(1, 3).map((src, i) => (
+                  <div key={i} className="relative h-52 rounded-2xl overflow-hidden">
+                    <Image src={src} alt={`Office interior ${i + 1}`} fill className="object-cover" />
+                  </div>
+                ))}
+              </div>
+            </div>
+            {/* Bottom row — treatment rooms */}
+            {c.officeImages.length > 3 && (
+              <div className="grid grid-cols-2 gap-4">
+                {c.officeImages.slice(3).map((src, i) => (
+                  <div key={i} className="relative h-56 rounded-2xl overflow-hidden">
+                    <Image src={src} alt={`Treatment room ${i + 1}`} fill className="object-cover" />
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
       {/* ABOUT */}
       <section id="about" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6">

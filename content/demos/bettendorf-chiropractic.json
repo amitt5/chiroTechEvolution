@@ -1,4 +1,16 @@
 {
+  "sourceUrl": "https://www.bettendorfchiropractic.com/",
+  "logo": "https://www.bettendorfchiropractic.com/storage/app/media/logo-342.png",
+  "logoHeight": 60,
+  "accentColor": "#114cc2",
+  "accentColorDark": "#0d3a9e",
+  "officeImages": [
+    "https://cdcssl.ibsrv.net/ibimg/smb/2048x1365_80/webmgr/0e/g/4/officefacade.jpg.webp",
+    "https://cdcssl.ibsrv.net/ibimg/smb/1500x838_80/webmgr/0e/g/4/_03102020/reception-area-resized.jpg.webp",
+    "https://cdcssl.ibsrv.net/ibimg/smb/1500x890_80/webmgr/0e/g/4/_03102020/front-desk-2-resized.jpg.webp",
+    "https://cdcssl.ibsrv.net/ibimg/smb/3000x2250_80/webmgr/0e/g/4/Virtualofficetour/adjustment-room-1.jpg.webp",
+    "https://cdcssl.ibsrv.net/ibimg/smb/3000x2250_80/webmgr/0e/g/4/Virtualofficetour/adjustment-room-2.jpg.webp"
+  ],
   "meta": {
     "practiceName": "Bettendorf Chiropractic Wellness Center",
     "practiceTagline": "Caring Today for a Healthier Tomorrow!",

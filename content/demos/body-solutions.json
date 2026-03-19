@@ -293,8 +293,8 @@
   "modalCall": "Call (630) 443-9933",
   "showPricing": false,
   "sourceUrl": "https://www.bodysolutionschiro.com/",
-  "logo": "https://cdcssl.ibsrv.net/ibimg/smb/281x260_80/webmgr/0d/s/y/5acb585662abf_NewS15LogosMaster942691.png.webp",
-  "logoHeight": 60,
+  "logo": "/body-solutions-logo.png",
+  "logoHeight": 56,
   "accentColor": "#51AFEA",
   "accentColorDark": "#325b79",
   "officeImages": [
