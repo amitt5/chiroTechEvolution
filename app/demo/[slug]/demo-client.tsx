@@ -754,11 +754,11 @@ export default function DemoClient({ content }: { content: DemoContent }) {
       <section id="about" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            {/* Doctor photo */}
+            {/* Team / doctor photo */}
             {c.doctorImage && (
               <div className="flex justify-center md:justify-start">
-                <div className="relative w-72 h-80 md:w-full md:h-[480px] rounded-2xl overflow-hidden shadow-lg">
-                  <Image src={c.doctorImage} alt={c.aboutH2} fill className="object-cover object-top" />
+                <div className="relative w-72 h-72 md:w-full md:h-[440px] rounded-2xl overflow-hidden shadow-lg">
+                  <Image src={c.doctorImage} alt={c.aboutH2} fill className="object-cover object-center" />
                 </div>
               </div>
             )}
@@ -769,14 +769,27 @@ export default function DemoClient({ content }: { content: DemoContent }) {
               <p className="text-[var(--accent)] font-semibold mb-5">{c.aboutSubtitle}</p>
               <p className="text-[#403F3F] leading-relaxed mb-4">{c.aboutP1}</p>
               <p className="text-[#403F3F] leading-relaxed mb-6">{c.aboutP2}</p>
-              <div className="grid grid-cols-2 gap-5">
-                {c.aboutStats.map(({value: n, label: l}) => (
-                  <div key={l} className="bg-[#F6F6F6] rounded-xl p-5">
-                    <div className="text-2xl font-extrabold text-[var(--accent)]">{n}</div>
-                    <div className="text-xs text-[#403F3F] font-medium mt-1">{l}</div>
-                  </div>
-                ))}
-              </div>
+              {/* Doctor cards if multi-doctor practice */}
+              {c.aboutDoctors ? (
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                  {c.aboutDoctors.map((doc) => (
+                    <div key={doc.name} className="bg-[#F6F6F6] rounded-xl p-4">
+                      <div className="font-bold text-[#191919] text-sm leading-snug mb-1">{doc.name}</div>
+                      <div className="text-[var(--accent)] text-xs font-semibold mb-2 leading-snug">{doc.credentials}</div>
+                      <div className="text-[#403F3F] text-xs leading-relaxed">{doc.specialty}</div>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="grid grid-cols-2 gap-5">
+                  {c.aboutStats.map(({value: n, label: l}) => (
+                    <div key={l} className="bg-[#F6F6F6] rounded-xl p-5">
+                      <div className="text-2xl font-extrabold text-[var(--accent)]">{n}</div>
+                      <div className="text-xs text-[#403F3F] font-medium mt-1">{l}</div>
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           </div>
         </div>

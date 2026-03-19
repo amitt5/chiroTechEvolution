@@ -98,6 +98,7 @@ export interface DemoContent {
   accentColorDark?: string;
   sourceUrl?: string;
   officeImages?: string[];
+  aboutDoctors?: Array<{ name: string; credentials: string; specialty: string }>;
 }
 
 export const demos: Record<string, DemoContent> = {

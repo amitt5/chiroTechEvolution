@@ -21,7 +21,7 @@
     "email": null,
     "hours": "Mon–Thu 9–5:30 · Fri 9–4:30"
   },
-  "doctorImage": "",
+  "doctorImage": "https://cdcssl.ibsrv.net/ibimg/smb/400x400_80/webmgr/0e/g/4/61c9f2250bb47_13_20211227_1704.jpg.webp",
   "reviews": [
     {
       "name": "Angela B.",
@@ -189,16 +189,33 @@
   "ctaP": "Call us or schedule online. Our team of three doctors will assess your condition and get you started on a personalized path to wellness.",
   "ctaBook": "Book Online",
   "ctaCall": "Call (563) 359-5600",
-  "aboutLabel": "Meet Your Chiropractors",
-  "aboutH2": "Dr. Gina Lehman",
-  "aboutSubtitle": "DC, FASA · Palmer College Graduate · Founder",
-  "aboutP1": "Dr. Gina Lehman received her Doctor of Chiropractic degree from Palmer College of Chiropractic in 2009 and opened Bettendorf Chiropractic Wellness Center in 2010. She specializes in pediatric and adult care and also performs acupuncture for a wide range of conditions. She considers each patient an extension of her own family.",
-  "aboutP2": "Alongside Dr. Lehman, Dr. Keeli Farley (Palmer 2015, Webster Technique certified for prenatal care) and Dr. Lindsay Gall (Palmer 2008, 13+ years in practice) provide comprehensive care. Together, this team of three Palmer-trained doctors ensures every patient in the Quad Cities receives expert, compassionate chiropractic wellness care.",
+  "aboutLabel": "Meet the Team",
+  "aboutH2": "Three Doctors. One Roof. One Goal.",
+  "aboutSubtitle": "Palmer-Trained · Serving the Quad Cities Since 2010",
+  "aboutP1": "Bettendorf Chiropractic Wellness Center is home to three experienced, Palmer College-trained chiropractors — Dr. Gina Lehman, Dr. Keeli Farley, and Dr. Lindsay Gall. Together they bring decades of combined experience in chiropractic care, acupuncture, prenatal and pediatric care, sports injuries, and wellness.",
+  "aboutP2": "Whether you're coming in for the first time or you've been a patient for years, you'll receive the same thing every visit: expert care from a doctor who treats you like family. That's been the standard since day one.",
   "aboutStats": [
     { "value": "2010", "label": "Serving the Quad Cities" },
     { "value": "3", "label": "Palmer-Trained Doctors" },
     { "value": "9", "label": "Services Offered" },
     { "value": "Family", "label": "Focused Care" }
+  ],
+  "aboutDoctors": [
+    {
+      "name": "Dr. Gina Lehman",
+      "credentials": "DC, FASA · Palmer 2009 · Founder",
+      "specialty": "Chiropractic, Acupuncture, Pediatric & Adult Care"
+    },
+    {
+      "name": "Dr. Keeli Farley",
+      "credentials": "DC · Palmer 2015 · Webster Certified",
+      "specialty": "Prenatal Care, Athletic Training, Sports Injuries"
+    },
+    {
+      "name": "Dr. Lindsay Gall",
+      "credentials": "DC · Palmer 2008 · 15+ Yrs Experience",
+      "specialty": "Pediatrics, Prenatal, Activator Technique"
+    }
   ],
   "testimonialsLabel": "Patient Reviews",
   "testimonialsH2": "What Our Patients Say",
