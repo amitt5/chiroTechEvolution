@@ -42,7 +42,7 @@ interface NavigationMeta {
   practiceTagline: string;
 }
 
-export default function Navigation({ meta, showPricing = true, logo, logoHeight }: { meta?: NavigationMeta; showPricing?: boolean; logo?: string; logoHeight?: number }) {
+export default function Navigation({ meta, showPricing = true, logo, logoHeight, logoInvert }: { meta?: NavigationMeta; showPricing?: boolean; logo?: string; logoHeight?: number; logoInvert?: boolean }) {
   const navLinks = showPricing ? mainNav : mainNav.filter(({ label }) => label !== 'Pricing');
 
   return (
@@ -51,7 +51,7 @@ export default function Navigation({ meta, showPricing = true, logo, logoHeight 
         {/* Logo */}
         <Link href="#" className="flex items-center gap-2.5 hover:opacity-80 transition-opacity flex-shrink-0">
           {logo ? (
-            <Image src={logo} alt={`${meta?.practiceName ?? 'Practice'} logo`} width={320} height={logoHeight ?? 40} className="w-auto object-contain" style={{ height: logoHeight ?? 40 }} />
+            <Image src={logo} alt={`${meta?.practiceName ?? 'Practice'} logo`} width={320} height={logoHeight ?? 40} className="w-auto object-contain" style={{ height: logoHeight ?? 40, filter: logoInvert ? 'invert(1)' : undefined }} />
           ) : (
             <>
               <div className="w-9 h-9 rounded-full bg-[var(--accent,#45321A)] flex items-center justify-center">

@@ -1,4 +1,18 @@
 {
+  "sourceUrl": "https://www.saltlakecitychiro.com/",
+  "logo": "https://cdcssl.ibsrv.net/ibimg/smb/300x103_80/webmgr/08/l/t/635ac00361ca6_LogoSnowWhite.png.webp",
+  "logoHeight": 52,
+  "logoInvert": true,
+  "accentColor": "#6c7160",
+  "accentColorDark": "#555849",
+  "doctorImageWide": true,
+  "officeImages": [
+    "https://cdcssl.ibsrv.net/ibimg/smb/1024x768_80/webmgr/08/l/t/Virtual_Office_Tour/VirtualTour_05.png.webp",
+    "https://cdcssl.ibsrv.net/ibimg/smb/1024x768_80/webmgr/08/l/t/Virtual_Office_Tour/VirtualTour_04.png.webp",
+    "https://cdcssl.ibsrv.net/ibimg/smb/1024x768_80/webmgr/08/l/t/Virtual_Office_Tour/VirtualTour_10.png.webp",
+    "https://cdcssl.ibsrv.net/ibimg/smb/1024x768_80/webmgr/08/l/t/Virtual_Office_Tour/VirtualTour_01.png.webp",
+    "https://cdcssl.ibsrv.net/ibimg/smb/1024x768_80/webmgr/08/l/t/Virtual_Office_Tour/VirtualTour_02.png.webp"
+  ],
   "meta": {
     "practiceName": "Holladay Chiropractic",
     "practiceTagline": "Gentle, Safe, Effective Chiropractic Care",
@@ -9,7 +23,7 @@
     "email": null,
     "hours": "Mon/Wed/Thu 7:30–5:30 · Tue 2–6"
   },
-  "doctorImage": "",
+  "doctorImage": "https://cdcssl.ibsrv.net/ibimg/smb/767x250_80/webmgr/08/l/t/DSC_0125.jpg.webp",
   "reviews": [
     {
       "name": "Monique F.",

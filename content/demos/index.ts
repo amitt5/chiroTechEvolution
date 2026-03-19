@@ -94,11 +94,13 @@ export interface DemoContent {
   showPricing?: boolean;
   logo?: string;
   logoHeight?: number;
+  logoInvert?: boolean;
   accentColor?: string;
   accentColorDark?: string;
   sourceUrl?: string;
   officeImages?: string[];
   aboutDoctors?: Array<{ name: string; credentials: string; specialty: string }>;
+  doctorImageWide?: boolean;
 }
 
 export const demos: Record<string, DemoContent> = {
