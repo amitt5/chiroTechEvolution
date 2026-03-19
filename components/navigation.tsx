@@ -51,7 +51,7 @@ export default function Navigation({ meta, showPricing = true, logo, logoHeight 
         {/* Logo */}
         <Link href="#" className="flex items-center gap-2.5 hover:opacity-80 transition-opacity flex-shrink-0">
           {logo ? (
-            <Image src={logo} alt={`${meta?.practiceName ?? 'Practice'} logo`} width={160} height={logoHeight ?? 40} className="w-auto object-contain" style={{ height: logoHeight ?? 40 }} />
+            <Image src={logo} alt={`${meta?.practiceName ?? 'Practice'} logo`} width={320} height={logoHeight ?? 40} className="w-auto object-contain" style={{ height: logoHeight ?? 40 }} />
           ) : (
             <>
               <div className="w-9 h-9 rounded-full bg-[var(--accent,#45321A)] flex items-center justify-center">
