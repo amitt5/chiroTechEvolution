@@ -92,6 +92,9 @@ export interface DemoContent {
   modalBook: string;
   modalCall: string;
   showPricing?: boolean;
+  logo?: string;
+  accentColor?: string;
+  accentColorDark?: string;
 }
 
 export const demos: Record<string, DemoContent> = {

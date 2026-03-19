@@ -1,4 +1,7 @@
 {
+  "logo": "/demos/advanced-chiropractic-logo.webp",
+  "accentColor": "#1A97D4",
+  "accentColorDark": "#1478AC",
   "meta": {
     "practiceName": "Advanced Chiropractic",
     "practiceTagline": "Chiropractic & Massage",

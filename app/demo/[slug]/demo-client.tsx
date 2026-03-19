@@ -297,13 +297,13 @@ function BookingWidget() {
         <div>
           <h3 className="text-xl font-extrabold text-[#191919] mb-1">{w.confirmedTitle}</h3>
           <p className="text-[#403F3F] text-sm leading-relaxed">
-            <span className="font-semibold text-[#45321A]">{selectedDate}</span> at <span className="font-semibold text-[#45321A]">{selectedTime}</span>
+            <span className="font-semibold text-[var(--accent)]">{selectedDate}</span> at <span className="font-semibold text-[var(--accent)]">{selectedTime}</span>
           </p>
           <p className="text-[#403F3F] text-sm mt-3">{w.confirmedMsg(form.name, form.phone)}</p>
         </div>
         <button
           onClick={() => { setStep('calendar'); setSelectedDay(null); setSelectedTime(null); setForm({ name: '', email: '', phone: '', message: '' }); }}
-          className="text-[#45321A] text-sm font-semibold underline underline-offset-2"
+          className="text-[var(--accent)] text-sm font-semibold underline underline-offset-2"
         >
           {w.bookAnother}
         </button>
@@ -314,15 +314,15 @@ function BookingWidget() {
   return (
     <div className="bg-white rounded-2xl shadow-sm overflow-hidden">
       {/* Progress bar */}
-      <div className="flex border-b border-[#45321A]/10">
+      <div className="flex border-b border-[var(--accent)]/10">
         {(['calendar', 'time', 'details'] as BookingStep[]).map((s, i) => {
           const stepIdx = ['calendar', 'time', 'details'].indexOf(step);
           const done = i < stepIdx;
           const active = i === stepIdx;
           return (
-            <div key={s} className={`flex-1 py-3 text-center text-xs font-semibold transition-colors ${active ? 'bg-[#45321A] text-white' : done ? 'bg-[#45321A]/10 text-[#45321A]' : 'text-[#403F3F]/50'}`}>
+            <div key={s} className={`flex-1 py-3 text-center text-xs font-semibold transition-colors ${active ? 'bg-[var(--accent)] text-white' : done ? 'bg-[var(--accent)]/10 text-[var(--accent)]' : 'text-[#403F3F]/50'}`}>
               <span className="inline-flex items-center gap-1.5">
-                <span className={`w-4 h-4 rounded-full text-[10px] flex items-center justify-center font-bold ${active ? 'bg-white text-[#45321A]' : done ? 'bg-[#45321A] text-white' : 'bg-[#403F3F]/20 text-[#403F3F]'}`}>
+                <span className={`w-4 h-4 rounded-full text-[10px] flex items-center justify-center font-bold ${active ? 'bg-white text-[var(--accent)]' : done ? 'bg-[var(--accent)] text-white' : 'bg-[#403F3F]/20 text-[#403F3F]'}`}>
                   {done ? '✓' : i + 1}
                 </span>
                 {w.steps[i]}
@@ -337,11 +337,11 @@ function BookingWidget() {
         {step === 'calendar' && (
           <div>
             <div className="flex items-center justify-between mb-5">
-              <button onClick={prevMonth} className="w-8 h-8 rounded-full border border-[#45321A]/20 flex items-center justify-center text-[#45321A] hover:bg-[#45321A]/5 transition-colors">
+              <button onClick={prevMonth} className="w-8 h-8 rounded-full border border-[var(--accent)]/20 flex items-center justify-center text-[var(--accent)] hover:bg-[var(--accent)]/5 transition-colors">
                 <svg viewBox="0 0 20 20" className="w-4 h-4 fill-current"><path d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"/></svg>
               </button>
               <span className="font-bold text-[#191919]">{MONTH_NAMES[viewMonth]} {viewYear}</span>
-              <button onClick={nextMonth} className="w-8 h-8 rounded-full border border-[#45321A]/20 flex items-center justify-center text-[#45321A] hover:bg-[#45321A]/5 transition-colors">
+              <button onClick={nextMonth} className="w-8 h-8 rounded-full border border-[var(--accent)]/20 flex items-center justify-center text-[var(--accent)] hover:bg-[var(--accent)]/5 transition-colors">
                 <svg viewBox="0 0 20 20" className="w-4 h-4 fill-current"><path d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"/></svg>
               </button>
             </div>
@@ -363,8 +363,8 @@ function BookingWidget() {
                     onClick={() => setSelectedDay(day)}
                     className={`aspect-square rounded-lg text-sm font-medium transition-colors
                       ${disabled ? 'opacity-30 cursor-not-allowed pointer-events-none' : ''}
-                      ${selected ? 'bg-[#45321A] text-white font-bold' : ''}
-                      ${!disabled && !selected ? 'hover:bg-[#45321A]/10 text-[#191919]' : ''}
+                      ${selected ? 'bg-[var(--accent)] text-white font-bold' : ''}
+                      ${!disabled && !selected ? 'hover:bg-[var(--accent)]/10 text-[#191919]' : ''}
                     `}
                   >
                     {day}
@@ -376,7 +376,7 @@ function BookingWidget() {
             <button
               disabled={!selectedDay}
               onClick={() => setStep('time')}
-              className="mt-5 w-full bg-[#45321A] text-white font-bold py-3 rounded-full disabled:opacity-30 disabled:cursor-not-allowed hover:bg-[#5a4228] transition-colors"
+              className="mt-5 w-full bg-[var(--accent)] text-white font-bold py-3 rounded-full disabled:opacity-30 disabled:cursor-not-allowed hover:bg-[var(--accent-dark)] transition-colors"
             >
               {selectedDay ? w.continueDate(`${MONTH_NAMES[viewMonth]} ${selectedDay}`) : w.selectDate}
             </button>
@@ -386,7 +386,7 @@ function BookingWidget() {
         {/* STEP 2: Time slots */}
         {step === 'time' && (
           <div>
-            <button onClick={() => setStep('calendar')} className="flex items-center gap-1.5 text-sm text-[#45321A] font-semibold mb-5 hover:opacity-75 transition-opacity">
+            <button onClick={() => setStep('calendar')} className="flex items-center gap-1.5 text-sm text-[var(--accent)] font-semibold mb-5 hover:opacity-75 transition-opacity">
               <svg viewBox="0 0 20 20" className="w-4 h-4 fill-current"><path d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"/></svg>
               {selectedDate}
             </button>
@@ -398,8 +398,8 @@ function BookingWidget() {
                   onClick={() => setSelectedTime(slot)}
                   className={`py-2.5 rounded-lg text-sm font-semibold border transition-colors
                     ${selectedTime === slot
-                      ? 'bg-[#45321A] text-white border-[#45321A]'
-                      : 'border-[#45321A]/20 text-[#403F3F] hover:border-[#45321A] hover:text-[#45321A]'
+                      ? 'bg-[var(--accent)] text-white border-[var(--accent)]'
+                      : 'border-[var(--accent)]/20 text-[#403F3F] hover:border-[var(--accent)] hover:text-[var(--accent)]'
                     }`}
                 >
                   {slot}
@@ -409,7 +409,7 @@ function BookingWidget() {
             <button
               disabled={!selectedTime}
               onClick={() => setStep('details')}
-              className="mt-6 w-full bg-[#45321A] text-white font-bold py-3 rounded-full disabled:opacity-30 disabled:cursor-not-allowed hover:bg-[#5a4228] transition-colors"
+              className="mt-6 w-full bg-[var(--accent)] text-white font-bold py-3 rounded-full disabled:opacity-30 disabled:cursor-not-allowed hover:bg-[var(--accent-dark)] transition-colors"
             >
               {selectedTime ? w.continueTime(selectedTime) : w.selectTime}
             </button>
@@ -419,7 +419,7 @@ function BookingWidget() {
         {/* STEP 3: Contact details */}
         {step === 'details' && (
           <form onSubmit={handleSubmit}>
-            <button type="button" onClick={() => setStep('time')} className="flex items-center gap-1.5 text-sm text-[#45321A] font-semibold mb-5 hover:opacity-75 transition-opacity">
+            <button type="button" onClick={() => setStep('time')} className="flex items-center gap-1.5 text-sm text-[var(--accent)] font-semibold mb-5 hover:opacity-75 transition-opacity">
               <svg viewBox="0 0 20 20" className="w-4 h-4 fill-current"><path d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"/></svg>
               {selectedDate} · {selectedTime}
             </button>
@@ -428,25 +428,25 @@ function BookingWidget() {
               <div>
                 <label className="text-xs font-semibold text-[#403F3F] uppercase tracking-wide block mb-1.5">{w.nameLabel}</label>
                 <input required type="text" placeholder={w.namePlaceholder} value={form.name} onChange={e => setForm({ ...form, name: e.target.value })}
-                  className="w-full bg-[#F6F6F6] border border-[#45321A]/15 rounded-lg px-4 py-3 text-sm text-[#191919] placeholder-[#403F3F]/50 focus:outline-none focus:border-[#45321A] transition-colors" />
+                  className="w-full bg-[#F6F6F6] border border-[var(--accent)]/15 rounded-lg px-4 py-3 text-sm text-[#191919] placeholder-[#403F3F]/50 focus:outline-none focus:border-[var(--accent)] transition-colors" />
               </div>
               <div>
                 <label className="text-xs font-semibold text-[#403F3F] uppercase tracking-wide block mb-1.5">{w.emailLabel}</label>
                 <input required type="email" placeholder={w.emailPlaceholder} value={form.email} onChange={e => setForm({ ...form, email: e.target.value })}
-                  className="w-full bg-[#F6F6F6] border border-[#45321A]/15 rounded-lg px-4 py-3 text-sm text-[#191919] placeholder-[#403F3F]/50 focus:outline-none focus:border-[#45321A] transition-colors" />
+                  className="w-full bg-[#F6F6F6] border border-[var(--accent)]/15 rounded-lg px-4 py-3 text-sm text-[#191919] placeholder-[#403F3F]/50 focus:outline-none focus:border-[var(--accent)] transition-colors" />
               </div>
               <div>
                 <label className="text-xs font-semibold text-[#403F3F] uppercase tracking-wide block mb-1.5">{w.phoneLabel}</label>
                 <input required type="tel" placeholder={w.phonePlaceholder} value={form.phone} onChange={e => setForm({ ...form, phone: e.target.value })}
-                  className="w-full bg-[#F6F6F6] border border-[#45321A]/15 rounded-lg px-4 py-3 text-sm text-[#191919] placeholder-[#403F3F]/50 focus:outline-none focus:border-[#45321A] transition-colors" />
+                  className="w-full bg-[#F6F6F6] border border-[var(--accent)]/15 rounded-lg px-4 py-3 text-sm text-[#191919] placeholder-[#403F3F]/50 focus:outline-none focus:border-[var(--accent)] transition-colors" />
               </div>
               <div>
                 <label className="text-xs font-semibold text-[#403F3F] uppercase tracking-wide block mb-1.5">{w.messageLabel}</label>
                 <textarea rows={3} placeholder={w.messagePlaceholder} value={form.message} onChange={e => setForm({ ...form, message: e.target.value })}
-                  className="w-full bg-[#F6F6F6] border border-[#45321A]/15 rounded-lg px-4 py-3 text-sm text-[#191919] placeholder-[#403F3F]/50 focus:outline-none focus:border-[#45321A] transition-colors resize-none" />
+                  className="w-full bg-[#F6F6F6] border border-[var(--accent)]/15 rounded-lg px-4 py-3 text-sm text-[#191919] placeholder-[#403F3F]/50 focus:outline-none focus:border-[var(--accent)] transition-colors resize-none" />
               </div>
             </div>
-            <button type="submit" disabled={isSubmitting} className="mt-6 w-full bg-[#45321A] text-white font-bold py-3 rounded-full hover:bg-[#5a4228] transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+            <button type="submit" disabled={isSubmitting} className="mt-6 w-full bg-[var(--accent)] text-white font-bold py-3 rounded-full hover:bg-[var(--accent-dark)] transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
               {isSubmitting ? '...' : w.confirm}
             </button>
             {submitError && <p className="mt-3 text-sm text-red-600 text-center">{submitError}</p>}
@@ -464,21 +464,25 @@ export default function DemoClient({ content }: { content: DemoContent }) {
   const [selectedCondition, setSelectedCondition] = useState<string | null>(null);
   const c = content;
 
+  const accentStyle = { color: 'var(--accent)' };
   const svgIcons = [
-    <svg key="neuro" viewBox="0 0 48 48" fill="none" className="w-10 h-10"><circle cx="24" cy="24" r="22" stroke="#45321A" strokeWidth="2" /><path d="M16 24c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8" stroke="#45321A" strokeWidth="2" strokeLinecap="round" /><circle cx="24" cy="24" r="3" fill="#45321A" /></svg>,
-    <svg key="acu" viewBox="0 0 48 48" fill="none" className="w-10 h-10"><path d="M14 10c2 6 4 10 4 18M20 10c1 8 2 12 2 18M26 28c0-6 1-10 2-18M32 28c0-8 2-12 4-18" stroke="#45321A" strokeWidth="2" strokeLinecap="round" /><rect x="10" y="26" width="28" height="4" rx="2" fill="#45321A" fillOpacity=".15" stroke="#45321A" strokeWidth="1.5" /></svg>,
-    <svg key="massage" viewBox="0 0 48 48" fill="none" className="w-10 h-10"><path d="M12 32c4-6 8-10 12-10s8 4 12 10" stroke="#45321A" strokeWidth="2" strokeLinecap="round" /><ellipse cx="24" cy="18" rx="8" ry="6" stroke="#45321A" strokeWidth="2" /><circle cx="24" cy="18" r="2.5" fill="#45321A" /></svg>,
-    <svg key="ortho" viewBox="0 0 48 48" fill="none" className="w-10 h-10"><path d="M10 32h28M14 32v-6a10 10 0 0 1 20 0v6" stroke="#45321A" strokeWidth="2" strokeLinecap="round" /><path d="M18 26c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="#45321A" strokeWidth="1.5" strokeLinecap="round" strokeDasharray="2 2" /></svg>,
+    <svg key="neuro" viewBox="0 0 48 48" fill="none" className="w-10 h-10" style={accentStyle}><circle cx="24" cy="24" r="22" stroke="currentColor" strokeWidth="2" /><path d="M16 24c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" /><circle cx="24" cy="24" r="3" fill="currentColor" /></svg>,
+    <svg key="acu" viewBox="0 0 48 48" fill="none" className="w-10 h-10" style={accentStyle}><path d="M14 10c2 6 4 10 4 18M20 10c1 8 2 12 2 18M26 28c0-6 1-10 2-18M32 28c0-8 2-12 4-18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" /><rect x="10" y="26" width="28" height="4" rx="2" fill="currentColor" fillOpacity=".15" stroke="currentColor" strokeWidth="1.5" /></svg>,
+    <svg key="massage" viewBox="0 0 48 48" fill="none" className="w-10 h-10" style={accentStyle}><path d="M12 32c4-6 8-10 12-10s8 4 12 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" /><ellipse cx="24" cy="18" rx="8" ry="6" stroke="currentColor" strokeWidth="2" /><circle cx="24" cy="18" r="2.5" fill="currentColor" /></svg>,
+    <svg key="ortho" viewBox="0 0 48 48" fill="none" className="w-10 h-10" style={accentStyle}><path d="M10 32h28M14 32v-6a10 10 0 0 1 20 0v6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" /><path d="M18 26c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeDasharray="2 2" /></svg>,
   ];
 
   const condDetail = selectedCondition ? conditionDetails[selectedCondition] : null;
   const condContent = condDetail ? condDetail.en : null;
 
   return (
-    <div className={`${plusJakarta.variable} font-[family-name:var(--font-jakarta)] text-[#191919] bg-white`}>
+    <div
+      className={`${plusJakarta.variable} font-[family-name:var(--font-jakarta)] text-[#191919] bg-white`}
+      style={{ '--accent': c.accentColor ?? '#45321A', '--accent-dark': c.accentColorDark ?? '#5a4228' } as React.CSSProperties}
+    >
 
       {/* NAV */}
-      <Navigation meta={c.meta} showPricing={c.showPricing !== false} />
+      <Navigation meta={c.meta} showPricing={c.showPricing !== false} logo={c.logo} />
 
       {/* HERO */}
       <section className="relative min-h-[92vh] flex items-center overflow-hidden">
@@ -499,7 +503,7 @@ export default function DemoClient({ content }: { content: DemoContent }) {
             </h1>
             <p className="text-white/80 text-lg leading-relaxed mb-8">{c.heroSub}</p>
             <div className="flex flex-wrap gap-4">
-              <a href="#booking" className="bg-[#45321A] text-white font-semibold px-7 py-3.5 rounded-full hover:bg-[#5a4228] transition-colors">{c.bookBtn}</a>
+              <a href="#booking" className="bg-[var(--accent)] text-white font-semibold px-7 py-3.5 rounded-full hover:bg-[var(--accent-dark)] transition-colors">{c.bookBtn}</a>
               <a href={c.meta.phoneHref} className="border-2 border-white text-white font-semibold px-7 py-3.5 rounded-full hover:bg-white/10 transition-colors">{c.callBtn}</a>
             </div>
 
@@ -542,7 +546,7 @@ export default function DemoClient({ content }: { content: DemoContent }) {
       <section id="services" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-14">
-            <span className="text-[#45321A] text-sm font-semibold uppercase tracking-widest">{c.servicesLabel}</span>
+            <span className="text-[var(--accent)] text-sm font-semibold uppercase tracking-widest">{c.servicesLabel}</span>
             <h2 className="text-3xl md:text-4xl font-extrabold mt-2 text-[#191919]">{c.servicesH2}</h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -554,8 +558,8 @@ export default function DemoClient({ content }: { content: DemoContent }) {
               </div>
             ))}
           </div>
-          <div className="mt-6 bg-[#45321A]/5 border border-[#45321A]/15 rounded-2xl px-8 py-6 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-            <div className="w-10 h-10 rounded-full bg-[#45321A] flex-shrink-0 flex items-center justify-center">
+          <div className="mt-6 bg-[var(--accent)]/5 border border-[var(--accent)]/15 rounded-2xl px-8 py-6 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <div className="w-10 h-10 rounded-full bg-[var(--accent)] flex-shrink-0 flex items-center justify-center">
               <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z" fill="white" /></svg>
             </div>
             <div>
@@ -570,27 +574,27 @@ export default function DemoClient({ content }: { content: DemoContent }) {
       <section className="py-20 bg-[#F6F6F6]">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-14">
-            <span className="text-[#45321A] text-sm font-semibold uppercase tracking-widest">{c.conditionsLabel}</span>
+            <span className="text-[var(--accent)] text-sm font-semibold uppercase tracking-widest">{c.conditionsLabel}</span>
             <h2 className="text-3xl md:text-4xl font-extrabold mt-2 text-[#191919]">{c.conditionsH2}</h2>
             <p className="text-[#403F3F] mt-3 max-w-xl mx-auto">{c.conditionsDesc}</p>
-            <p className="text-[#45321A] text-sm font-semibold mt-3">{c.conditionsClick}</p>
+            <p className="text-[var(--accent)] text-sm font-semibold mt-3">{c.conditionsClick}</p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
             {specialties.map((s) => (
               <button
                 key={s.slug}
                 onClick={() => setSelectedCondition(s.slug)}
-                className="bg-white border border-[#45321A]/10 rounded-xl px-5 py-4 flex items-center gap-3 hover:border-[#45321A]/40 hover:shadow-sm hover:scale-[1.02] transition-all text-left cursor-pointer"
+                className="bg-white border border-[var(--accent)]/10 rounded-xl px-5 py-4 flex items-center gap-3 hover:border-[var(--accent)]/40 hover:shadow-sm hover:scale-[1.02] transition-all text-left cursor-pointer"
               >
-                <div className="w-2 h-2 rounded-full bg-[#45321A] flex-shrink-0" />
+                <div className="w-2 h-2 rounded-full bg-[var(--accent)] flex-shrink-0" />
                 <span className="text-sm font-medium text-[#403F3F]">{s.en}</span>
-                <svg viewBox="0 0 20 20" className="w-4 h-4 flex-shrink-0 ml-auto fill-[#45321A]">
+                <svg viewBox="0 0 20 20" className="w-4 h-4 flex-shrink-0 ml-auto fill-[var(--accent)]">
                   <path d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"/>
                 </svg>
               </button>
             ))}
           </div>
-          <div className="mt-10 bg-white border-l-4 border-[#45321A] rounded-xl px-6 py-5 max-w-3xl mx-auto">
+          <div className="mt-10 bg-white border-l-4 border-[var(--accent)] rounded-xl px-6 py-5 max-w-3xl mx-auto">
             <p className="text-[#403F3F] text-sm leading-relaxed">{c.conditionsNote}</p>
           </div>
         </div>
@@ -600,15 +604,15 @@ export default function DemoClient({ content }: { content: DemoContent }) {
       <section id="approach" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-14">
-            <span className="text-[#45321A] text-sm font-semibold uppercase tracking-widest">{c.approachLabel}</span>
+            <span className="text-[var(--accent)] text-sm font-semibold uppercase tracking-widest">{c.approachLabel}</span>
             <h2 className="text-3xl md:text-4xl font-extrabold mt-2 text-[#191919]">{c.approachH2}</h2>
             <p className="text-[#403F3F] mt-3 max-w-lg mx-auto">{c.approachDesc}</p>
           </div>
           <div className="grid md:grid-cols-3 gap-6">
             {c.phases.map((phase) => (
               <div key={phase.step} className="relative bg-[#F6F6F6] rounded-2xl p-8">
-                <div className="text-6xl font-extrabold text-[#45321A]/10 absolute top-6 right-8 leading-none select-none">{phase.step}</div>
-                <div className="text-xs font-bold text-[#45321A] uppercase tracking-widest mb-3">{c.phaseLabel} {phase.step}</div>
+                <div className="text-6xl font-extrabold text-[var(--accent)]/10 absolute top-6 right-8 leading-none select-none">{phase.step}</div>
+                <div className="text-xs font-bold text-[var(--accent)] uppercase tracking-widest mb-3">{c.phaseLabel} {phase.step}</div>
                 <h3 className="text-xl font-extrabold text-[#191919] mb-3">{phase.title}</h3>
                 <p className="text-[#403F3F] text-sm leading-relaxed">{phase.desc}</p>
               </div>
@@ -622,15 +626,15 @@ export default function DemoClient({ content }: { content: DemoContent }) {
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-14">
-            <span className="text-[#45321A] text-sm font-semibold uppercase tracking-widest">{c.firstVisitLabel}</span>
+            <span className="text-[var(--accent)] text-sm font-semibold uppercase tracking-widest">{c.firstVisitLabel}</span>
             <h2 className="text-3xl md:text-4xl font-extrabold mt-2 text-[#191919]">{c.firstVisitH2}</h2>
             <p className="text-[#403F3F] mt-3 max-w-2xl mx-auto">{c.firstVisitDesc}</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {c.firstVisitSteps.map((item) => (
               <div key={item.step} className="bg-[#F6F6F6] rounded-2xl p-6 relative overflow-hidden">
-                <div className="absolute top-4 right-4 w-12 h-12 rounded-full bg-[#45321A]/5 flex items-center justify-center">
-                  <span className="text-xl font-extrabold text-[#45321A]">{item.step}</span>
+                <div className="absolute top-4 right-4 w-12 h-12 rounded-full bg-[var(--accent)]/5 flex items-center justify-center">
+                  <span className="text-xl font-extrabold text-[var(--accent)]">{item.step}</span>
                 </div>
                 <h3 className="font-bold text-[#191919] text-lg mb-2 pr-14">{item.title}</h3>
                 <p className="text-[#403F3F] text-sm leading-relaxed">{item.desc}</p>
@@ -644,22 +648,22 @@ export default function DemoClient({ content }: { content: DemoContent }) {
       {c.showPricing !== false && <section id="pricing" className="py-20 bg-[#F6F6F6]">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-14">
-            <span className="text-[#45321A] text-sm font-semibold uppercase tracking-widest">{c.pricingLabel}</span>
+            <span className="text-[var(--accent)] text-sm font-semibold uppercase tracking-widest">{c.pricingLabel}</span>
             <h2 className="text-3xl md:text-4xl font-extrabold mt-2 text-[#191919]">{c.pricingH2}</h2>
             <p className="text-[#403F3F] mt-3 max-w-2xl mx-auto">{c.pricingDesc}</p>
           </div>
           <div className="bg-white rounded-2xl shadow-sm overflow-hidden mb-8">
             <div className="overflow-x-auto">
               <table className="w-full">
-                <thead className="bg-[#45321A] text-white">
+                <thead className="bg-[var(--accent)] text-white">
                   <tr>
                     <th className="text-left px-6 py-4 font-bold text-sm uppercase tracking-wide">{c.pricingHeaders[0]}</th>
                     <th className="text-right px-6 py-4 font-bold text-sm uppercase tracking-wide">{c.pricingHeaders[1]}</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-[#45321A]/10">
+                <tbody className="divide-y divide-[var(--accent)]/10">
                   {c.pricingRows.slice(0, 4).map(({treatment, price}) => (
-                    <tr key={treatment} className="hover:bg-[#45321A]/5 transition-colors">
+                    <tr key={treatment} className="hover:bg-[var(--accent)]/5 transition-colors">
                       <td className="px-6 py-4 text-[#403F3F] text-sm">{treatment}</td>
                       <td className="px-6 py-4 text-right text-[#191919] font-bold text-sm">{price}</td>
                     </tr>
@@ -671,12 +675,12 @@ export default function DemoClient({ content }: { content: DemoContent }) {
           <div className="bg-amber-50 border border-amber-200 rounded-xl px-6 py-5 mb-4">
             <p className="text-[#403F3F] text-sm leading-relaxed">{c.pricingPackageNote}</p>
           </div>
-          <div className="bg-[#45321A]/5 border border-[#45321A]/20 rounded-xl px-6 py-5 mb-8">
+          <div className="bg-[var(--accent)]/5 border border-[var(--accent)]/20 rounded-xl px-6 py-5 mb-8">
             <p className="text-[#403F3F] text-sm leading-relaxed">{c.paymentNote}</p>
           </div>
           <div className="bg-white rounded-2xl p-8 shadow-sm">
             <div className="flex items-start gap-4">
-              <div className="w-12 h-12 rounded-full bg-[#45321A] flex-shrink-0 flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-[var(--accent)] flex-shrink-0 flex items-center justify-center">
                 <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" stroke="white" strokeWidth="2">
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
@@ -689,7 +693,7 @@ export default function DemoClient({ content }: { content: DemoContent }) {
                 </p>
                 <p className="text-sm">
                   <span className="text-[#403F3F]">{c.insuranceLinkPre} </span>
-                  <a href={`https://${c.insuranceLink}`} target="_blank" rel="noopener noreferrer" className="text-[#45321A] font-semibold underline hover:text-[#5a4228] transition-colors">
+                  <a href={`https://${c.insuranceLink}`} target="_blank" rel="noopener noreferrer" className="text-[var(--accent)] font-semibold underline hover:text-[var(--accent-dark)] transition-colors">
                     {c.insuranceLink}
                   </a>
                 </p>
@@ -700,12 +704,12 @@ export default function DemoClient({ content }: { content: DemoContent }) {
       </section>}
 
       {/* CTA BANNER */}
-      <section className="bg-[#45321A] py-20 text-center text-white">
+      <section className="bg-[var(--accent)] py-20 text-center text-white">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-extrabold mb-4">{c.ctaH2}</h2>
           <p className="text-white/75 text-lg mb-8">{c.ctaP}</p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="#booking" className="bg-white text-[#45321A] font-bold px-8 py-4 rounded-full text-sm hover:bg-[#F6F6F6] transition-colors">{c.ctaBook}</a>
+            <a href="#booking" className="bg-white text-[var(--accent)] font-bold px-8 py-4 rounded-full text-sm hover:bg-[#F6F6F6] transition-colors">{c.ctaBook}</a>
             <a href={c.meta.phoneHref} className="border-2 border-white text-white font-bold px-8 py-4 rounded-full text-sm hover:bg-white/10 transition-colors">{c.ctaCall}</a>
           </div>
         </div>
@@ -715,15 +719,15 @@ export default function DemoClient({ content }: { content: DemoContent }) {
       <section id="about" className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-6">
           <div>
-            <span className="text-[#45321A] text-sm font-semibold uppercase tracking-widest">{c.aboutLabel}</span>
+            <span className="text-[var(--accent)] text-sm font-semibold uppercase tracking-widest">{c.aboutLabel}</span>
             <h2 className="text-3xl md:text-4xl font-extrabold mt-2 mb-2 text-[#191919]">{c.aboutH2}</h2>
-            <p className="text-[#45321A] font-semibold mb-5">{c.aboutSubtitle}</p>
+            <p className="text-[var(--accent)] font-semibold mb-5">{c.aboutSubtitle}</p>
             <p className="text-[#403F3F] leading-relaxed mb-4">{c.aboutP1}</p>
             <p className="text-[#403F3F] leading-relaxed mb-6">{c.aboutP2}</p>
             <div className="grid grid-cols-2 gap-5">
               {c.aboutStats.map(({value: n, label: l}) => (
                 <div key={l} className="bg-[#F6F6F6] rounded-xl p-5">
-                  <div className="text-2xl font-extrabold text-[#45321A]">{n}</div>
+                  <div className="text-2xl font-extrabold text-[var(--accent)]">{n}</div>
                   <div className="text-xs text-[#403F3F] font-medium mt-1">{l}</div>
                 </div>
               ))}
@@ -736,7 +740,7 @@ export default function DemoClient({ content }: { content: DemoContent }) {
       <section id="testimonials" className="py-20 bg-[#F6F6F6] overflow-hidden">
         {/* Header */}
         <div className="max-w-6xl mx-auto px-6 text-center mb-12">
-          <span className="text-[#45321A] text-sm font-semibold uppercase tracking-widest">{c.testimonialsLabel}</span>
+          <span className="text-[var(--accent)] text-sm font-semibold uppercase tracking-widest">{c.testimonialsLabel}</span>
           <h2 className="text-3xl md:text-4xl font-extrabold mt-2 text-[#191919]">{c.testimonialsH2}</h2>
           <div className="mt-5 inline-flex flex-col items-center gap-1">
             <div className="flex items-center gap-1.5">
@@ -764,7 +768,7 @@ export default function DemoClient({ content }: { content: DemoContent }) {
               <div key={i} className="bg-white rounded-2xl p-7 shadow-sm flex-shrink-0 flex flex-col" style={{ width: '340px' }}>
                 <div className="flex gap-0.5 mb-4">
                   {[...Array(review.rating)].map((_, j) => (
-                    <svg key={j} className="w-4 h-4 fill-[#45321A]" viewBox="0 0 20 20">
+                    <svg key={j} className="w-4 h-4 fill-[var(--accent)]" viewBox="0 0 20 20">
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
                   ))}
@@ -781,25 +785,25 @@ export default function DemoClient({ content }: { content: DemoContent }) {
       <section id="faq" className="py-20 bg-white">
         <div className="max-w-3xl mx-auto px-6">
           <div className="text-center mb-14">
-            <span className="text-[#45321A] text-sm font-semibold uppercase tracking-widest">{c.faqLabel}</span>
+            <span className="text-[var(--accent)] text-sm font-semibold uppercase tracking-widest">{c.faqLabel}</span>
             <h2 className="text-3xl md:text-4xl font-extrabold mt-2 text-[#191919]">{c.faqH2}</h2>
           </div>
           <div className="space-y-3">
             {c.faqs.map((faq, i) => (
-              <div key={i} className="bg-[#F6F6F6] rounded-xl overflow-hidden border border-[#45321A]/10">
+              <div key={i} className="bg-[#F6F6F6] rounded-xl overflow-hidden border border-[var(--accent)]/10">
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                  className="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-[#191919] hover:bg-[#45321A]/5 transition-colors"
+                  className="w-full flex items-center justify-between px-6 py-5 text-left font-semibold text-[#191919] hover:bg-[var(--accent)]/5 transition-colors"
                 >
                   <span>{faq.q}</span>
-                  <span className={`ml-4 flex-shrink-0 w-6 h-6 rounded-full border-2 border-[#45321A] flex items-center justify-center transition-transform duration-200 ${openFaq === i ? 'rotate-45' : ''}`}>
-                    <svg viewBox="0 0 12 12" className="w-3 h-3" fill="none">
-                      <path d="M6 1v10M1 6h10" stroke="#45321A" strokeWidth="2" strokeLinecap="round" />
+                  <span className={`ml-4 flex-shrink-0 w-6 h-6 rounded-full border-2 border-[var(--accent)] flex items-center justify-center transition-transform duration-200 ${openFaq === i ? 'rotate-45' : ''}`}>
+                    <svg viewBox="0 0 12 12" className="w-3 h-3" fill="none" style={accentStyle}>
+                      <path d="M6 1v10M1 6h10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
                     </svg>
                   </span>
                 </button>
                 {openFaq === i && (
-                  <div className="px-6 pb-5 text-[#403F3F] text-sm leading-relaxed border-t border-[#45321A]/10 pt-4">{faq.a}</div>
+                  <div className="px-6 pb-5 text-[#403F3F] text-sm leading-relaxed border-t border-[var(--accent)]/10 pt-4">{faq.a}</div>
                 )}
               </div>
             ))}
@@ -811,13 +815,13 @@ export default function DemoClient({ content }: { content: DemoContent }) {
       <section id="booking" className="py-20 bg-[#F6F6F6]">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-14 items-start">
           <div>
-            <span className="text-[#45321A] text-sm font-semibold uppercase tracking-widest">{c.bookingLabel}</span>
+            <span className="text-[var(--accent)] text-sm font-semibold uppercase tracking-widest">{c.bookingLabel}</span>
             <h2 className="text-3xl md:text-4xl font-extrabold mt-2 mb-6 text-[#191919]">{c.bookingH2}</h2>
             <p className="text-[#403F3F] leading-relaxed mb-8">{c.bookingDesc}</p>
             <div className="space-y-5">
               {c.bookingInfo.map(({ label, value }) => (
                 <div key={label} className="flex gap-4">
-                  <div className="w-10 h-10 rounded-full bg-[#45321A]/10 flex items-center justify-center flex-shrink-0 text-[#45321A] text-xs font-bold">
+                  <div className="w-10 h-10 rounded-full bg-[var(--accent)]/10 flex items-center justify-center flex-shrink-0 text-[var(--accent)] text-xs font-bold">
                     {label[0]}
                   </div>
                   <div>
@@ -857,7 +861,7 @@ export default function DemoClient({ content }: { content: DemoContent }) {
       {selectedCondition && condContent && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm px-4" onClick={() => setSelectedCondition(null)}>
           <div className="bg-white rounded-2xl shadow-2xl max-w-2xl w-full max-h-[85vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
-            <div className="sticky top-0 bg-[#45321A] text-white px-8 py-6 rounded-t-2xl flex items-center justify-between">
+            <div className="sticky top-0 bg-[var(--accent)] text-white px-8 py-6 rounded-t-2xl flex items-center justify-between">
               <h2 className="text-2xl font-extrabold">{condContent.title}</h2>
               <button onClick={() => setSelectedCondition(null)} className="w-8 h-8 rounded-full bg-white/20 hover:bg-white/30 flex items-center justify-center transition-colors">
                 <svg viewBox="0 0 20 20" className="w-5 h-5 fill-white"><path d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"/></svg>
@@ -866,8 +870,8 @@ export default function DemoClient({ content }: { content: DemoContent }) {
             <div className="px-8 py-8 space-y-6">
               <div>
                 <div className="flex items-center gap-2 mb-3">
-                  <div className="w-8 h-8 rounded-full bg-[#45321A]/10 flex items-center justify-center">
-                    <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5" stroke="#45321A" strokeWidth="2"><path d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                  <div className="w-8 h-8 rounded-full bg-[var(--accent)]/10 flex items-center justify-center">
+                    <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5" style={accentStyle} stroke="currentColor" strokeWidth="2"><path d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" strokeLinecap="round" strokeLinejoin="round"/></svg>
                   </div>
                   <h3 className="font-bold text-[#191919] text-lg">{c.modalWhat}</h3>
                 </div>
@@ -875,8 +879,8 @@ export default function DemoClient({ content }: { content: DemoContent }) {
               </div>
               <div>
                 <div className="flex items-center gap-2 mb-3">
-                  <div className="w-8 h-8 rounded-full bg-[#45321A]/10 flex items-center justify-center">
-                    <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5" stroke="#45321A" strokeWidth="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                  <div className="w-8 h-8 rounded-full bg-[var(--accent)]/10 flex items-center justify-center">
+                    <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5" style={accentStyle} stroke="currentColor" strokeWidth="2"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" strokeLinecap="round" strokeLinejoin="round"/></svg>
                   </div>
                   <h3 className="font-bold text-[#191919] text-lg">{c.modalHow}</h3>
                 </div>
@@ -885,8 +889,8 @@ export default function DemoClient({ content }: { content: DemoContent }) {
               <div className="bg-[#F6F6F6] rounded-xl px-6 py-6 mt-6">
                 <p className="text-[#403F3F] text-sm mb-4 text-center">{c.modalCta.replace('{title}', condContent.title.toLowerCase())}</p>
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                  <a href="#booking" onClick={() => setSelectedCondition(null)} className="bg-[#45321A] text-white font-semibold px-6 py-3 rounded-full hover:bg-[#5a4228] transition-colors text-center text-sm">{c.modalBook}</a>
-                  <a href={c.meta.phoneHref} className="border-2 border-[#45321A] text-[#45321A] font-semibold px-6 py-3 rounded-full hover:bg-[#45321A]/5 transition-colors text-center text-sm">{c.modalCall}</a>
+                  <a href="#booking" onClick={() => setSelectedCondition(null)} className="bg-[var(--accent)] text-white font-semibold px-6 py-3 rounded-full hover:bg-[var(--accent-dark)] transition-colors text-center text-sm">{c.modalBook}</a>
+                  <a href={c.meta.phoneHref} className="border-2 border-[var(--accent)] text-[var(--accent)] font-semibold px-6 py-3 rounded-full hover:bg-[var(--accent)]/5 transition-colors text-center text-sm">{c.modalCall}</a>
                 </div>
               </div>
             </div>
