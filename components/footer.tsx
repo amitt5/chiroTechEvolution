@@ -38,7 +38,9 @@ export default function Footer({ meta, logo }: { meta?: FooterMeta; logo?: strin
         <div>
           <div className="flex items-center gap-2.5 mb-4">
             {logo ? (
-              <Image src={logo} alt={`${meta?.practiceName ?? 'Practice'} logo`} width={160} height={48} className="h-10 w-auto object-contain brightness-0 invert" />
+              <div className="bg-white rounded-xl px-3 py-1.5 inline-flex">
+                <Image src={logo} alt={`${meta?.practiceName ?? 'Practice'} logo`} width={160} height={48} className="h-10 w-auto object-contain" />
+              </div>
             ) : (
               <>
                 <div className="w-9 h-9 rounded-full bg-[var(--accent,#45321A)] flex items-center justify-center">

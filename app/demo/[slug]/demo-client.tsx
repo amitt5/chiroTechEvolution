@@ -482,7 +482,7 @@ export default function DemoClient({ content }: { content: DemoContent }) {
     >
 
       {/* NAV */}
-      <Navigation meta={c.meta} showPricing={c.showPricing !== false} logo={c.logo} />
+      <Navigation meta={c.meta} showPricing={c.showPricing !== false} logo={c.logo} logoHeight={c.logoHeight} />
 
       {/* HERO */}
       <section className="relative min-h-[92vh] flex items-center overflow-hidden">
@@ -491,7 +491,7 @@ export default function DemoClient({ content }: { content: DemoContent }) {
           <source src="/chiro-hero.mov" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/55 to-black/30" />
-        <div className="relative z-10 max-w-6xl mx-auto px-6 py-28 w-full">
+<div className="relative z-10 max-w-6xl mx-auto px-6 py-28 w-full">
           <div className="max-w-xl">
             <span className="inline-block bg-white/15 backdrop-blur-sm text-white text-xs font-semibold uppercase tracking-widest px-3 py-1.5 rounded-full mb-6 border border-white/20">
               {c.badge}

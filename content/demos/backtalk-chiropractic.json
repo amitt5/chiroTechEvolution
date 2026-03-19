@@ -1,4 +1,8 @@
 {
+  "logo": "/demos/backtalk-chiropractic-logo.webp",
+  "logoHeight": 64,
+  "accentColor": "#5BBEDD",
+  "accentColorDark": "#3A9ABF",
   "meta": {
     "practiceName": "Back Talk Chiropractic",
     "practiceTagline": "Sports & Injury Specialist",

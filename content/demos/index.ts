@@ -93,6 +93,7 @@ export interface DemoContent {
   modalCall: string;
   showPricing?: boolean;
   logo?: string;
+  logoHeight?: number;
   accentColor?: string;
   accentColorDark?: string;
 }
