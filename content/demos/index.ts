@@ -95,6 +95,7 @@ export interface DemoContent {
   logo?: string;
   logoHeight?: number;
   logoInvert?: boolean;
+  logoText?: { top: string; bottom: string };
   accentColor?: string;
   accentColorDark?: string;
   sourceUrl?: string;

@@ -482,7 +482,7 @@ export default function DemoClient({ content }: { content: DemoContent }) {
     >
 
       {/* NAV */}
-      <Navigation meta={c.meta} showPricing={c.showPricing !== false} logo={c.logo} logoHeight={c.logoHeight} logoInvert={c.logoInvert} />
+      <Navigation meta={c.meta} showPricing={c.showPricing !== false} logo={c.logo} logoHeight={c.logoHeight} logoInvert={c.logoInvert} logoText={c.logoText} />
 
       {/* HERO */}
       <section className="relative min-h-[92vh] flex items-center overflow-hidden">

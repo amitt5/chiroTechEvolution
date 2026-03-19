@@ -1,6 +1,7 @@
 {
   "sourceUrl": "https://www.zimmermanchiropractic.ca/",
   "logo": "/demos/zimmerman-logo.webp",
+  "logoText": { "top": "Zimmerman", "bottom": "Chiropractic" },
   "accentColor": "#1a56a0",
   "accentColorDark": "#f07820",
   "meta": {
