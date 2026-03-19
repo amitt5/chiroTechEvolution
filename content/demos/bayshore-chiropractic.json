@@ -1,4 +1,8 @@
 {
+  "sourceUrl": "https://www.bayshorechiropractic.com",
+  "logo": "https://www.bayshorechiropractic.com/storage/app/media/logowithnoaddress.png",
+  "accentColor": "#ffa800",
+  "accentColorDark": "#f17800",
   "meta": {
     "practiceName": "Bayshore Chiropractic",
     "practiceTagline": "It's Your Life... Live it in Health!",
