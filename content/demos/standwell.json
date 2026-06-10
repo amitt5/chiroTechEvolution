@@ -1,0 +1,242 @@
+{
+  "sourceUrl": "https://www.standwell.nl/",
+  "logo": "https://cdn.prod.website-files.com/6890b4325482befc8b95d072/68c976800556608cb450321d_2807791_18166.svg",
+  "logoHeight": 40,
+  "logoInvert": false,
+  "accentColor": "#2B6E49",
+  "accentColorDark": "#1a4531",
+  "doctorImage": "https://cdn.prod.website-files.com/6890b4325482befc8b95d072/6929d76bb67980e13440ffa8_RoyElizabeth2.png",
+  "meta": {
+    "practiceName": "Standwell",
+    "practiceTagline": "Posture Correction & Chiropractic Care",
+    "phone": "06 8529 9950",
+    "phoneHref": "tel:+31685299950",
+    "whatsapp": "https://wa.me/31685299950?text=Hi%20Standwell%2C%20I%20would%20like%20to%20book%20an%20appointment",
+    "address": "Papaverhof 71, Suite 1008, 1032 LX Amsterdam",
+    "email": null,
+    "hours": "Mon–Sat by appointment only"
+  },
+  "reviews": [
+    {
+      "name": "Marlotte E.",
+      "text": "Great care from Roy. Have been experiencing back and neck pain for years and after about 5-7 sessions, started to notice a really significant difference and structural relief. Roy explains what he is doing and why, so you understand the process. Really focused on structural change rather than short term pain relief. Would highly recommend!",
+      "rating": 5
+    },
+    {
+      "name": "Maarten Verkoren",
+      "text": "Roy is great. After long wanderings due to back problems, I not only leave pain-free — I leave as a relaxed athlete. It took me a few sessions to fully realize it, but the difference is remarkable.",
+      "rating": 5
+    },
+    {
+      "name": "Elisa Minchiante",
+      "text": "Roy saved me from deep pain in my neck and shoulders within 3-4 sessions. Headaches are gone, my body feels completely different. Even my mood improved! He is professional and prepared. Highly recommended without any doubts!",
+      "rating": 5
+    },
+    {
+      "name": "Fatima Elatik",
+      "text": "Beste Chiro ooit. De behandelingen van Roy hebben mij ontzettend geholpen. Van jarenlang elke week shiatsu behandelingen tot geen behoefte meer aan de massage. Mijn lichaamshouding is ontzettend verbeterd en ik ben van de destabiliserende pijnen af.",
+      "rating": 5
+    }
+  ],
+  "badge": "Posture Correction Specialists · Amsterdam-Noord",
+  "h1": ["Posture Correction &", "Chiropractic Care in", " Amsterdam-Noord", ""],
+  "heroSub": "Your body should not need constant stretching, bracing, or massage to feel relaxed. Standwell corrects the structural collapses and compensations that keep muscles tense, posture compressed, and movement restricted.",
+  "bookBtn": "Book Appointment",
+  "callBtn": "Call: 06 8529 9950",
+  "stats": [
+    { "value": "3–4", "label": "Sessions to First Results" },
+    { "value": "1-on-1", "label": "Direct Care with Dr. Roy" },
+    { "value": "€95", "label": "First Visit (60 min)" }
+  ],
+  "servicesLabel": "What We Treat",
+  "servicesH2": "How Can We Help?",
+  "services": [
+    {
+      "title": "Pain Relief",
+      "desc": "For recurring pain, stiffness, headaches, and tension that won't stay away — no matter what you try."
+    },
+    {
+      "title": "Cosmetic Correction",
+      "desc": "For people who want to look taller, lighter, more open, and less compressed or collapsed."
+    },
+    {
+      "title": "Performance Enhancement",
+      "desc": "For athletes, singers, and professionals who want easier movement, better breathing, and more energy."
+    },
+    {
+      "title": "Structural Posture Care",
+      "desc": "Targeting the root cause — the skeletal collapses that force muscles into chronic compensation and tension."
+    }
+  ],
+  "comboTitle": "Exclusive One-on-One Sessions with Dr. Roy",
+  "comboDesc": "Every appointment at Standwell is personally led by Dr. Roy Hammond, DC. No assistants, no handoffs — just focused structural correction from start to finish.",
+  "conditionsLabel": "Conditions We Address",
+  "conditionsH2": "Is This for You?",
+  "conditionsDesc": "Standwell helps people whose bodies keep recreating the same tension, pain, and postural collapse — despite ongoing treatment or exercise.",
+  "conditionsClick": "Click any condition to learn more",
+  "conditionsNote": "Standwell's structural chiropractic approach addresses the underlying skeletal compensations behind most musculoskeletal complaints. If you're unsure whether structural correction is right for you, reach out via WhatsApp — Dr. Roy is happy to discuss it directly.",
+  "approachLabel": "The Standwell Method",
+  "approachH2": "Structural Correction, Not Just Symptom Relief",
+  "approachDesc": "Most treatments temporarily loosen tight muscles or stiff joints. At Standwell, we target the structural reasons your body keeps recreating the same tension — so relief becomes permanent.",
+  "phases": [
+    {
+      "step": "1",
+      "title": "Assessment & Analysis",
+      "desc": "We document your posture with photographs, review your full history, and identify the structural collapses driving your recurring tension and pain."
+    },
+    {
+      "step": "2",
+      "title": "Structural Correction",
+      "desc": "Precise adjustments address the skeletal compensations that force your muscles to strain — creating lasting structural change, not just temporary relief."
+    },
+    {
+      "step": "3",
+      "title": "Maintain & Thrive",
+      "desc": "As your structure improves, sessions become less frequent. The goal is a body that holds itself upright — without constant intervention from you."
+    }
+  ],
+  "phaseLabel": "Phase",
+  "phasesNote": "\"The human body is truly magnificent once you get it out of its own way.\" — Dr. Roy Hammond, DC",
+  "firstVisitLabel": "Your First Visit",
+  "firstVisitH2": "Assessment + First Correction",
+  "firstVisitDesc": "Your first session is 60 minutes. We document your posture, perform your first Standwell correction, and give you a clear picture of what is happening structurally in your body — and what needs to happen next.",
+  "firstVisitSteps": [
+    {
+      "step": "1",
+      "title": "Patient History Review",
+      "desc": "We take time to understand your history, current symptoms, and everything you've already tried."
+    },
+    {
+      "step": "2",
+      "title": "Posture Analysis & Photographs",
+      "desc": "We photograph and analyze your posture to document your starting point and identify structural collapses."
+    },
+    {
+      "step": "3",
+      "title": "First Standwell Treatment",
+      "desc": "Your first structural correction begins in this very session — no waiting, no delay."
+    },
+    {
+      "step": "4",
+      "title": "Report of Findings",
+      "desc": "Dr. Roy walks you through exactly what he found and what it means for your body and your long-term health."
+    },
+    {
+      "step": "5",
+      "title": "Personalized Care Plan",
+      "desc": "You leave with a clear plan: number of sessions, frequency, and what structural improvements to expect."
+    }
+  ],
+  "pricingLabel": "Transparent Pricing",
+  "pricingH2": "Simple, Clear Fees",
+  "pricingDesc": "No hidden costs, no packages you didn't ask for. You pay per session and know exactly what you're getting.",
+  "pricingHeaders": ["Treatment", "Fee"],
+  "pricingRows": [
+    {
+      "treatment": "First Visit — Assessment + First Correction (60 min)",
+      "price": "€95"
+    },
+    {
+      "treatment": "Standard Visit (20 min)",
+      "price": "€65"
+    },
+    {
+      "treatment": "Follow-up with Posture Progress Photos",
+      "price": "€65"
+    },
+    {
+      "treatment": "Posture Analysis (included in first visit)",
+      "price": "Included"
+    }
+  ],
+  "pricingPackageNote": "All sessions are conducted personally by Dr. Roy Hammond, DC. No rush, no assistants — focused structural correction every single visit.",
+  "paymentNote": "Payment by bank transfer or card. Invoice available on request. Chiropractic care may be reimbursed under Dutch supplemental health insurance (aanvullende verzekering) — check with your insurer.",
+  "insuranceH3": "Zorgverzekering / Health Insurance",
+  "insuranceP1": "Chiropractic care at Standwell may be partially reimbursed through Dutch supplemental health insurance (aanvullende verzekering). Coverage and reimbursement amounts vary by insurance provider and policy level.",
+  "insuranceP2": "Dr. Roy Hammond is a registered Doctor of Chiropractic (DC). Check your policy or contact your insurer to confirm your chiropractic reimbursement.",
+  "insuranceLinkPre": "Find registered chiropractors at",
+  "insuranceLink": "www.dcf.nl",
+  "ctaH2": "Ready to Stop Compensating?",
+  "ctaP": "Return to a default position of upright, relaxed comfort. Standwell today. Move freely tomorrow.",
+  "ctaBook": "Book Your First Appointment",
+  "ctaCall": "Call Dr. Roy",
+  "aboutLabel": "About Standwell",
+  "aboutH2": "Dr. Roy Hammond, DC",
+  "aboutSubtitle": "Founder & Chiropractor — Standwell Amsterdam",
+  "aboutP1": "Roy's journey began during university, where years of American football left him in severe physical decline. A chiropractor's intervention produced results he hadn't imagined possible: his asthma resolved, he lost 80 pounds, allergies disappeared, and his vision improved — all within months. He became convinced the body is a solvable system.",
+  "aboutP2": "He went on to study chiropractic and founded Standwell with a single mission: to offer the kind of structural correction that produces real, lasting change — not just temporary symptom management. Every session is led personally by Dr. Roy.",
+  "aboutStats": [
+    { "value": "DC", "label": "Doctor of Chiropractic" },
+    { "value": "1-on-1", "label": "Every Session with Dr. Roy" },
+    { "value": "AMS", "label": "Amsterdam-Noord" },
+    { "value": "Mon–Sat", "label": "By Appointment" }
+  ],
+  "testimonialsLabel": "Client Reviews",
+  "testimonialsH2": "What Our Clients Say",
+  "reviewCount": "25+",
+  "heroRating": "5.0",
+  "heroReviewLabel": "Google Reviews",
+  "heroReviews": [
+    {
+      "name": "Elisa M.",
+      "condition": "Neck & Shoulder Pain",
+      "text": "Roy saved me from deep pain in my neck and shoulders within 3-4 sessions. Headaches are gone, my body feels completely different.",
+      "rating": 5
+    },
+    {
+      "name": "Marlotte E.",
+      "condition": "Back & Neck Pain",
+      "text": "After about 5-7 sessions, I noticed a really significant difference and structural relief. Focused on lasting change, not short-term pain relief.",
+      "rating": 5
+    },
+    {
+      "name": "Maarten V.",
+      "condition": "Chronic Back Problems",
+      "text": "After long wanderings due to back problems, I now leave every session as a relaxed athlete. The difference is remarkable.",
+      "rating": 5
+    }
+  ],
+  "faqLabel": "FAQ",
+  "faqH2": "Frequently Asked Questions",
+  "faqs": [
+    {
+      "q": "What exactly is posture correction chiropractic?",
+      "a": "Unlike massage or stretching that temporarily loosen tight muscles, structural chiropractic targets the skeletal compensations that force your muscles to overwork. When your spine and posture are correctly aligned, muscles no longer need to strain to hold you upright — and chronic tension resolves at its source."
+    },
+    {
+      "q": "How many sessions will I need?",
+      "a": "Most clients begin noticing real structural change within 3–7 sessions. The exact number depends on how long the pattern has been established and how your body responds. Dr. Roy will give you a clear, personalized care plan after your first visit."
+    },
+    {
+      "q": "Is Standwell different from regular chiropractic?",
+      "a": "Yes. Standwell focuses on structural posture correction — addressing the underlying skeletal collapses that drive recurring pain and tension. This is proactive, corrective care rather than repeated visits for temporary symptom management."
+    },
+    {
+      "q": "Does Dutch health insurance cover chiropractic care?",
+      "a": "Chiropractic care may be covered under Dutch supplemental health insurance (aanvullende verzekering). Coverage varies by insurer and policy level. Many Dutch insurers reimburse registered chiropractors — Dr. Roy Hammond, DC is a registered practitioner. Check your policy or call your insurer to confirm."
+    },
+    {
+      "q": "What happens at the first visit?",
+      "a": "Your first visit is 60 minutes and costs €95. It includes a full patient history review, posture analysis with photographs, your first structural correction, a report of findings, and a personalized care plan. You'll leave understanding exactly what is happening in your body and what the path forward looks like."
+    },
+    {
+      "q": "Where is Standwell located?",
+      "a": "Standwell is located at Papaverhof 71, Suite 1008, 1032 LX Amsterdam (Amsterdam-Noord). Accessible via M52 metro (Noorderpark station) and bus lines 391, 394, and 35 (Floraweg stop). Ample public parking is available nearby."
+    }
+  ],
+  "bookingLabel": "Book an Appointment",
+  "bookingH2": "Start Your Structural Correction Today",
+  "bookingDesc": "Reserve your first 60-minute assessment and correction with Dr. Roy directly. Spots are limited — reach out via WhatsApp for the fastest response.",
+  "bookingInfo": [
+    { "label": "Address", "value": "Papaverhof 71, Suite 1008, 1032 LX Amsterdam" },
+    { "label": "Phone / WhatsApp", "value": "06 8529 9950" },
+    { "label": "Hours", "value": "Monday – Saturday, by appointment only" },
+    { "label": "First Visit", "value": "60 min — €95 (assessment + first correction + care plan)" }
+  ],
+  "modalWhat": "What is it?",
+  "modalHow": "How does chiropractic help?",
+  "modalCta": "Ready to address your {title}?",
+  "modalBook": "Book Appointment",
+  "modalCall": "Call Dr. Roy",
+  "showPricing": true
+}

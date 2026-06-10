@@ -9,6 +9,7 @@ import bettendorfChiropractic from './bettendorf-chiropractic.json';
 import holladayChiropractic from './holladay-chiropractic.json';
 import mitchellChiropractic from './mitchell-chiropractic.json';
 import villageChiropractic from './village-chiropractic.json';
+import standwell from './standwell.json';
 
 export interface DemoMeta {
   practiceName: string;
@@ -116,6 +117,7 @@ export const demos: Record<string, DemoContent> = {
   'holladay-chiropractic': holladayChiropractic as DemoContent,
   'mitchell-chiropractic': mitchellChiropractic as DemoContent,
   'village-chiropractic': villageChiropractic as DemoContent,
+  'standwell': standwell as DemoContent,
 };
 
 export type DemoSlug = keyof typeof demos;
